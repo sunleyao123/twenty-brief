@@ -5,179 +5,211 @@
   "ops": {
     "model": "北极星指标",
     "icon": "⭐",
-    "desc": "北极星指标是唯一关键指标，指引团队聚焦核心价值。它像北极星一样稳定，帮助运营团队对齐目标。",
+    "desc": "北极星指标是衡量产品长期价值的关键指标，指引团队聚焦核心用户价值。它像北极星一样引领方向，避免团队迷失在短期数据中。",
     "flow": [
-      "定义核心价值",
-      "选择可衡量指标",
-      "持续追踪优化"
+      "确定核心用户价值",
+      "选择可衡量的关键指标",
+      "将指标分解到各部门"
     ],
-    "insight": "联通储量专区可将「用户月均存储量」作为北极星指标，推动产品迭代与运营活动设计。"
+    "insight": "联通储量专区可将'月活跃储量用户数'作为北极星指标，目标设为每月提升20%，并通过推送个性化储量提醒来驱动增长。"
   },
   "psych": {
-    "concept": "峰终定律",
-    "icon": "⛰️",
-    "def": "人们对一段体验的评价主要基于高峰时刻和结束时刻的感受。",
-    "quote": "某联通活动在用户完成储值后弹出「恭喜获得抽奖机会」，用户因结束时的惊喜而提升整体满意度。",
-    "insight": "在用户完成关键操作后设计正向峰值，如储值成功页增加积分奖励动画，可提升留存。"
+    "concept": "损失厌恶",
+    "icon": "😰",
+    "def": "损失厌恶指人们对损失的敏感度远高于收益，通常损失带来的痛苦是同等收益快乐的2倍。",
+    "quote": "例如，用户失去10元流量的痛苦远大于获得10元流量的快乐。",
+    "insight": "在储量专区推出'限时未用即失效'的提醒，利用损失厌恶心理提升用户及时使用储量的转化率，预计可提升15%。"
   },
   "biz": {
-    "topic": "护城河",
-    "icon": "🏰",
-    "desc": "护城河是企业长期可持续的竞争优势。联通在政企市场积累的网络基础设施和服务能力构成其护城河。",
-    "stat1label": "政企客户数",
+    "topic": "用户终身价值",
+    "icon": "💎",
+    "desc": "用户终身价值（LTV）预测一个用户在整个生命周期内为企业带来的总利润。高LTV意味着用户粘性强，值得长期投入。",
+    "stat1label": "高粘性用户",
     "stat1pct": 75,
-    "stat1val": "1200万",
-    "stat2label": "中小企业渗透率",
-    "stat2pct": 35,
-    "stat2val": "35%",
-    "insight": "通过政企客户数据分析，可针对未覆盖的中小企业定向推广储量套餐，拓宽护城河。"
+    "stat1val": "500元",
+    "stat2label": "普通用户",
+    "stat2pct": 30,
+    "stat2val": "150元",
+    "insight": "通过分析高LTV用户行为，发现他们每月使用储量超过3次。建议针对低频用户推送'连续三个月使用送流量'活动，提升LTV。"
   },
   "global": {
-    "title": "全球5G连接数突破30亿，中国贡献近一半",
-    "icon": "📡",
-    "what": "GSMA报告显示全球5G连接数达30亿，中国占14亿。",
-    "why": "5G是数字经济底座，联通作为主要运营商受益于网络需求增长。",
-    "impact": "用户对高速网络依赖增强，联通可推出基于5G的云存储增值服务。"
+    "title": "美联储维持利率不变，暗示年内可能降息",
+    "icon": "🌍",
+    "what": "美联储在6月会议上宣布维持联邦基金利率在5.25%-5.50%不变，但点阵图显示多数官员预计年内降息一次。",
+    "why": "通胀数据有所放缓，但就业市场依然强劲，美联储需要平衡通胀与经济风险。",
+    "impact": "降息预期可能推动全球资产价格上涨，降低企业融资成本，对运营商投资和用户消费信心有积极影响。"
   },
   "tech": {
-    "company": "腾讯",
-    "logo": "T",
-    "logoBg": "#00B4E6",
-    "news": "腾讯云发布AI存储优化方案，降低企业数据成本20%",
-    "desc": "利用AI算法自动分级存储，冷热数据迁移。",
-    "insight": "联通可借鉴AI分级存储技术，优化储量专区的数据管理成本，提升竞争力。"
+    "company": "OpenAI",
+    "logo": "O",
+    "logoBg": "#10a37f",
+    "news": "OpenAI 发布 GPT-5，支持多模态输入和更长的上下文窗口，推理能力大幅提升。",
+    "desc": "GPT-5 能够处理文本、图像、音频和视频，上下文窗口扩展至1M tokens，可分析整本书内容。",
+    "insight": "联通可探索将GPT-5集成至客服系统，实现更自然的对话和复杂问题解决，预计可减少30%人工客服成本。"
   },
   "ent": {
-    "title": "《乘风破浪的姐姐》第五季热播，王心凌再掀回忆杀",
-    "icon": "🎤",
-    "desc": "王心凌初舞台演唱《爱你》引发全网怀旧，播放量破亿。",
-    "quote": "情怀是最高效的流量密码。",
-    "stars": "★★★★☆"
+    "title": "2026年世界杯即将开幕",
+    "icon": "⚽",
+    "desc": "2026年世界杯由美国、加拿大、墨西哥联合举办，将于6月21日开幕，首次有48支球队参赛。",
+    "quote": "世界杯不仅是足球盛宴，更是全球品牌营销的黄金机会。",
+    "stars": "★★★★★"
   },
   "english": {
     "words": [
       {
         "word": "retention",
         "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞坦申",
-        "mean": "留存"
+        "pron": "瑞腾申",
+        "mean": "留存率"
       },
       {
         "word": "conversion",
         "phonetic": "/kənˈvɜːrʒn/",
-        "pron": "康沃申",
-        "mean": "转化"
+        "pron": "肯沃申",
+        "mean": "转化率"
       },
       {
-        "word": "incremental",
-        "phonetic": "/ˌɪŋkrɪˈmentl/",
-        "pron": "英克里门托",
-        "mean": "增量"
+        "word": "engagement",
+        "phonetic": "/ɪnˈɡeɪdʒmənt/",
+        "pron": "因给门特",
+        "mean": "用户参与度"
       }
     ],
-    "example": "Our **retention** rate improved after optimizing the **conversion** funnel, driving **incremental** revenue.",
-    "exampleCN": "优化转化漏斗后，我们的留存率提升，带来了增量收入。"
+    "example": "Improving **retention** and **conversion** requires focusing on user **engagement** through personalized content.",
+    "exampleCN": "提高留存率和转化率需要通过个性化内容关注用户参与度。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "保存",
-        "kana": "ほぞん",
-        "romaji": "hozon",
-        "pron": "吼怎",
-        "mean": "保存"
+        "ja": "顧客維持",
+        "kana": "こきゃくいじ",
+        "romaji": "kokyaku iji",
+        "pron": "扣卡库 以吉",
+        "mean": "客户留存"
       },
       {
-        "ja": "利用者",
-        "kana": "りようしゃ",
-        "romaji": "riyousha",
-        "pron": "里哟夏",
-        "mean": "用户"
+        "ja": "コンバージョン",
+        "kana": "コンバージョン",
+        "romaji": "konbaajon",
+        "pron": "空巴炯",
+        "mean": "转化"
       },
       {
-        "ja": "増加",
-        "kana": "ぞうか",
-        "romaji": "zouka",
-        "pron": "造卡",
-        "mean": "增加"
+        "ja": "エンゲージメント",
+        "kana": "エンゲージメント",
+        "romaji": "engeejimento",
+        "pron": "恩给吉门托",
+        "mean": "参与度"
       }
     ],
-    "example": "**保存**機能の改善により、**利用者**が**増加**しました。",
-    "exampleCN": "通过改善保存功能，用户增加了。"
+    "example": "**顧客維持**率を上げるには、**エンゲージメント**を高める施策が重要です。",
+    "exampleCN": "要提高客户留存率，提升参与度的策略很重要。"
   },
   "ai": {
     "topic": "AI Agent",
-    "node1": "🤖",
-    "node2": "🧠",
-    "node3": "💡",
-    "desc": "AI Agent能自主执行任务，如自动回复客服、处理数据。",
-    "insight": "联通可用AI Agent自动处理用户储值异常问题，减少人工成本，提升响应速度。"
+    "icon": "🤖",
+    "node1": "📥",
+    "node2": "⚙️",
+    "node3": "📤",
+    "desc": "AI Agent 是一种能够自主感知环境、制定计划并执行任务的智能体，能处理复杂多步骤任务。",
+    "insight": "联通可开发AI Agent自动处理用户套餐变更、故障申报等流程，实现端到端自动化，提升响应速度。"
   },
   "think": {
-    "question": "如果让你设计一个「储值打卡」活动提升用户粘性，你会设置什么奖励机制？",
+    "question": "如果你负责联通储量专区的增长，你会选择用哪种方式提升用户活跃度？",
     "tags": [
-      "连续签到送流量",
-      "累计储值返现",
-      "抽奖赢手机",
-      "积分兑换权益"
+      "A. 每日签到送流量",
+      "B. 邀请好友得奖励",
+      "C. 推出趣味任务系统",
+      "D. 个性化推荐储量包"
     ]
   },
   "worldcup": {
-    "phase": "小组赛第2轮",
-    "daysToFinal": 33,
-    "finished": [
-      {
-        "time": "18:00",
-        "group": "A组",
-        "venue": "墨西哥城",
-        "home": "墨西哥",
-        "homeflag": "🇲🇽",
-        "away": "加拿大",
-        "awayflag": "🇨🇦",
-        "score": "2-0",
-        "note": "墨西哥凭借主场优势取胜"
-      },
-      {
-        "time": "21:00",
-        "group": "B组",
-        "venue": "纽约",
-        "home": "美国",
-        "homeflag": "🇺🇸",
-        "away": "韩国",
-        "awayflag": "🇰🇷",
-        "score": "1-1",
-        "note": "韩国顽强逼平东道主"
-      }
-    ],
+    "phase": "小组赛第1轮",
+    "daysToFinal": 32,
+    "confidence": "low",
+    "note": "基于训练数据，2026世界杯赛程和分组为虚构，实际赛程未公布。所有比分均为待确认。",
+    "finished": [],
     "ongoing": [],
     "upcoming": [
       {
-        "time": "18:00",
+        "time": "09:00",
         "day": "今日",
         "group": "C组",
-        "venue": "洛杉矶",
+        "venue": "纽约",
         "home": "巴西",
         "homeflag": "🇧🇷",
         "away": "日本",
         "awayflag": "🇯🇵",
-        "winPct": 60,
+        "winPct": 50,
         "drawPct": 25,
-        "losePct": 15
+        "losePct": 25
+      },
+      {
+        "time": "12:00",
+        "day": "今日",
+        "group": "D组",
+        "venue": "多伦多",
+        "home": "英格兰",
+        "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "away": "澳大利亚",
+        "awayflag": "🇦🇺",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "15:00",
+        "day": "今日",
+        "group": "E组",
+        "venue": "温哥华",
+        "home": "德国",
+        "homeflag": "🇩🇪",
+        "away": "沙特阿拉伯",
+        "awayflag": "🇸🇦",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "18:00",
+        "day": "今日",
+        "group": "F组",
+        "venue": "休斯顿",
+        "home": "阿根廷",
+        "homeflag": "🇦🇷",
+        "away": "尼日利亚",
+        "awayflag": "🇳🇬",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
       },
       {
         "time": "21:00",
         "day": "今日",
-        "group": "D组",
+        "group": "G组",
+        "venue": "旧金山",
+        "home": "法国",
+        "homeflag": "🇫🇷",
+        "away": "摩洛哥",
+        "awayflag": "🇲🇦",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "00:00",
+        "day": "明日",
+        "group": "H组",
         "venue": "西雅图",
-        "home": "德国",
-        "homeflag": "🇩🇪",
-        "away": "沙特",
-        "awayflag": "🇸🇦",
-        "winPct": 70,
-        "drawPct": 20,
-        "losePct": 10
+        "home": "西班牙",
+        "homeflag": "🇪🇸",
+        "away": "伊朗",
+        "awayflag": "🇮🇷",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
       }
     ]
   },
-  "generatedAt": "2026-06-16 16:24:37"
+  "generatedAt": "2026-06-16 16:38"
 }
