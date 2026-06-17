@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Twenty Daily Brief｜每日简报</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+:root{--bg:#F0F2F5;--card:#fff;--text:#0F172A;--sub:#374151;--muted:#64748B;--line:#E2E8F0}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg);font-family:-apple-system,'PingFang SC','Noto Sans SC',sans-serif;min-height:100vh}
+.wrap{max-width:480px;margin:0 auto;padding-bottom:110px}
+
+/* LOADING */
+#ld{position:fixed;inset:0;z-index:9000;background:linear-gradient(160deg,#0F172A,#1E3A8A,#1D4ED8);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;transition:opacity .4s}
+#ld.out{opacity:0;pointer-events:none}
+.ld-ico{font-size:52px;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+.ld-t{font-size:22px;font-weight:900;color:#fff}.ld-t b{color:#60A5FA}
+.ld-s{font-size:12px;color:#93C5FD}
+.ld-bg{width:200px;height:4px;background:rgba(255,255,255,.15);border-radius:2px;overflow:hidden}
+.ld-bar{height:4px;background:#60A5FA;border-radius:2px;width:0%;transition:width .4s}
+.ld-msg{font-size:11px;color:#64748B;min-height:14px;text-align:center;padding:0 20px}
+
+/* HEADER */
+.hd{background:linear-gradient(135deg,#0F172A 0%,#1E3A8A 55%,#1D4ED8 100%);padding:44px 18px 22px;position:relative;overflow:hidden}
+.hd::before{content:'';position:absolute;top:-60px;right:-40px;width:180px;height:180px;background:radial-gradient(circle,rgba(96,165,250,.18) 0%,transparent 70%);border-radius:50%}
+.hd-badge{display:inline-flex;align-items:center;gap:4px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:20px;padding:3px 11px;font-size:10px;color:#93C5FD;font-weight:700;letter-spacing:.5px;margin-bottom:10px}
+.hd-title{font-size:27px;font-weight:900;color:#fff;letter-spacing:-.4px}
+.hd-title b{color:#60A5FA}
+.hd-date{font-size:11px;color:#93C5FD;margin-top:5px}
+.hd-slogan{margin-top:13px;background:rgba(96,165,250,.12);border-left:3px solid #60A5FA;border-radius:0 9px 9px 0;padding:9px 13px;font-size:12px;color:#BFDBFE;font-weight:500;line-height:1.7}
+.hd-day{display:inline-block;background:rgba(96,165,250,.28);border-radius:4px;padding:1px 8px;font-size:10px;color:#60A5FA;font-weight:700;margin-left:5px}
+.hd-gen{position:absolute;top:46px;right:14px;font-size:9px;color:#475569;text-align:right;line-height:1.6}
+
+/* LAYOUT */
+.sl{display:flex;align-items:center;gap:8px;padding:15px 14px 6px;font-size:10px;color:var(--muted);font-weight:700;letter-spacing:1.2px}
+.sl::after{content:'';flex:1;height:1px;background:var(--line)}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:9px;padding:0 11px 2px}
+
+/* CARDS */
+.c{background:var(--card);border-radius:15px;padding:13px 13px 14px;border:1px solid var(--line);box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.tag{display:inline-flex;align-items:center;border-radius:7px;padding:2px 8px;font-size:9px;font-weight:700;letter-spacing:.3px;margin-bottom:8px}
+.ico{width:32px;height:32px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;margin-bottom:7px}
+.ct{font-size:13.5px;font-weight:800;color:var(--text);line-height:1.3;margin-bottom:6px}
+.cb{font-size:11.5px;color:var(--sub);line-height:1.65}
+.box{margin-top:9px;border-radius:8px;padding:6px 9px;font-size:10.5px;font-weight:600;line-height:1.5}
+.bb{background:#F0F9FF;color:#0369A1}.bg{background:#ECFDF5;color:#065F46}
+.bv{background:#F5F3FF;color:#5B21B6}.ba{background:#FFFBEB;color:#92400E}
+.flow{display:flex;align-items:center;flex-wrap:wrap;gap:3px;margin:7px 0}
+.fs{background:#EFF6FF;border:1px solid #BFDBFE;border-radius:5px;padding:2px 6px;font-size:9.5px;color:#1E40AF;font-weight:600}
+.fa{font-size:10px;color:#94A3B8}
+.sr{display:flex;align-items:center;gap:6px;margin:4px 0}
+.sl2{font-size:10px;color:var(--muted);width:42px;flex-shrink:0}
+.sbg{flex:1;height:5px;background:#F1F5F9;border-radius:3px;overflow:hidden}
+.sb{height:5px;border-radius:3px}
+.sv{font-size:10px;font-weight:700}
+.qb{border-left:3px solid;padding:5px 8px;border-radius:0 7px 7px 0;margin:7px 0;font-size:10.5px;font-style:italic;line-height:1.55}
+
+/* LANG */
+.lc{background:var(--card);border-radius:15px;padding:13px;border:1px solid var(--line);box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.we{font-size:18px;font-weight:900;color:var(--text)}
+.wp{font-size:10.5px;color:var(--muted);margin:1px 0}
+.wpr{display:inline-block;border-radius:5px;padding:1px 7px;font-size:9.5px;font-weight:700;margin:2px 0}
+.wm{font-size:12.5px;font-weight:700;color:var(--text);margin-top:2px}
+.wd{height:1px;background:var(--line);margin:8px 0}
+.el{font-size:9px;color:var(--muted);font-weight:700;letter-spacing:.8px;margin-bottom:3px}
+.ee{font-size:11px;color:#1F2937;line-height:1.6}
+.ec{font-size:10.5px;color:var(--muted);margin-top:2px;line-height:1.5}
+.wj{font-size:20px;font-weight:900;color:var(--text)}
+.wk{font-size:12px;color:#7C3AED;font-weight:600}
+.wr2{font-size:10px;color:var(--muted)}
+
+/* AI */
+.aic{display:flex;align-items:center;margin:8px 0}
+.ain{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;border:1.5px solid;flex-shrink:0}
+.ail{flex:1;height:2px}
+.tq{font-size:13.5px;font-weight:800;color:var(--text);line-height:1.5;margin:6px 0 9px}
+.tt{display:inline-block;background:#FEF3C7;color:#92400E;border-radius:6px;padding:3px 8px;font-size:10px;font-weight:600;margin:2px 2px 0 0}
+
+/* WORLD CUP */
+.ww{padding:0 11px 16px}
+.wcard{background:linear-gradient(140deg,#0F172A 0%,#1A2744 50%,#0F3460 100%);border-radius:18px;overflow:hidden}
+.whd{padding:15px 16px 10px;display:flex;align-items:center;gap:10px}
+.wt{font-size:16px;font-weight:900;color:#F0D060;letter-spacing:-.2px}
+.ws2{font-size:10px;color:#93C5FD;margin-top:2px}
+.wbadge{background:#EF4444;color:#fff;border-radius:12px;padding:3px 9px;font-size:9px;font-weight:800;margin-left:auto;animation:blink 1.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.5}}
+.wdiv{height:1px;background:rgba(255,255,255,.1);margin:0 16px}
+.wsbl{font-size:9px;color:#F0D060;font-weight:700;letter-spacing:.8px;margin-bottom:10px}
+.wmb{padding:10px 16px}
+.mi{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:11px 13px;margin-bottom:8px}
+.mi:last-child{margin-bottom:0}
+.mitop{display:flex;align-items:center;gap:6px;margin-bottom:8px}
+.mtag{background:rgba(96,165,250,.25);color:#60A5FA;border-radius:5px;padding:2px 7px;font-size:9px;font-weight:700}
+.mgrp{font-size:9px;color:#475569}
+.mteams{display:flex;align-items:center;justify-content:space-between}
+.mside{display:flex;align-items:center;gap:5px;flex:1}
+.mside.r{justify-content:flex-end}
+.mflag{font-size:20px}
+.mname{font-size:12.5px;font-weight:700;color:#E2E8F0}
+.mscore{font-size:22px;font-weight:900;color:#F0D060;min-width:56px;text-align:center;letter-spacing:1px}
+.mscore.vs{color:#94A3B8;font-size:13px;font-weight:700}
+.mnote{font-size:9.5px;color:#475569;margin-top:5px;text-align:center}
+.pbars{display:flex;border-radius:3px;overflow:hidden;height:5px}
+.pbw{background:#3B82F6}.pbd{background:#64748B}.pbl{background:#EF4444}
+.pblbls{display:flex;justify-content:space-between;font-size:9px;color:#475569;margin-top:3px}
+.prow{margin-top:8px}
+.wft{display:flex;justify-content:space-around;padding:10px 16px 14px;border-top:1px solid rgba(255,255,255,.08)}
+.wfn{font-size:20px;font-weight:900;color:#F0D060;text-align:center}
+.wfl{font-size:9px;color:#475569;text-align:center;margin-top:2px}
+
+/* ── 底部按钮 ── */
+#action-bar{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:9999;
+  background:#ffffff;
+  border-top:1.5px solid #E2E8F0;
+  padding:12px 16px 28px;
+  display:flex;
+  gap:10px;
+  box-shadow:0 -2px 16px rgba(0,0,0,.10);
+}
+#btn-shot{
+  flex:1;display:flex;align-items:center;justify-content:center;gap:7px;
+  background:linear-gradient(135deg,#1D4ED8,#2563EB);
+  color:#fff;border:none;border-radius:13px;padding:14px 0;
+  font-size:15px;font-weight:700;cursor:pointer;font-family:inherit;
+}
+#btn-shot:active{opacity:.85}
+#btn-upd{
+  flex:1;display:flex;align-items:center;justify-content:center;gap:7px;
+  background:linear-gradient(135deg,#047857,#059669);
+  color:#fff;border:none;border-radius:13px;padding:14px 0;
+  font-size:15px;font-weight:700;cursor:pointer;font-family:inherit;
+}
+#btn-upd:active{opacity:.85}
+
+/* TOAST */
+#toast{
+  position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.9);
+  background:rgba(15,23,42,.92);color:#fff;border-radius:14px;
+  padding:14px 22px;font-size:13px;font-weight:600;text-align:center;
+  line-height:1.7;z-index:99999;opacity:0;transition:all .3s;
+  pointer-events:none;white-space:pre-line;max-width:280px;
+}
+#toast.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+
+.footer{text-align:center;font-size:10px;color:#94A3B8;padding:4px 0 16px;line-height:1.8}
+</style>
+</head>
+<body>
+
+<!-- 加载屏 -->
+<div id="ld">
+  <div class="ld-ico">📰</div>
+  <div class="ld-t"><b>Twenty</b> Daily Brief</div>
+  <div class="ld-s">正在加载今日简报…</div>
+  <div class="ld-bg"><div class="ld-bar" id="lbar"></div></div>
+  <div class="ld-msg" id="lmsg">初始化…</div>
+</div>
+
+<!-- 主内容 -->
+<div class="wrap" id="app" style="display:none">
+  <div id="body"></div>
+  <div class="footer">
+    Twenty Daily Brief · 为成长型运营人而生 ☕<br>
+    <span style="font-size:9px">每天06:00自动更新 · DeepSeek AI 生成</span>
+  </div>
+</div>
+
+<!-- ✅ 底部按钮：独立于 wrap，无任何隐藏class -->
+<div id="action-bar">
+  <button id="btn-shot" onclick="doShot()">📸 截图保存</button>
+  <button id="btn-upd"  onclick="doUpdate()">🔄 更新知识</button>
+</div>
+
+<!-- Toast -->
+<div id="toast"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+const bold=s=>(s||'').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+
+function prog(p,m){$('lbar').style.width=p+'%';$('lmsg').textContent=m}
+
+function toast(msg,ms=2800){
+  const t=$('toast');t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),ms);
+}
+
+/* ── 渲染辅助 ── */
+function pbar(w,d,l){return`
+  <div class="pbars"><div class="pbw" style="width:${w}%"></div><div class="pbd" style="width:${d}%"></div><div class="pbl" style="width:${l}%"></div></div>
+  <div class="pblbls"><span>🔵胜${w}%</span><span>⚪平${d}%</span><span>🔴负${l}%</span></div>`}
+
+function mFin(m){return`<div class="mi">
+  <div class="mitop"><span class="mtag">${m.time}</span><span class="mgrp">${m.group}·${m.venue}</span><span style="margin-left:auto;font-size:9px;color:#475569">已结束</span></div>
+  <div class="mteams">
+    <div class="mside"><span class="mflag">${m.homeflag}</span><span class="mname">${m.home}</span></div>
+    <div class="mscore">${m.score}</div>
+    <div class="mside r"><span class="mname">${m.away}</span><span class="mflag">${m.awayflag}</span></div>
+  </div>${m.note?`<div class="mnote">📝 ${m.note}</div>`:''}</div>`}
+
+function mUp(m){return`<div class="mi">
+  <div class="mitop"><span class="mtag">${m.time}</span><span class="mgrp">${m.day?m.day+' ':''}${m.group}·${m.venue}</span></div>
+  <div class="mteams">
+    <div class="mside"><span class="mflag">${m.homeflag}</span><span class="mname">${m.home}</span></div>
+    <div class="mscore vs">VS</div>
+    <div class="mside r"><span class="mname">${m.away}</span><span class="mflag">${m.awayflag}</span></div>
+  </div><div class="prow">${pbar(m.winPct,m.drawPct,m.losePct)}</div></div>`}
+
+/* ── 主渲染 ── */
+function render(d){
+  const wc=d.worldcup||{phase:'',daysToFinal:'--',finished:[],ongoing:[],upcoming:[]};
+  $('body').innerHTML=`
+<div class="hd">
+  <div class="hd-gen">${d.generatedAt||''}<br>每日06:00自动更新</div>
+  <div class="hd-badge">✦ DAILY BRIEF · 每日学习简报</div>
+  <div class="hd-title"><b>Twenty</b> Daily Brief</div>
+  <div class="hd-date">📅 ${d.date} · 北京时间</div>
+  <div class="hd-slogan">${d.slogan||''}<br><span style="color:#93C5FD;font-size:10px">为联通运营人每日定制</span><span class="hd-day">${d.dayCount||''}</span></div>
+</div>
+
+<div class="sl">🧠 运营 &amp; 心理</div>
+<div class="g2">
+  <div class="c">
+    <div class="tag" style="background:#DBEAFE;color:#1D4ED8">① 运营方法论</div>
+    <div class="ico" style="background:#DBEAFE">${d.ops.icon}</div>
+    <div class="ct">${d.ops.model}</div>
+    <div class="cb">${d.ops.desc}</div>
+    <div class="flow">${(d.ops.flow||[]).map((s,i)=>`${i?'<span class="fa">→</span>':''}<span class="fs">${s}</span>`).join('')}</div>
+    <div class="box bb">💡 ${d.ops.insight}</div>
+  </div>
+  <div class="c">
+    <div class="tag" style="background:#EDE9FE;color:#6D28D9">② 消费心理学</div>
+    <div class="ico" style="background:#EDE9FE">${d.psych.icon}</div>
+    <div class="ct">${d.psych.concept}</div>
+    <div class="cb">${d.psych.def}</div>
+    <div class="qb" style="border-color:#7C3AED;background:#F5F3FF;color:#5B21B6">${d.psych.quote}</div>
+    <div class="box bv">💡 ${d.psych.insight}</div>
+  </div>
+</div>
+
+<div class="sl">💼 商业 &amp; 全球</div>
+<div class="g2">
+  <div class="c">
+    <div class="tag" style="background:#D1FAE5;color:#065F46">③ 商业金融</div>
+    <div class="ico" style="background:#D1FAE5">${d.biz.icon}</div>
+    <div class="ct">${d.biz.topic}</div>
+    <div class="cb">${d.biz.desc}</div>
+    <div style="margin:8px 0">
+      <div class="sr"><div class="sl2">${d.biz.stat1label}</div><div class="sbg"><div class="sb" style="background:#059669;width:${d.biz.stat1pct}%"></div></div><div class="sv" style="color:#059669">${d.biz.stat1val}</div></div>
+      <div class="sr"><div class="sl2">${d.biz.stat2label}</div><div class="sbg"><div class="sb" style="background:#FCA5A5;width:${d.biz.stat2pct}%"></div></div><div class="sv" style="color:#DC2626">${d.biz.stat2val}</div></div>
+    </div>
+    <div class="box bg">💡 ${d.biz.insight}</div>
+  </div>
+  <div class="c">
+    <div class="tag" style="background:#FEE2E2;color:#B91C1C">④ 全球热点</div>
+    <div class="ico" style="background:#FEE2E2">${d.global.icon}</div>
+    <div class="ct">${d.global.title}</div>
+    <div style="display:flex;flex-direction:column;gap:6px;margin-top:4px;font-size:11.5px;color:var(--sub);line-height:1.6">
+      <div><b style="color:#DC2626">📌</b> ${d.global.what}</div>
+      <div><b style="color:#F59E0B">❓</b> ${d.global.why}</div>
+      <div><b style="color:#059669">👤</b> ${d.global.impact}</div>
+    </div>
+  </div>
+</div>
+
+<div class="sl">🚀 科技 &amp; 娱乐</div>
+<div class="g2">
+  <div class="c">
+    <div class="tag" style="background:#FEF3C7;color:#92400E">⑤ 科技巨头</div>
+    <div style="display:flex;align-items:center;gap:7px;margin-bottom:8px">
+      <div style="width:30px;height:30px;background:${d.tech.logoBg};border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:900;flex-shrink:0">${d.tech.logo}</div>
+      <span style="font-size:10px;font-weight:700;color:var(--muted)">${d.tech.company}</span>
+    </div>
+    <div class="ct" style="font-size:12.5px">${d.tech.news}</div>
+    <div class="cb">${d.tech.desc}</div>
+    <div class="box ba">💡 ${d.tech.insight}</div>
+  </div>
+  <div class="c">
+    <div class="tag" style="background:#FCE7F3;color:#9D174D">⑥ 娱乐花边</div>
+    <div class="ico" style="background:#FCE7F3">${d.ent.icon}</div>
+    <div class="ct">${d.ent.title}</div>
+    <div class="cb">${d.ent.desc}</div>
+    <div class="qb" style="border-color:#EC4899;background:#FDF2F8;color:#BE185D">${d.ent.quote}</div>
+    <div style="font-size:10px;color:var(--muted)">🎯 谈资指数 ${d.ent.stars}</div>
+  </div>
+</div>
+
+<div class="sl">🌐 语言学习</div>
+<div class="g2">
+  <div class="lc">
+    <div class="tag" style="background:#E0F2FE;color:#0369A1">⑦ 每日英语</div>
+    ${(d.english.words||[]).map((w,i)=>`${i?'<div class="wd"></div>':''}<div style="margin-bottom:${i<2?'7px':'0'}"><div class="we">${w.word}</div><div class="wp">${w.phonetic}</div><div class="wpr" style="background:#EFF6FF;color:#1D4ED8">${w.pron}</div><div class="wm">${w.mean}</div></div>`).join('')}
+    <div class="wd"></div><div class="el">💬 EXAMPLE</div>
+    <div class="ee">${bold(d.english.example)}</div>
+    <div class="ec">${d.english.exampleCN}</div>
+  </div>
+  <div class="lc">
+    <div class="tag" style="background:#EDE9FE;color:#6D28D9">⑧ 每日日语</div>
+    ${(d.japanese.words||[]).map((w,i)=>`${i?'<div class="wd"></div>':''}<div style="margin-bottom:${i<2?'7px':'0'}"><div class="wj">${w.ja}</div><div class="wk">${w.kana}</div><div class="wr2">${w.romaji}</div><div class="wpr" style="background:#F5F3FF;color:#7C3AED">${w.pron}</div><div class="wm">${w.mean}</div></div>`).join('')}
+    <div class="wd"></div><div class="el">💬 例文</div>
+    <div class="ee">${bold(d.japanese.example)}</div>
+    <div class="ec">${d.japanese.exampleCN}</div>
+  </div>
+</div>
+
+<div class="sl">🤖 AI &amp; 思考</div>
+<div class="g2">
+  <div class="c">
+    <div class="tag" style="background:#D1FAE5;color:#065F46">⑨ AI趋势</div>
+    <div class="ct">${d.ai.topic}</div>
+    <div class="aic">
+      <div class="ain" style="border-color:#10B981;background:#D1FAE5">${d.ai.node1}</div>
+      <div class="ail" style="background:linear-gradient(90deg,#10B981,#3B82F6)"></div>
+      <div class="ain" style="border-color:#3B82F6;background:#DBEAFE">${d.ai.node2}</div>
+      <div class="ail" style="background:linear-gradient(90deg,#3B82F6,#8B5CF6)"></div>
+      <div class="ain" style="border-color:#8B5CF6;background:#EDE9FE">${d.ai.node3}</div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:8.5px;color:var(--muted);margin-bottom:5px"><span>输入</span><span>处理</span><span>输出</span></div>
+    <div class="cb">${d.ai.desc}</div>
+    <div class="box bg">💡 ${d.ai.insight}</div>
+  </div>
+  <div class="c">
+    <div class="tag" style="background:#FEF9C3;color:#854D0E">⑩ 今日思考</div>
+    <div style="font-size:26px;margin-bottom:5px">💭</div>
+    <div class="tq">${d.think.question}</div>
+    <div>${(d.think.tags||[]).map(t=>`<span class="tt">${t}</span>`).join('')}</div>
+    <div style="margin-top:10px;font-size:10px;color:var(--muted)">👆 选出答案，明天复盘</div>
+  </div>
+</div>
+
+<div class="sl">⚽ 世界杯专区</div>
+<div class="ww"><div class="wcard">
+  <div class="whd">
+    <div style="font-size:28px">🏆</div>
+    <div><div class="wt">FIFA World Cup 2026™</div><div class="ws2">美加墨 · ${wc.phase}</div></div>
+    <div class="wbadge">🔴 进行中</div>
+  </div>
+  <div class="wdiv"></div>
+  ${wc.finished&&wc.finished.length?`<div class="wmb"><div class="wsbl">✅ 今日已结束</div>${wc.finished.map(mFin).join('')}</div><div class="wdiv"></div>`:''}
+  ${wc.upcoming&&wc.upcoming.length?`<div class="wmb"><div class="wsbl">📅 即将开赛</div>${wc.upcoming.map(mUp).join('')}<div style="font-size:9px;color:#475569;margin-top:8px">📊 AI娱乐预测：Elo×近期状态×阵容，仅供参考</div></div>`:''}
+  <div class="wdiv"></div>
+  <div class="wft">
+    <div><div class="wfn">48</div><div class="wfl">参赛队伍</div></div>
+    <div><div class="wfn">104</div><div class="wfl">总场次</div></div>
+    <div><div class="wfn" style="color:#34D399">${wc.daysToFinal}</div><div class="wfl">距决赛天数</div></div>
+    <div><div class="wfn">3🌎</div><div class="wfl">联合主办</div></div>
+  </div>
+</div></div>`;
+}
+
+/* ── 截图 ── */
+async function doShot(){
+  toast('⏳ 生成截图中…',8000);
+  $('action-bar').style.display='none';
+  window.scrollTo(0,0);
+  await delay(300);
+  try{
+    const el=$('app');
+    const canvas=await html2canvas(el,{
+      scale:window.devicePixelRatio||2,
+      useCORS:true,allowTaint:true,
+      backgroundColor:'#F0F2F5',logging:false,
+      width:el.scrollWidth,height:el.scrollHeight,
+      scrollX:0,scrollY:0
+    });
+    $('action-bar').style.display='flex';
+    const url=canvas.toDataURL('image/png');
+    // 创建预览蒙层
+    const ov=document.createElement('div');
+    ov.style.cssText='position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.9);overflow-y:auto;padding:16px 12px 80px;';
+    const hint=document.createElement('div');
+    hint.style.cssText='color:#fff;font-size:13px;font-weight:600;text-align:center;padding:10px 0 14px;line-height:1.7;';
+    hint.innerHTML='📱 长按图片 → 保存到相册<br><span style="font-size:11px;color:#94A3B8">点击空白处关闭</span>';
+    const img=document.createElement('img');
+    img.src=url;img.style.cssText='width:100%;border-radius:10px;display:block;';
+    const cb=document.createElement('button');
+    cb.textContent='✕ 关闭';
+    cb.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#fff;color:#0F172A;border:none;border-radius:20px;padding:10px 32px;font-size:14px;font-weight:700;cursor:pointer;';
+    cb.onclick=()=>document.body.removeChild(ov);
+    ov.onclick=e=>{if(e.target===ov)document.body.removeChild(ov);};
+    ov.appendChild(hint);ov.appendChild(img);ov.appendChild(cb);
+    document.body.appendChild(ov);
+    // PC 自动下载
+    if(!('ontouchstart' in window)){
+      const a=document.createElement('a');
+      a.href=url;a.download='twenty-brief.png';a.click();
+      hint.innerHTML='✅ 图片已下载<br><span style="font-size:11px;color:#94A3B8">点击空白处关闭预览</span>';
+    }
+  }catch(e){
+    $('action-bar').style.display='flex';
+    toast('截图失败，请手动截屏\n'+e.message);
+  }
+}
+
+/* ── 更新知识 ── */
+const PAT_KEY='twenty_pat';
+const REPO='sunleyao123/twenty-brief';
+
+async function doUpdate(){
+  let pat=localStorage.getItem(PAT_KEY)||'';
+  if(!pat){pat=await askPAT();if(!pat)return;}
+  const btn=$('btn-upd');
+  btn.textContent='⏳ 触发中…';btn.disabled=true;
+  try{
+    const r=await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/daily.yml/dispatches`,{
+      method:'POST',
+      headers:{'Accept':'application/vnd.github+json','Content-Type':'application/json',
+                'Authorization':'Bearer '+pat,'X-GitHub-Api-Version':'2022-11-28'},
+      body:JSON.stringify({ref:'main'})
+    });
+    if(r.status===204){
+      toast('✅ 已触发更新！\nAI生成约需1-2分钟\n稍后刷新页面即可',4000);
+      let n=90;
+      const t=setInterval(()=>{n--;btn.textContent=`⏳ ${n}s后刷新`;if(n<=0){clearInterval(t);window.location.reload();}},1000);
+    }else if(r.status===401||r.status===403){
+      localStorage.removeItem(PAT_KEY);
+      toast('Token无效，请重新输入',2500);
+      setTimeout(doUpdate,2600);
+    }else{
+      toast(`触发失败(${r.status})\n请稍后重试`,3000);
+    }
+  }catch(e){toast('网络错误，请重试',2500);}
+  finally{setTimeout(()=>{btn.textContent='🔄 更新知识';btn.disabled=false;},3000);}
+}
+
+function askPAT(){
+  return new Promise(resolve=>{
+    const m=document.createElement('div');
+    m.style.cssText='position:fixed;inset:0;z-index:99998;background:rgba(0,0,0,.7);display:flex;align-items:center;justify-content:center;padding:24px;';
+    m.innerHTML=`<div style="background:#fff;border-radius:18px;padding:24px;width:100%;max-width:360px">
+      <div style="font-size:18px;font-weight:800;color:#0F172A;margin-bottom:6px">🔑 设置 GitHub Token</div>
+      <div style="font-size:12px;color:#64748B;line-height:1.8;margin-bottom:14px">
+        用于触发AI自动生成，仅存本机。<br>
+        获取路径：GitHub头像 → Settings →<br>
+        Developer settings → Personal access tokens<br>
+        → Tokens(classic) → Generate → 勾选<b>workflow</b>
+      </div>
+      <input id="pi" type="password" placeholder="ghp_xxxxxxxxxxxx"
+        style="width:100%;border:1.5px solid #E2E8F0;border-radius:10px;padding:11px 13px;font-size:13px;font-family:monospace;outline:none;margin-bottom:10px">
+      <div style="font-size:10px;color:#EF4444;min-height:14px;margin-bottom:8px" id="pe"></div>
+      <div style="display:flex;gap:8px">
+        <button id="pc" style="flex:1;background:#F1F5F9;color:#64748B;border:none;border-radius:10px;padding:11px;font-size:13px;font-weight:600;cursor:pointer">取消</button>
+        <button id="pk" style="flex:2;background:#2563EB;color:#fff;border:none;border-radius:10px;padding:11px;font-size:13px;font-weight:700;cursor:pointer">确认</button>
+      </div>
+    </div>`;
+    document.body.appendChild(m);
+    const inp=m.querySelector('#pi');inp.focus();
+    m.querySelector('#pc').onclick=()=>{document.body.removeChild(m);resolve('');};
+    m.querySelector('#pk').onclick=()=>{
+      const v=inp.value.trim();
+      if(!v.startsWith('ghp_')&&!v.startsWith('github_pat_')){
+        m.querySelector('#pe').textContent='格式错误，应以 ghp_ 开头';return;
+      }
+      localStorage.setItem(PAT_KEY,v);document.body.removeChild(m);resolve(v);
+    };
+    inp.onkeydown=e=>{if(e.key==='Enter')m.querySelector('#pk').click();};
+  });
+}
+
+/* ── 启动 ── */
+async function boot(){
+  prog(20,'加载简报数据…');await delay(200);
+  try{
+    const r=await fetch('./data/brief.json?t='+Date.now());
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    prog(70,'渲染页面…');
+    const d=await r.json();await delay(150);
+    render(d);prog(100,'完成！');await delay(300);
+  }catch(e){
+    prog(100,'加载失败');
+    $('body').innerHTML=`
+    <div style="margin:30px 16px;background:#FEF2F2;border:1px solid #FECACA;border-radius:14px;padding:24px;text-align:center">
+      <div style="font-size:36px;margin-bottom:10px">⚙️</div>
+      <div style="font-size:16px;font-weight:700;color:#DC2626;margin-bottom:10px">内容尚未生成</div>
+      <div style="font-size:12px;color:#7F1D1D;line-height:1.9;text-align:left;background:#fff;border-radius:8px;padding:12px 14px;margin-bottom:14px">
+        1️⃣ 打开仓库 → 点击 <b>Actions</b><br>
+        2️⃣ 左侧点「每日自动更新简报」<br>
+        3️⃣ 右侧点 <b>Run workflow → Run workflow</b><br>
+        4️⃣ 等待1-2分钟后刷新本页
+      </div>
+      <div style="font-size:10px;color:#94A3B8;margin-bottom:12px">${e.message}</div>
+      <button onclick="location.reload()" style="width:100%;background:#2563EB;color:#fff;border:none;border-radius:10px;padding:12px;font-size:14px;font-weight:700;cursor:pointer">🔄 刷新页面</button>
+    </div>`;
+  }
+  $('ld').classList.add('out');
+  $('app').style.display='block';
+  setTimeout(()=>$('ld').style.display='none',400);
+}
+
+boot();
+</script>
+</body>
+</html>
