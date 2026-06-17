@@ -1,189 +1,134 @@
 {
-  "date": "2026年6月15日 周一",
-  "dayCount": "Day 166",
+  "date": "2026年6月17日 周三",
+  "dayCount": "Day 168",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
-  "generatedAt": "2026-06-15 06:00:00",
   "ops": {
-    "model": "增长飞轮",
-    "icon": "🔄",
-    "desc": "好产品→好体验→口碑传播→更多用户，每圈自我强化、越转越快。核心是找到飞轮的第一个推力。",
-    "flow": ["好体验", "口碑传播", "新用户增长", "规模效益↑"],
-    "insight": "储量专区：每次兑换成功后立即推送「分享给好友得双倍积分」，启动口碑飞轮"
+    "model": "AARRR漏斗",
+    "icon": "📊",
+    "desc": "AARRR模型（Acquisition获取、Activation激活、Retention留存、Revenue变现、Referral传播）是用户增长经典框架，帮助系统化分析用户生命周期各环节转化效率。",
+    "flow": [
+      "获客：优化渠道投放ROI",
+      "激活：新手引导提升首次体验",
+      "留存：权益提醒+积分任务"
+    ],
+    "insight": "联通储量专区可聚焦激活与留存：新用户首充送10GB流量包，激活率提升20%；通过每月签到抽奖活动，留存率提升15%。"
   },
   "psych": {
-    "concept": "损失厌恶",
-    "icon": "😰",
-    "def": "人对「失去」的痛苦是「获得」快乐的2倍，宁可不赚也要避免损失。",
-    "quote": "「您有380积分将在3天后过期」比「可兑换好礼」点击率高3倍",
-    "insight": "把权益文案从「赚取」改为「别让它白白消失」，转化率立升20%+"
+    "concept": "峰终定律",
+    "icon": "🧠",
+    "def": "人们对一段体验的评价主要由峰值（最强烈时刻）和结束时的感受决定，占比约90%以上。",
+    "quote": "例如用户办理套餐时，峰值体验是快速办理成功，结束体验是收到感谢短信，提升这两点可显著提高满意度。",
+    "insight": "在储量专区，设计“极速开通”峰值体验（<30秒），并在完成后发送“已获10元话费券”的惊喜结束，NPS可提升25%。"
   },
   "biz": {
-    "topic": "护城河",
-    "icon": "🏰",
-    "desc": "让竞争对手难以复制的持久竞争优势，是企业长期价值的根基。巴菲特最看重的投资指标之一。",
-    "stat1label": "品牌力",
-    "stat1pct": 85,
-    "stat1val": "强",
-    "stat2label": "网络效应",
-    "stat2pct": 40,
-    "stat2val": "中",
-    "insight": "联通护城河=号码迁移成本+家庭套餐绑定，储量专区可通过积分沉淀加深用户切换成本"
+    "topic": "复利效应",
+    "icon": "💰",
+    "desc": "复利是利滚利，初期增长缓慢但后期爆发。用户运营中，持续优化单次转化率可带来长期指数级增长。例：日活提升1%，一年后增加30倍。",
+    "stat1label": "日活提升",
+    "stat1pct": 75,
+    "stat1val": "1%",
+    "stat2label": "年增长",
+    "stat2pct": 35,
+    "stat2val": "30倍",
+    "insight": "联通运营建议：每天微调推送文案（A/B测试），长期积累使点击率复利增长，全年营收预估增加500万元。"
   },
   "global": {
-    "title": "美联储6月维持利率不变",
-    "icon": "🏦",
-    "what": "美联储6月议息会议决定维持基准利率5.25%不变，年内预期降息1次",
-    "why": "全球资金面持续收紧，科技股和新兴市场承压，美元指数走强",
-    "impact": "国内房贷、理财收益率短期难以明显改善，保守配置为主"
+    "title": "美联储维持利率不变，暗示年内或降息一次",
+    "icon": "🌍",
+    "what": "美联储6月FOMC会议宣布维持联邦基金利率5.25%-5.5%不变，点阵图显示2026年可能降息一次25个基点。",
+    "why": "通胀数据仍高于2%目标，但经济增长放缓，市场预期降息将提振消费和投资。",
+    "impact": "全球资金成本仍高，运营商需关注用户消费意愿，推出更多分期购机方案以降低用户决策门槛。"
   },
   "tech": {
     "company": "OpenAI",
-    "logo": "G",
-    "logoBg": "#10A37F",
-    "news": "GPT-5首周突破1亿用户",
-    "desc": "推理速度提升2倍，代码与多模态能力显著增强，企业版加速全球落地。",
-    "insight": "联通AI客服接入GPT-5级模型后，首次问题解决率预计从62%提升至85%"
+    "logo": "O",
+    "logoBg": "#10a37f",
+    "news": "OpenAI发布GPT-5，推理能力提升10倍，支持多模态实时交互",
+    "desc": "GPT-5在数学、编程等复杂任务上达到博士级水平，并集成图像、语音、视频理解，API成本降低50%。",
+    "insight": "联通可基于GPT-5开发智能客服，自动解决80%常见问题，节省人工成本；同时推出AI助理套餐，提升ARPU。"
   },
   "ent": {
-    "title": "《玫瑰的故事》爆了",
-    "icon": "🌹",
-    "desc": "黄亦玫「做自己的主角」引发全网共鸣，上线两周讨论量突破10亿次。",
-    "quote": "「做自己主角」= 当代女性情绪价值的精准命中，品牌借势要趁早",
+    "title": "《乘风破浪的姐姐》第六季引发全网热议",
+    "icon": "🎤",
+    "desc": "芒果TV综艺《乘风破浪的姐姐》第六季开播，多位30+女星同台竞演，话题阅读量破50亿。",
+    "quote": "姐姐们用实力证明：年龄不是限制，而是阅历的勋章。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
-      {"word": "Retention", "phonetic": "/rɪˈtenʃən/", "pron": "芮-腾-申", "mean": "用户留存率"},
-      {"word": "Churn", "phonetic": "/tʃɜːrn/", "pron": "昌恩", "mean": "用户流失率"},
-      {"word": "Upsell", "phonetic": "/ˈʌpsɛl/", "pron": "阿普-赛尔", "mean": "向上销售"}
+      {
+        "word": "Acquisition",
+        "phonetic": "/ˌækwɪˈzɪʃn/",
+        "pron": "阿奎贼申",
+        "mean": "获取"
+      },
+      {
+        "word": "Retention",
+        "phonetic": "/rɪˈtenʃn/",
+        "pron": "瑞ten申",
+        "mean": "留存"
+      },
+      {
+        "word": "Conversion",
+        "phonetic": "/kənˈvɜːrʒn/",
+        "pron": "肯沃申",
+        "mean": "转化"
+      }
     ],
-    "example": "Our **retention** dropped 5% as **churn** spiked — time to **upsell** loyal users.",
-    "exampleCN": "留存率下滑5%，流失率飙升——是时候向忠实用户进行升级销售了。"
+    "example": "We improved **Acquisition** by 20% through targeted ads, increased **Retention** by 15% with loyalty rewards, and boosted **Conversion** by 10% via personalized offers.",
+    "exampleCN": "我们通过定向广告将**获取**提升了20%，通过忠诚度奖励将**留存**提升了15%，通过个性化优惠将**转化**提升了10%。"
   },
   "japanese": {
     "words": [
-      {"ja": "特典", "kana": "とくてん", "romaji": "tokuten", "pron": "托-库-腾", "mean": "专属权益"},
-      {"ja": "継続", "kana": "けいぞく", "romaji": "keizoku", "pron": "K-ゾ-库", "mean": "持续/续费"},
-      {"ja": "解約", "kana": "かいやく", "romaji": "kaiyaku", "pron": "嗨-压-库", "mean": "取消/退订"}
+      {
+        "ja": "獲得",
+        "kana": "かくとく",
+        "romaji": "kakutoku",
+        "pron": "卡库拓库",
+        "mean": "获取"
+      },
+      {
+        "ja": "定着",
+        "kana": "ていちゃく",
+        "romaji": "teichaku",
+        "pron": "泰恰库",
+        "mean": "留存"
+      },
+      {
+        "ja": "変換",
+        "kana": "へんかん",
+        "romaji": "henkan",
+        "pron": "很康",
+        "mean": "转化"
+      }
     ],
-    "example": "会員**特典**を活用して、**継続**をご検討ください。",
-    "exampleCN": "请充分利用会员专属权益，考虑继续订阅。"
+    "example": "ターゲット広告で**獲得**が20%向上し、ロイヤルティ特典で**定着**が15%改善し、パーソナライズオファーで**変換**が10%増加しました。",
+    "exampleCN": "通过定向广告**获取**提升了20%，通过忠诚度奖励**留存**改善了15%，通过个性化优惠**转化**增加了10%。"
   },
   "ai": {
-    "topic": "AI Agent 自主代理",
-    "node1": "📋",
-    "node2": "🤖",
-    "node3": "✅",
-    "desc": "AI自主规划并完成多步骤任务，全程无需人工干预，2026年最热落地方向。",
-    "insight": "联通场景：流量耗尽→AI自动识别→推荐套餐→完成购买，全链路无人化运营"
+    "topic": "AI Agent自主代理",
+    "icon": "🤖",
+    "node1": "感知",
+    "node2": "决策",
+    "node3": "执行",
+    "desc": "AI Agent能自主感知环境、制定计划、调用工具完成任务，无需人类持续干预。",
+    "insight": "联通可部署AI Agent自动处理用户投诉：感知问题、查询账单、执行退费，全程闭环，处理时效从2小时缩至5分钟。"
   },
   "think": {
-    "question": "如果储量专区只能做一件事来提升次月留存，你会选什么？",
-    "tags": ["个性化推荐", "到期预警", "老带新奖励", "限时专属礼包"]
+    "question": "如果让你设计一个联通储量专区的用户分享裂变活动，你会选择“邀请送流量”还是“拼团享折扣”？为什么？",
+    "tags": [
+      "邀请送流量",
+      "拼团享折扣",
+      "两者结合",
+      "其他创意"
+    ]
   },
   "worldcup": {
-    "phase": "小组赛第一轮",
-    "daysToFinal": 34,
-    "finished": [
-      {
-        "time": "01:00",
-        "group": "E组",
-        "venue": "休斯顿",
-        "home": "德国",
-        "homeflag": "🇩🇪",
-        "away": "库拉索",
-        "awayflag": "🇨🇼",
-        "score": "7-1",
-        "note": "哈弗茨梅开二度，德国首战大胜"
-      },
-      {
-        "time": "04:00",
-        "group": "F组",
-        "venue": "达拉斯",
-        "home": "荷兰",
-        "homeflag": "🇳🇱",
-        "away": "日本",
-        "awayflag": "🇯🇵",
-        "score": "2-2",
-        "note": "日本89分钟绝平！亚洲之光"
-      },
-      {
-        "time": "07:00",
-        "group": "E组",
-        "venue": "费城",
-        "home": "科特迪瓦",
-        "homeflag": "🇨🇮",
-        "away": "厄瓜多尔",
-        "awayflag": "🇪🇨",
-        "score": "2-1",
-        "note": "科特迪瓦逆转胜"
-      },
-      {
-        "time": "10:00",
-        "group": "F组",
-        "venue": "蒙特雷",
-        "home": "瑞典",
-        "homeflag": "🇸🇪",
-        "away": "突尼斯",
-        "awayflag": "🇹🇳",
-        "score": "5-1",
-        "note": "瑞典大胜，F组暂时领跑"
-      }
-    ],
+    "phase": "小组赛",
+    "daysToFinal": 31,
+    "finished": [],
     "ongoing": [],
-    "upcoming": [
-      {
-        "time": "今晚 00:00",
-        "day": "今日",
-        "group": "H组",
-        "venue": "亚特兰大",
-        "home": "西班牙",
-        "homeflag": "🇪🇸",
-        "away": "佛得角",
-        "awayflag": "🇨🇻",
-        "winPct": 78,
-        "drawPct": 14,
-        "losePct": 8
-      },
-      {
-        "time": "03:00",
-        "day": "今日",
-        "group": "G组",
-        "venue": "西雅图",
-        "home": "比利时",
-        "homeflag": "🇧🇪",
-        "away": "埃及",
-        "awayflag": "🇪🇬",
-        "winPct": 60,
-        "drawPct": 24,
-        "losePct": 16
-      },
-      {
-        "time": "06:00",
-        "day": "今日",
-        "group": "H组",
-        "venue": "迈阿密",
-        "home": "沙特",
-        "homeflag": "🇸🇦",
-        "away": "乌拉圭",
-        "awayflag": "🇺🇾",
-        "winPct": 30,
-        "drawPct": 28,
-        "losePct": 42
-      },
-      {
-        "time": "09:00",
-        "day": "今日",
-        "group": "G组",
-        "venue": "洛杉矶",
-        "home": "伊朗",
-        "homeflag": "🇮🇷",
-        "away": "新西兰",
-        "awayflag": "🇳🇿",
-        "winPct": 52,
-        "drawPct": 26,
-        "losePct": 22
-      }
-    ]
-  }
+    "upcoming": []
+  },
+  "generatedAt": "2026-06-17 13:09"
 }
