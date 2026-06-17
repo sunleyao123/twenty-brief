@@ -3,132 +3,196 @@
   "dayCount": "Day 168",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "AARRR漏斗",
+    "model": "RFM模型",
     "icon": "📊",
-    "desc": "AARRR模型（Acquisition获取、Activation激活、Retention留存、Revenue变现、Referral传播）是用户增长经典框架，帮助系统化分析用户生命周期各环节转化效率。",
+    "desc": "RFM模型通过最近购买时间、频率和金额三个维度对用户分层，帮助识别高价值用户并制定差异化运营策略。",
     "flow": [
-      "获客：优化渠道投放ROI",
-      "激活：新手引导提升首次体验",
-      "留存：权益提醒+积分任务"
+      "计算R、F、M值：最近一次消费时间、消费频率、消费金额",
+      "按分位数或业务规则对每个维度打分（1-5分）",
+      "根据RFM组合（如111、555）划分用户群，如重要价值用户、一般发展用户"
     ],
-    "insight": "联通储量专区可聚焦激活与留存：新用户首充送10GB流量包，激活率提升20%；通过每月签到抽奖活动，留存率提升15%。"
+    "insight": "在联通储量专区，对近30天未登录但历史ARPU>100元的用户，推送“回归礼包”，预估可提升10%回流率。"
   },
   "psych": {
-    "concept": "峰终定律",
-    "icon": "🧠",
-    "def": "人们对一段体验的评价主要由峰值（最强烈时刻）和结束时的感受决定，占比约90%以上。",
-    "quote": "例如用户办理套餐时，峰值体验是快速办理成功，结束体验是收到感谢短信，提升这两点可显著提高满意度。",
-    "insight": "在储量专区，设计“极速开通”峰值体验（<30秒），并在完成后发送“已获10元话费券”的惊喜结束，NPS可提升25%。"
+    "concept": "损失厌恶",
+    "icon": "😱",
+    "def": "损失厌恶指人们面对同样数量的收益和损失时，认为损失更难以忍受，损失的心理效用约为收益的2倍。",
+    "quote": "“联通积分月底清零”提醒，利用用户害怕失去的心理，有效提升积分兑换率。",
+    "insight": "在储量专区设置“限时权益到期提醒”，如“您有5GB流量包明天过期”，利用损失厌恶促使用户尽快领取。"
   },
   "biz": {
-    "topic": "复利效应",
+    "topic": "现金流管理",
     "icon": "💰",
-    "desc": "复利是利滚利，初期增长缓慢但后期爆发。用户运营中，持续优化单次转化率可带来长期指数级增长。例：日活提升1%，一年后增加30倍。",
-    "stat1label": "日活提升",
+    "desc": "现金流管理是确保企业有足够现金支付短期债务和运营费用的能力。例如，某运营商通过预存话费送手机活动，提前收回现金，改善现金流。",
+    "stat1label": "预存占比",
     "stat1pct": 75,
-    "stat1val": "1%",
-    "stat2label": "年增长",
+    "stat1val": "预存用户占新入网75%",
+    "stat2label": "坏账率",
     "stat2pct": 35,
-    "stat2val": "30倍",
-    "insight": "联通运营建议：每天微调推送文案（A/B测试），长期积累使点击率复利增长，全年营收预估增加500万元。"
+    "stat2val": "后付费坏账率降至35%",
+    "insight": "联通可推出“预存年费享折扣”套餐，将后付费用户转化为预付费，改善现金流，预计预存比例可提升20%。"
   },
   "global": {
-    "title": "美联储维持利率不变，暗示年内或降息一次",
+    "title": "美联储维持利率不变，全球股市震荡",
     "icon": "🌍",
-    "what": "美联储6月FOMC会议宣布维持联邦基金利率5.25%-5.5%不变，点阵图显示2026年可能降息一次25个基点。",
-    "why": "通胀数据仍高于2%目标，但经济增长放缓，市场预期降息将提振消费和投资。",
-    "impact": "全球资金成本仍高，运营商需关注用户消费意愿，推出更多分期购机方案以降低用户决策门槛。"
+    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.5%区间不变，符合市场预期。",
+    "why": "通胀仍高于2%目标，但就业市场降温，美联储需平衡双重目标。",
+    "impact": "全球资金流向可能调整，新兴市场货币承压；对联通而言，海外融资成本维持高位，需优化债务结构。"
   },
   "tech": {
-    "company": "OpenAI",
-    "logo": "O",
-    "logoBg": "#10a37f",
-    "news": "OpenAI发布GPT-5，推理能力提升10倍，支持多模态实时交互",
-    "desc": "GPT-5在数学、编程等复杂任务上达到博士级水平，并集成图像、语音、视频理解，API成本降低50%。",
-    "insight": "联通可基于GPT-5开发智能客服，自动解决80%常见问题，节省人工成本；同时推出AI助理套餐，提升ARPU。"
+    "company": "Nintendo",
+    "logo": "N",
+    "logoBg": "#e60012",
+    "news": "Nintendo Switch 2 System Update 22.5.0 Is Now Live, Here Are The Full Patch Notes",
+    "desc": "任天堂为Switch 2推送22.5.0系统更新，修复了若干稳定性问题，并优化了eShop加载速度。",
+    "insight": "游戏主机频繁OTA更新提升用户体验，联通可借鉴对机顶盒/路由器等硬件定期推送固件更新，减少用户报障。"
   },
   "ent": {
-    "title": "《乘风破浪的姐姐》第六季引发全网热议",
-    "icon": "🎤",
-    "desc": "芒果TV综艺《乘风破浪的姐姐》第六季开播，多位30+女星同台竞演，话题阅读量破50亿。",
-    "quote": "姐姐们用实力证明：年龄不是限制，而是阅历的勋章。",
-    "stars": "★★★★☆"
+    "title": "《黑神话：悟空》DLC「再战轮回」上线三天销量破500万",
+    "icon": "🎮",
+    "desc": "国产游戏《黑神话：悟空》首个大型DLC于6月14日发售，新增地图、Boss和结局，引发全球玩家热议。",
+    "quote": "“国产3A的持续运营能力，才是真正的‘取经路’。”",
+    "stars": "★★★★★"
   },
   "english": {
     "words": [
       {
-        "word": "Acquisition",
-        "phonetic": "/ˌækwɪˈzɪʃn/",
-        "pron": "阿奎贼申",
-        "mean": "获取"
-      },
-      {
         "word": "Retention",
         "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞ten申",
-        "mean": "留存"
+        "pron": "瑞-ten-申",
+        "mean": "留存率"
       },
       {
         "word": "Conversion",
         "phonetic": "/kənˈvɜːrʒn/",
-        "pron": "肯沃申",
-        "mean": "转化"
+        "pron": "肯-ver-任",
+        "mean": "转化率"
+      },
+      {
+        "word": "Churn",
+        "phonetic": "/tʃɜːrn/",
+        "pron": "彻恩",
+        "mean": "流失率"
       }
     ],
-    "example": "We improved **Acquisition** by 20% through targeted ads, increased **Retention** by 15% with loyalty rewards, and boosted **Conversion** by 10% via personalized offers.",
-    "exampleCN": "我们通过定向广告将**获取**提升了20%，通过忠诚度奖励将**留存**提升了15%，通过个性化优惠将**转化**提升了10%。"
+    "example": "We improved **retention** by 15% and **conversion** by 10%, while reducing **churn** to 5%.",
+    "exampleCN": "我们将留存率提升了15%，转化率提升了10%，同时将流失率降低到了5%。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "獲得",
-        "kana": "かくとく",
-        "romaji": "kakutoku",
-        "pron": "卡库拓库",
-        "mean": "获取"
+        "ja": "顧客",
+        "kana": "こきゃく",
+        "romaji": "kokyaku",
+        "pron": "口-ki-ya-库",
+        "mean": "客户"
       },
       {
-        "ja": "定着",
-        "kana": "ていちゃく",
-        "romaji": "teichaku",
-        "pron": "泰恰库",
-        "mean": "留存"
+        "ja": "収益",
+        "kana": "しゅうえき",
+        "romaji": "shūeki",
+        "pron": "修-诶-ki",
+        "mean": "收益"
       },
       {
-        "ja": "変換",
-        "kana": "へんかん",
-        "romaji": "henkan",
-        "pron": "很康",
-        "mean": "转化"
+        "ja": "施策",
+        "kana": "しさく",
+        "romaji": "shisaku",
+        "pron": "西-撒-库",
+        "mean": "运营策略"
       }
     ],
-    "example": "ターゲット広告で**獲得**が20%向上し、ロイヤルティ特典で**定着**が15%改善し、パーソナライズオファーで**変換**が10%増加しました。",
-    "exampleCN": "通过定向广告**获取**提升了20%，通过忠诚度奖励**留存**改善了15%，通过个性化优惠**转化**增加了10%。"
+    "example": "**顧客**の**収益**を最大化するため、新たな**施策**を実施した。",
+    "exampleCN": "为了最大化客户收益，实施了新的运营策略。"
   },
   "ai": {
-    "topic": "AI Agent自主代理",
-    "icon": "🤖",
-    "node1": "感知",
-    "node2": "决策",
-    "node3": "执行",
-    "desc": "AI Agent能自主感知环境、制定计划、调用工具完成任务，无需人类持续干预。",
-    "insight": "联通可部署AI Agent自动处理用户投诉：感知问题、查询账单、执行退费，全程闭环，处理时效从2小时缩至5分钟。"
+    "topic": "Prompt工程",
+    "node1": "🧠",
+    "node2": "✍️",
+    "node3": "⚙️",
+    "desc": "通过精心设计输入提示词，引导AI输出高质量结果，本质是人机协作的接口优化。",
+    "insight": "联通客服可应用Prompt工程，让AI自动生成标准回复模板，减少人工重复劳动，预计可提升30%客服效率。"
   },
   "think": {
-    "question": "如果让你设计一个联通储量专区的用户分享裂变活动，你会选择“邀请送流量”还是“拼团享折扣”？为什么？",
+    "question": "如果联通储量专区要设计一个“用户自选套餐”功能，你会如何平衡用户个性化需求与公司营收目标？",
     "tags": [
-      "邀请送流量",
-      "拼团享折扣",
-      "两者结合",
-      "其他创意"
+      "限时折扣引导",
+      "基础套餐锚定",
+      "使用数据推荐",
+      "预存返利绑定"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
     "daysToFinal": 31,
-    "finished": [],
-    "ongoing": [],
-    "upcoming": []
+    "finished": [
+      {
+        "time": "09:00",
+        "group": "GROUP_J",
+        "venue": "",
+        "home": "阿根廷",
+        "homeflag": "🇦🇷",
+        "away": "Algeria",
+        "awayflag": "🏳️",
+        "score": "3-0",
+        "note": ""
+      }
+    ],
+    "ongoing": [
+      {
+        "time": "12:00",
+        "group": "GROUP_J",
+        "venue": "",
+        "home": "Austria",
+        "homeflag": "🏳️",
+        "away": "Jordan",
+        "awayflag": "🏳️",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      }
+    ],
+    "upcoming": [
+      {
+        "time": "01:00",
+        "day": "今日",
+        "group": "GROUP_K",
+        "venue": "",
+        "home": "葡萄牙",
+        "homeflag": "🇵🇹",
+        "away": "Congo DR",
+        "awayflag": "🏳️",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "04:00",
+        "day": "今日",
+        "group": "GROUP_L",
+        "venue": "",
+        "home": "英格兰",
+        "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "away": "克罗地亚",
+        "awayflag": "🇭🇷",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "07:00",
+        "day": "今日",
+        "group": "GROUP_L",
+        "venue": "",
+        "home": "加纳",
+        "homeflag": "🇬🇭",
+        "away": "Panama",
+        "awayflag": "🏳️",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      }
+    ]
   },
-  "generatedAt": "2026-06-17 13:09"
+  "generatedAt": "2026-06-17 13:17"
 }
