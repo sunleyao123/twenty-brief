@@ -3,123 +3,124 @@
   "dayCount": "Day 169",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "增长飞轮",
-    "icon": "🔄",
-    "desc": "增长飞轮是一种通过持续循环的反馈机制推动业务增长的模式，每一步的产出都是下一步的输入，形成自加速闭环。",
+    "model": "钩子模型",
+    "icon": "🪝",
+    "desc": "钩子模型通过触发用户内在动机或外在刺激，形成行为惯性。核心是触发、行动、奖励、投入四步循环，让用户持续使用产品。",
     "flow": [
-      "提升用户体验→增加用户留存",
-      "留存用户产生口碑→带来新用户",
-      "新用户增长→扩大数据规模→优化服务"
+      "识别用户内在触发（如省流量需求）",
+      "设计外部触发（如短信/推送提醒）",
+      "简化行动步骤（一键领取/购买）",
+      "给予可变奖励（随机翻倍券）"
     ],
-    "insight": "在联通储量专区，可以设计飞轮：用户购买储量→获得积分→积分兑换权益→提升黏性→复购，形成闭环。例如积分兑换视频会员，带动复购率提升20%。"
+    "insight": "在联通储量专区，可以设置‘每日签到领流量’作为外部触发，用户点击后获得随机流量包（可变奖励），并引导用户投入更多（如邀请好友得额外流量），形成习惯循环。"
   },
   "psych": {
-    "concept": "稀缺性原理",
-    "icon": "⏳",
-    "def": "稀缺性原理指人们认为难以获得的东西更有价值，限时或限量能激发购买欲，数据显示限时折扣可提升转化率35%。",
-    "quote": "例如联通储量专区推出“限时3天，首充翻倍”活动，用户感知稀缺，下单率提升。",
-    "insight": "在储量专区设置“限量版套餐”或“限时优惠”，如每日前100名购买送额外流量包，制造紧迫感，提升转化。"
+    "concept": "沉没成本",
+    "icon": "💰",
+    "def": "人们会因为已经投入的成本（时间、金钱、精力）而继续坚持已投入的行为，即使继续投入可能不理性。调查显示，70%的人会因已购会员而持续使用该APP。",
+    "quote": "用户已充值100元话费但未用完，即使套餐性价比不高，仍会继续使用以免浪费。",
+    "insight": "在储量专区推出‘预存话费送流量’活动，用户预存50元后，因沉没成本心理，后续会更倾向使用联通服务，减少转网概率。"
   },
   "biz": {
-    "topic": "毛利率",
-    "icon": "💰",
-    "desc": "毛利率是（收入-成本）/收入，反映企业盈利效率。例如苹果公司毛利率约43%，说明产品溢价能力强。",
-    "stat1label": "联通储量",
+    "topic": "规模效应",
+    "icon": "📈",
+    "desc": "规模效应指随着产量增加，单位成本下降，形成竞争优势。例如，联通基站数量增加后，每用户边际成本降低，可提供更低价套餐。",
+    "stat1label": "用户数",
     "stat1pct": 75,
-    "stat1val": "75%",
-    "stat2label": "行业平均",
+    "stat1val": "3.2亿",
+    "stat2label": "成本",
     "stat2pct": 35,
-    "stat2val": "35%",
-    "insight": "高毛利率业务应优先推广。联通储量专区可针对高毛利套餐（如云存储VIP）加大营销，提升整体盈利。"
+    "stat2val": "下降35%",
+    "insight": "联通应利用规模优势，在储量专区推出‘老带新’活动，新用户激活后双方获赠流量，快速扩大用户基数，进一步摊薄固定成本。"
   },
   "global": {
-    "title": "全球半导体产能过剩，存储芯片价格暴跌30%",
+    "title": "2026年全球5G用户突破20亿，中国联通份额显著",
     "icon": "🌍",
-    "what": "2026年6月，全球存储芯片市场因产能过剩导致价格暴跌，三星、SK海力士等厂商库存高企，8TB SSD价格跌破历史低点。",
-    "why": "中国存储芯片企业扩产叠加需求疲软，导致供过于求，影响全球科技产业链。",
-    "impact": "对普通用户：存储设备降价利好，但对运营从业者：可借机促销储量产品，如推出低价大容量套餐吸引用户。"
+    "what": "截至2026年Q1，全球5G用户数突破20亿，中国联通以约15%市场份额位居第三，累计用户超3亿。",
+    "why": "5G网络覆盖扩大和终端价格下降推动普及，运营商竞争转向内容和服务生态。",
+    "impact": "联通需加速布局5G应用场景（如云游戏、AR），在储量专区推出5G专属流量包，吸引高价值用户。"
   },
   "tech": {
-    "company": "SanDisk",
-    "logo": "S",
-    "logoBg": "#ED1C24",
-    "news": "SanDisk推出官方授权8TB PS5 SSD，售价高达3800美元",
-    "desc": "这款SSD专为PS5设计，容量巨大但价格昂贵，引发玩家热议。",
-    "insight": "高容量存储需求增长，联通可推出“游戏玩家专属储量套餐”，如1TB云存储+高速下载通道，满足用户大容量需求。"
+    "company": "Pokémon Champions",
+    "logo": "PC",
+    "logoBg": "#FF0000",
+    "news": "Pokémon Champions Launches On Mobile Today Alongside A New Game Update",
+    "desc": "宝可梦冠军手游今日上线，并伴随重大更新，新增角色和道具。",
+    "insight": "利用IP联动，联通可推出‘宝可梦联名流量卡’，充值送限定皮肤或道具，吸引年轻用户。"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC“再战黄风”全球发售",
-    "icon": "🎮",
-    "desc": "国产游戏《黑神话：悟空》首个DLC于6月18日上线，新增地图与Boss，预售已破百万份。",
-    "quote": "文化自信与游戏品质结合，才是真正的破圈密码。",
-    "stars": "★★★★★"
+    "title": "2026年世界杯预选赛亚洲区激战正酣",
+    "icon": "⚽",
+    "desc": "2026年世界杯亚洲区预选赛18强赛第六轮，中国队客场挑战日本队，争夺出线名额。",
+    "quote": "足球是圆的，但中国球迷的心是碎的。",
+    "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "Retention",
-        "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞ten神",
+        "word": "acquisition",
+        "phonetic": "/ˌæk.wɪˈzɪʃ.ən/",
+        "pron": "阿克维泽申",
+        "mean": "用户获取"
+      },
+      {
+        "word": "retention",
+        "phonetic": "/rɪˈten.ʃən/",
+        "pron": "瑞坦申",
         "mean": "用户留存"
       },
       {
-        "word": "Funnel",
-        "phonetic": "/ˈfʌnl/",
-        "pron": "发no",
-        "mean": "漏斗"
-      },
-      {
-        "word": "Conversion",
-        "phonetic": "/kənˈvɜːrʒn/",
-        "pron": "肯沃怎",
+        "word": "conversion",
+        "phonetic": "/kənˈvɜːr.ʒən/",
+        "pron": "肯沃申",
         "mean": "转化率"
       }
     ],
-    "example": "Improving **retention** through the sales **funnel** optimization can boost **conversion** by 30%.",
-    "exampleCN": "通过优化销售漏斗提升用户留存，可将转化率提高30%。"
+    "example": "The marketing team focused on **acquisition** through ads, but neglected **retention** and **conversion**, leading to high churn.",
+    "exampleCN": "营销团队专注于通过广告进行用户获取，但忽视了留存和转化，导致高流失率。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "顧客満足",
-        "kana": "こきゃくまんぞく",
-        "romaji": "kokyaku manzoku",
-        "pron": "扩k雅库慢奏库",
-        "mean": "客户满意度"
+        "ja": "獲得",
+        "kana": "かくとく",
+        "romaji": "kakutoku",
+        "pron": "卡库托库",
+        "mean": "获取"
       },
       {
-        "ja": "データ分析",
-        "kana": "データぶんせき",
-        "romaji": "dēta bunseki",
-        "pron": "得塔崩塞ki",
-        "mean": "数据分析"
+        "ja": "維持",
+        "kana": "いじ",
+        "romaji": "iji",
+        "pron": "伊吉",
+        "mean": "维持"
       },
       {
-        "ja": "戦略",
-        "kana": "せんりゃく",
-        "romaji": "senryaku",
-        "pron": "sen聊库",
-        "mean": "战略"
+        "ja": "コンバージョン",
+        "kana": "コンバージョン",
+        "romaji": "konbājon",
+        "pron": "空巴炯",
+        "mean": "转化"
       }
     ],
-    "example": "**顧客満足**を高めるために**データ分析**を活用し、効果的な**戦略**を立てる。",
-    "exampleCN": "利用数据分析提高客户满意度，制定有效的战略。"
+    "example": "新しいキャンペーンで**獲得**を増やし、**維持**率を高め、**コンバージョン**を向上させる。",
+    "exampleCN": "通过新活动增加获取，提高留存率，提升转化。"
   },
   "ai": {
-    "topic": "数字分身",
-    "node1": "👤",
+    "topic": "AI搜索",
+    "node1": "🔍",
     "node2": "🤖",
-    "node3": "💬",
-    "desc": "数字分身是利用AI技术创建的用户虚拟形象，可代表用户进行交互，如客服、直播等。",
-    "insight": "联通可推出“数字分身”服务：用户上传照片生成虚拟形象，用于视频通话或直播，按次付费，作为增值业务。"
+    "node3": "💡",
+    "desc": "AI搜索利用大模型理解用户意图，直接生成答案而非链接列表，提升搜索效率。",
+    "insight": "联通可在APP内集成AI搜索功能，用户输入‘如何省流量’直接返回个性化建议，并引导至储量专区的流量包购买页面。"
   },
   "think": {
-    "question": "如果联通储量专区要引入游戏化机制（如等级、徽章），你会设计哪些核心规则来提升用户粘性？",
+    "question": "如果储量专区的用户留存率低于20%，你会如何用钩子模型重新设计用户路径？",
     "tags": [
-      "等级积分制",
-      "成就徽章",
-      "排行榜",
-      "限时挑战"
+      "优化触发机制",
+      "增加可变奖励",
+      "简化行动步骤",
+      "强化用户投入"
     ]
   },
   "worldcup": {
@@ -127,65 +128,59 @@
     "daysToFinal": 30,
     "finished": [
       {
-        "time": "09:00",
-        "group": "GROUP_J",
-        "venue": "",
-        "home": "阿根廷",
-        "homeflag": "🇦🇷",
-        "away": "Algeria",
-        "awayflag": "🏳️",
-        "score": "3-0",
-        "note": ""
-      },
-      {
-        "time": "12:00",
-        "group": "GROUP_J",
-        "venue": "",
-        "home": "Austria",
-        "homeflag": "🏳️",
-        "away": "Jordan",
-        "awayflag": "🏳️",
-        "score": "3-1",
-        "note": ""
-      },
-      {
-        "time": "01:00",
+        "time": "10:00",
         "group": "GROUP_K",
         "venue": "",
-        "home": "葡萄牙",
-        "homeflag": "🇵🇹",
-        "away": "Congo DR",
+        "home": "Uzbekistan",
+        "homeflag": "🏳️",
+        "away": "Colombia",
         "awayflag": "🏳️",
-        "score": "1-1",
-        "note": ""
-      },
-      {
-        "time": "04:00",
-        "group": "GROUP_L",
-        "venue": "",
-        "home": "英格兰",
-        "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "away": "克罗地亚",
-        "awayflag": "🇭🇷",
-        "score": "4-2",
+        "score": "1-3",
         "note": ""
       }
     ],
-    "ongoing": [
+    "ongoing": [],
+    "upcoming": [
       {
-        "time": "07:00",
-        "group": "GROUP_L",
+        "time": "00:00",
+        "day": "今日",
+        "group": "GROUP_A",
         "venue": "",
-        "home": "加纳",
-        "homeflag": "🇬🇭",
-        "away": "Panama",
+        "home": "Czechia",
+        "homeflag": "🏳️",
+        "away": "South Africa",
+        "awayflag": "🏳️",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "03:00",
+        "day": "今日",
+        "group": "GROUP_B",
+        "venue": "",
+        "home": "Switzerland",
+        "homeflag": "🏳️",
+        "away": "Bosnia-Herzegovina",
+        "awayflag": "🏳️",
+        "winPct": 50,
+        "drawPct": 25,
+        "losePct": 25
+      },
+      {
+        "time": "06:00",
+        "day": "今日",
+        "group": "GROUP_B",
+        "venue": "",
+        "home": "加拿大",
+        "homeflag": "🇨🇦",
+        "away": "Qatar",
         "awayflag": "🏳️",
         "winPct": 50,
         "drawPct": 25,
         "losePct": 25
       }
-    ],
-    "upcoming": []
+    ]
   },
-  "generatedAt": "2026-06-18 07:28"
+  "generatedAt": "2026-06-18 23:09"
 }
