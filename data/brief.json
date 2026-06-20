@@ -3,129 +3,127 @@
   "dayCount": "Day 171",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "AARRR漏斗",
+    "model": "RFM模型",
     "icon": "📊",
-    "desc": "AARRR模型覆盖用户全生命周期，从获客到变现，适合精细化运营。",
+    "desc": "RFM模型通过最近一次消费、频率和金额三个维度细分用户价值，帮助运营商识别高价值用户并制定差异化策略。",
     "flow": [
-      "获取用户",
-      "激活用户",
-      "提升留存",
-      "增加收入",
-      "促进传播"
+      "计算每个用户的R（最近消费时间）、F（消费频率）、M（消费金额）得分",
+      "将用户按RFM得分分为8类（如重要价值、一般发展等）",
+      "针对不同类别设计专属运营动作（如高R低F用户推送回归优惠）"
     ],
-    "insight": "联通储量专区可针对高价值用户设计专属权益包，通过AARRR漏斗分析各环节转化率，重点优化激活与留存。"
+    "insight": "联通储量专区可针对高R高M但低F用户推送储值返利活动，刺激低频高价值用户增加消费频率。"
   },
   "psych": {
-    "concept": "峰终定律",
-    "icon": "🧠",
-    "def": "人们对体验的记忆由高峰时刻和结束时刻决定。",
-    "quote": "例如在用户投诉处理中，快速解决问题（峰）和友好结束（终）能提升整体满意度。",
-    "insight": "在用户充值或办理业务后，设计一个惊喜奖励（如流量赠送）作为高峰，并以感谢信息收尾，提升转化率。"
+    "concept": "损失厌恶",
+    "icon": "😨",
+    "def": "损失厌恶指人们面对同样数量的收益和损失时，认为损失更加难以忍受。",
+    "quote": "例如，联通提醒用户“您有1000积分即将过期”，比“您有1000积分可用”更能促使用户兑换。",
+    "insight": "在套餐续约或升级场景中，强调“不升级将失去现有优惠”比单纯介绍新套餐好处更有效。"
   },
   "biz": {
-    "topic": "复利效应",
-    "icon": "💰",
-    "desc": "复利效应指初始投资产生的利息再投资，实现指数增长。用于用户运营，持续的小动作带来长期大回报。",
-    "stat1label": "日活跃用户增长率",
+    "topic": "现金流管理",
+    "icon": "💸",
+    "desc": "现金流管理是企业确保资金流动性与盈利能力的核心。对于运营商，预付费模式天然带来稳定现金流入。",
+    "stat1label": "预付费用户占比",
     "stat1pct": 75,
-    "stat1val": "2.3%",
-    "stat2label": "月均用户留存率",
+    "stat1val": "75%",
+    "stat2label": "后付费用户ARPU",
     "stat2pct": 35,
-    "stat2val": "68%",
-    "insight": "每天优化一个用户触点，如推送个性化优惠，长期积累将显著提升活跃度和收入。"
+    "stat2val": "85元/月",
+    "insight": "联通可通过储值卡、合约机等方式提前锁定用户未来消费，改善现金流，同时降低用户流失。"
   },
   "global": {
-    "title": "全球多国央行讨论数字货币跨境支付标准",
+    "title": "美联储维持利率不变，暗示年内或降息两次",
     "icon": "🌍",
-    "what": "国际清算银行组织多国央行会议，推进央行数字货币（CBDC）的跨境支付互操作性标准。",
-    "why": "数字货币可降低跨境支付成本，提升效率，各国希望争夺标准制定权。",
-    "impact": "普通用户未来跨境转账可能更快捷、费用更低，但隐私和监管问题需关注。",
-    "newsTime": "2026-06-19",
-    "newsSource": "Reuters"
+    "what": "美联储在6月会议上决定维持联邦基金利率在5.25%-5.5%不变，但点阵图显示多数官员预计2026年将降息两次。",
+    "why": "通胀数据回落但劳动力市场依然强劲，美联储采取谨慎观望策略。",
+    "impact": "对普通人：房贷利率可能下降，消费贷款成本降低；对运营商：用户通信消费意愿可能提升。",
+    "newsTime": "2026年6月19日",
+    "newsSource": "路透社"
   },
   "tech": {
     "company": "索尼",
     "logo": "S",
-    "logoBg": "#0033a0",
-    "news": "索尼将“PC”从PlayStation业务战略中移除，新增“AI”",
-    "desc": "索尼在官方业务战略摘要中删除了“PC”关键词，加入“AI”，同时PlayStation部门员工人数自2023年以来首次增长。",
-    "insight": "索尼转向AI可能意味着PlayStation将更深度集成AI技术，如智能游戏推荐、个性化运营，联通可借鉴其数据驱动模式。",
+    "logoBg": "#000000",
+    "news": "索尼将“PC”从官方PlayStation业务策略中移除，新增“AI”",
+    "desc": "索尼更新了PlayStation业务策略摘要，用“AI”取代“PC”，同时PlayStation部门员工人数自2023年来首次增加。",
+    "insight": "联通可借鉴：将AI能力嵌入用户运营（如智能客服、个性化推荐），替代传统线下渠道投入。",
     "newsTime": "6月19日 07:43",
     "newsSource": "Gamefile.news"
   },
   "ent": {
-    "title": "2026年戛纳电影节获奖影片《星际迷途》引发热议",
-    "icon": "🎬",
-    "desc": "科幻片《星际迷途》斩获金棕榈奖，探讨人类在宇宙中的孤独与连接。",
-    "quote": "连接宇宙，也连接内心。",
+    "title": "2026年世界杯热身赛：阿根廷2-1险胜法国",
+    "icon": "⚽",
+    "desc": "为备战2026年世界杯，阿根廷与法国在巴黎进行了一场热身赛，梅西替补登场并助攻绝杀球。",
+    "quote": "体育赛事是运营商提升用户粘性的绝佳场景，可借势推出赛事流量包。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "resilience",
-        "phonetic": "/rɪˈzɪliəns/",
-        "pron": "瑞-兹-里-恩-斯",
-        "mean": "韧性"
+        "word": "monetary",
+        "phonetic": "/ˈmɒnɪtəri/",
+        "pron": "莫尼特瑞",
+        "mean": "货币的；金融的"
       },
       {
-        "word": "algorithm",
-        "phonetic": "/ˈælɡərɪðəm/",
-        "pron": "阿尔-哥-瑞-森",
-        "mean": "算法"
+        "word": "inflation",
+        "phonetic": "/ɪnˈfleɪʃn/",
+        "pron": "因弗累申",
+        "mean": "通货膨胀"
       },
       {
-        "word": "monopoly",
-        "phonetic": "/məˈnɒpəli/",
-        "pron": "莫-诺-波-里",
-        "mean": "垄断"
+        "word": "layoff",
+        "phonetic": "/ˈleɪɒf/",
+        "pron": "雷奥夫",
+        "mean": "裁员"
       }
     ],
-    "example": "The company's **resilience** came from its unique **algorithm** that broke the market **monopoly**.",
-    "exampleCN": "该公司的韧性源于其独特的算法，打破了市场垄断。"
+    "example": "The central bank's **monetary** policy aims to control **inflation** and prevent **layoff**.",
+    "exampleCN": "央行的货币政策旨在控制通货膨胀并防止裁员。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "絆",
-        "kana": "きずな",
-        "romaji": "kizuna",
-        "pron": "ki-zu-na",
-        "mean": "纽带"
+        "ja": "金利",
+        "kana": "きんり",
+        "romaji": "kinri",
+        "pron": "金利",
+        "mean": "利率"
       },
       {
-        "ja": "進化",
-        "kana": "しんか",
-        "romaji": "shinka",
-        "pron": "shin-ka",
-        "mean": "进化"
+        "ja": "景気",
+        "kana": "けいき",
+        "romaji": "keiki",
+        "pron": "凯基",
+        "mean": "经济景气"
       },
       {
-        "ja": "挑戦",
-        "kana": "ちょうせん",
-        "romaji": "chousen",
-        "pron": "choo-sen",
-        "mean": "挑战"
+        "ja": "雇用",
+        "kana": "こよう",
+        "romaji": "koyou",
+        "pron": "科哟",
+        "mean": "雇佣"
       }
     ],
-    "example": "5G技術の**進化**が人々の**絆**を強め、新しい**挑戦**を可能にした。",
-    "exampleCN": "5G技术的进化加强了人们的纽带，使新的挑战成为可能。"
+    "example": "**金利**の低下が**景気**を刺激し、**雇用**が改善する。",
+    "exampleCN": "利率下降刺激经济，雇佣状况改善。"
   },
   "ai": {
-    "topic": "AI Agent自主代理",
-    "node1": "🤖",
-    "node2": "🔄",
+    "topic": "Prompt工程",
+    "node1": "🔍",
+    "node2": "✍️",
     "node3": "🎯",
-    "desc": "AI Agent能自主感知环境、制定计划并执行任务，无需人工干预。",
-    "insight": "联通可用AI Agent自动处理用户常见问题，如流量查询、套餐变更，降低客服成本，提升响应速度。"
+    "desc": "Prompt工程是设计精确指令以引导AI生成期望输出的技术，本质是AI沟通艺术。",
+    "insight": "联通客服可训练AI根据用户历史对话自动生成个性化回复模板，提升效率。"
   },
   "think": {
-    "question": "如何利用AI Agent提升联通用户的留存率？",
+    "question": "如果联通推出AI客服，你最担心什么问题？",
     "tags": [
-      "个性化推荐",
-      "自动续费提醒",
-      "智能客服",
-      "权益推送"
+      "A. 无法解决复杂问题",
+      "B. 隐私泄露风险",
+      "C. 交互不自然",
+      "D. 增加运营成本"
     ]
   },
   "worldcup": {
@@ -208,9 +206,9 @@
         "homeflag": "🇪🇨",
         "away": "库拉索",
         "awayflag": "🇨🇼",
-        "winPct": 50,
+        "winPct": 45,
         "drawPct": 30,
-        "losePct": 20
+        "losePct": 25
       },
       {
         "time": "12:00",
@@ -220,11 +218,11 @@
         "homeflag": "🇹🇳",
         "away": "日本",
         "awayflag": "🇯🇵",
-        "winPct": 45,
+        "winPct": 40,
         "drawPct": 30,
-        "losePct": 25
+        "losePct": 30
       }
     ]
   },
-  "generatedAt": "2026-06-20 09:57"
+  "generatedAt": "2026-06-20 10:12"
 }
