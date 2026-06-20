@@ -1,179 +1,137 @@
 {
-  "date": "2026年6月20日 周六",
-  "dayCount": "Day 171",
+  "date": "2026年6月21日 周日",
+  "dayCount": "Day 172",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "RFM模型",
-    "icon": "📊",
-    "desc": "RFM模型通过最近一次消费、频率和金额三个维度细分用户价值，帮助运营商识别高价值用户并制定差异化策略。",
+    "model": "北极星指标",
+    "icon": "🌟",
+    "desc": "北极星指标是唯一关键的运营指标，指引团队朝着长期价值方向努力。它代表用户从产品中获得核心价值的程度。",
     "flow": [
-      "计算每个用户的R（最近消费时间）、F（消费频率）、M（消费金额）得分",
-      "将用户按RFM得分分为8类（如重要价值、一般发展等）",
-      "针对不同类别设计专属运营动作（如高R低F用户推送回归优惠）"
+      "定义产品核心价值，确定北极星指标",
+      "拆解指标到各部门和团队",
+      "持续监控并迭代优化"
     ],
-    "insight": "联通储量专区可针对高R高M但低F用户推送储值返利活动，刺激低频高价值用户增加消费频率。"
+    "insight": "联通储量专区可将‘月活跃储量用户数’作为北极星指标，聚焦用户持续使用储值服务的粘性，而非一次性充值额。"
   },
   "psych": {
-    "concept": "损失厌恶",
-    "icon": "😨",
-    "def": "损失厌恶指人们面对同样数量的收益和损失时，认为损失更加难以忍受。",
-    "quote": "例如，联通提醒用户“您有1000积分即将过期”，比“您有1000积分可用”更能促使用户兑换。",
-    "insight": "在套餐续约或升级场景中，强调“不升级将失去现有优惠”比单纯介绍新套餐好处更有效。"
+    "concept": "锚定效应",
+    "icon": "⚓",
+    "def": "人们在做决策时过度依赖最先获得的信息（锚点）的认知偏差。",
+    "quote": "联通套餐页先展示198元套餐，再展示98元套餐，用户会感觉98元更划算。",
+    "insight": "在联通增值服务定价页，先展示高价值套餐（如50元/月），再推29元月包，可提升后者的转化率。"
   },
   "biz": {
-    "topic": "现金流管理",
-    "icon": "💸",
-    "desc": "现金流管理是企业确保资金流动性与盈利能力的核心。对于运营商，预付费模式天然带来稳定现金流入。",
-    "stat1label": "预付费用户占比",
+    "topic": "护城河",
+    "icon": "🏰",
+    "desc": "护城河指企业抵御竞争对手的可持续竞争优势。联通可通过网络基建和用户规模构建护城河。",
+    "stat1label": "网络覆盖优势",
     "stat1pct": 75,
-    "stat1val": "75%",
-    "stat2label": "后付费用户ARPU",
+    "stat1val": "5G覆盖率超75%",
+    "stat2label": "用户迁移成本",
     "stat2pct": 35,
-    "stat2val": "85元/月",
-    "insight": "联通可通过储值卡、合约机等方式提前锁定用户未来消费，改善现金流，同时降低用户流失。"
+    "stat2val": "携号转网率仅35%",
+    "insight": "联通应强化5G网络差异化服务（如低时延），提升用户更换运营商的心理成本。"
   },
   "global": {
-    "title": "美联储维持利率不变，暗示年内或降息两次",
+    "title": "美联储维持利率不变，但暗示年内或降息两次",
     "icon": "🌍",
-    "what": "美联储在6月会议上决定维持联邦基金利率在5.25%-5.5%不变，但点阵图显示多数官员预计2026年将降息两次。",
-    "why": "通胀数据回落但劳动力市场依然强劲，美联储采取谨慎观望策略。",
-    "impact": "对普通人：房贷利率可能下降，消费贷款成本降低；对运营商：用户通信消费意愿可能提升。",
-    "newsTime": "2026年6月19日",
-    "newsSource": "路透社"
+    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.50%不变，但点阵图显示多数官员预计2026年将降息两次。",
+    "why": "通胀数据连续三个月回落，核心PCE降至2.8%，劳动力市场降温，为降息提供空间。",
+    "impact": "美元走弱，新兴市场资本流入增加；中国央行货币政策空间扩大，可能跟进宽松。",
+    "newsTime": "6月20日 14:00",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "索尼",
-    "logo": "S",
-    "logoBg": "#000000",
-    "news": "索尼将“PC”从官方PlayStation业务策略中移除，新增“AI”",
-    "desc": "索尼更新了PlayStation业务策略摘要，用“AI”取代“PC”，同时PlayStation部门员工人数自2023年来首次增加。",
-    "insight": "联通可借鉴：将AI能力嵌入用户运营（如智能客服、个性化推荐），替代传统线下渠道投入。",
-    "newsTime": "6月19日 07:43",
-    "newsSource": "Gamefile.news"
+    "company": "Aura",
+    "logo": "A",
+    "logoBg": "#4A90D9",
+    "news": "Aura推出令人印象深刻的电子墨水相框，看起来完全不像数码设备",
+    "desc": "Aura发布新款电子墨水相框，外观模拟传统纸质相框，支持远程上传照片和自动轮播。",
+    "insight": "联通可将该技术用于家庭云相册增值服务，结合5G低功耗特性推出‘智慧相框’套餐。",
+    "newsTime": "6月20日 05:00",
+    "newsSource": "TechCrunch"
   },
   "ent": {
-    "title": "2026年世界杯热身赛：阿根廷2-1险胜法国",
-    "icon": "⚽",
-    "desc": "为备战2026年世界杯，阿根廷与法国在巴黎进行了一场热身赛，梅西替补登场并助攻绝杀球。",
-    "quote": "体育赛事是运营商提升用户粘性的绝佳场景，可借势推出赛事流量包。",
+    "title": "《黑神话：悟空》续作预告引爆游戏圈",
+    "icon": "🎮",
+    "desc": "游戏科学在E3 2026上公布《黑神话：悟空2》实机预告，采用虚幻引擎5.4，画质再升级，预计2027年发售。",
+    "quote": "国产3A的崛起，不只是游戏，更是文化自信的输出。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "monetary",
-        "phonetic": "/ˈmɒnɪtəri/",
-        "pron": "莫尼特瑞",
-        "mean": "货币的；金融的"
+        "word": "anchor",
+        "phonetic": "/ˈæŋkər/",
+        "pron": "安可儿",
+        "mean": "锚点"
       },
       {
-        "word": "inflation",
-        "phonetic": "/ɪnˈfleɪʃn/",
-        "pron": "因弗累申",
-        "mean": "通货膨胀"
+        "word": "moat",
+        "phonetic": "/moʊt/",
+        "pron": "莫特",
+        "mean": "护城河"
       },
       {
-        "word": "layoff",
-        "phonetic": "/ˈleɪɒf/",
-        "pron": "雷奥夫",
-        "mean": "裁员"
+        "word": "polaris",
+        "phonetic": "/pəˈlɛrɪs/",
+        "pron": "珀莱瑞斯",
+        "mean": "北极星"
       }
     ],
-    "example": "The central bank's **monetary** policy aims to control **inflation** and prevent **layoff**.",
-    "exampleCN": "央行的货币政策旨在控制通货膨胀并防止裁员。"
+    "example": "The **anchor** bias helps set a **moat** for your product if you leverage the **polaris** metric.",
+    "exampleCN": "锚定偏差有助于为你的产品建立护城河，如果你利用好北极星指标。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "金利",
-        "kana": "きんり",
-        "romaji": "kinri",
-        "pron": "金利",
-        "mean": "利率"
+        "ja": "アンカー効果",
+        "kana": "アンカーこうか",
+        "romaji": "ankā kōka",
+        "pron": "安卡-科卡",
+        "mean": "锚定效应"
       },
       {
-        "ja": "景気",
-        "kana": "けいき",
-        "romaji": "keiki",
-        "pron": "凯基",
-        "mean": "经济景气"
+        "ja": "堀",
+        "kana": "ほり",
+        "romaji": "hori",
+        "pron": "霍里",
+        "mean": "护城河"
       },
       {
-        "ja": "雇用",
-        "kana": "こよう",
-        "romaji": "koyou",
-        "pron": "科哟",
-        "mean": "雇佣"
+        "ja": "北極星指標",
+        "kana": "ほっきょくせいしひょう",
+        "romaji": "hokkyokusei shihyō",
+        "pron": "霍克由库塞-西表",
+        "mean": "北极星指标"
       }
     ],
-    "example": "**金利**の低下が**景気**を刺激し、**雇用**が改善する。",
-    "exampleCN": "利率下降刺激经济，雇佣状况改善。"
+    "example": "**アンカー効果**を利用して、**北極星指標**を設定し、**堀**を築く。",
+    "exampleCN": "利用锚定效应，设定北极星指标，构建护城河。"
   },
   "ai": {
-    "topic": "Prompt工程",
-    "node1": "🔍",
-    "node2": "✍️",
-    "node3": "🎯",
-    "desc": "Prompt工程是设计精确指令以引导AI生成期望输出的技术，本质是AI沟通艺术。",
-    "insight": "联通客服可训练AI根据用户历史对话自动生成个性化回复模板，提升效率。"
+    "topic": "多模态AI",
+    "node1": "🖼️",
+    "node2": "🔊",
+    "node3": "📝",
+    "desc": "多模态AI能同时处理文字、图像、语音等多种输入，实现更自然的交互。",
+    "insight": "联通可开发多模态客服，用户拍照上传故障截图，AI自动识别并生成解决方案。"
   },
   "think": {
-    "question": "如果联通推出AI客服，你最担心什么问题？",
+    "question": "如果联通推出‘AI家庭医生’服务，最可能面临的核心挑战是什么？",
     "tags": [
-      "A. 无法解决复杂问题",
-      "B. 隐私泄露风险",
-      "C. 交互不自然",
-      "D. 增加运营成本"
+      "用户隐私与数据安全",
+      "AI诊断准确率",
+      "与传统医疗机构的合作壁垒",
+      "资费定价策略"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 28,
-    "todayDate": "6月20日",
-    "tomorrowDate": "6月21日",
+    "daysToFinal": 27,
+    "todayDate": "6月21日",
+    "tomorrowDate": "6月22日",
     "finished": [
-      {
-        "time": "03:00",
-        "group": "GROUP_D组",
-        "venue": "",
-        "home": "美国",
-        "homeflag": "🇺🇸",
-        "away": "澳大利亚",
-        "awayflag": "🇦🇺",
-        "score": "2-0"
-      },
-      {
-        "time": "06:00",
-        "group": "GROUP_C组",
-        "venue": "",
-        "home": "苏格兰",
-        "homeflag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "away": "摩洛哥",
-        "awayflag": "🇲🇦",
-        "score": "0-1"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "08:30",
-        "group": "GROUP_C组",
-        "venue": "",
-        "home": "巴西",
-        "homeflag": "🇧🇷",
-        "away": "海地",
-        "awayflag": "🇭🇹"
-      },
-      {
-        "time": "11:00",
-        "group": "GROUP_D组",
-        "venue": "",
-        "home": "土耳其",
-        "homeflag": "🇹🇷",
-        "away": "巴拉圭",
-        "awayflag": "🇵🇾"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "01:00",
         "group": "GROUP_F组",
@@ -182,9 +140,7 @@
         "homeflag": "🇳🇱",
         "away": "瑞典",
         "awayflag": "🇸🇪",
-        "winPct": 55,
-        "drawPct": 25,
-        "losePct": 20
+        "score": "5-1"
       },
       {
         "time": "04:00",
@@ -194,10 +150,10 @@
         "homeflag": "🇩🇪",
         "away": "科特迪瓦",
         "awayflag": "🇨🇮",
-        "winPct": 60,
-        "drawPct": 20,
-        "losePct": 20
-      },
+        "score": "2-1"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "08:00",
         "group": "GROUP_E组",
@@ -205,10 +161,7 @@
         "home": "厄瓜多尔",
         "homeflag": "🇪🇨",
         "away": "库拉索",
-        "awayflag": "🇨🇼",
-        "winPct": 45,
-        "drawPct": 30,
-        "losePct": 25
+        "awayflag": "🇨🇼"
       },
       {
         "time": "12:00",
@@ -217,12 +170,59 @@
         "home": "突尼斯",
         "homeflag": "🇹🇳",
         "away": "日本",
-        "awayflag": "🇯🇵",
-        "winPct": 40,
-        "drawPct": 30,
-        "losePct": 30
+        "awayflag": "🇯🇵"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "00:00",
+        "group": "GROUP_H组",
+        "venue": "",
+        "home": "西班牙",
+        "homeflag": "🇪🇸",
+        "away": "沙特",
+        "awayflag": "🇸🇦",
+        "winPct": 70,
+        "drawPct": 20,
+        "losePct": 10
+      },
+      {
+        "time": "03:00",
+        "group": "GROUP_G组",
+        "venue": "",
+        "home": "比利时",
+        "homeflag": "🇧🇪",
+        "away": "伊朗",
+        "awayflag": "🇮🇷",
+        "winPct": 65,
+        "drawPct": 20,
+        "losePct": 15
+      },
+      {
+        "time": "06:00",
+        "group": "GROUP_H组",
+        "venue": "",
+        "home": "乌拉圭",
+        "homeflag": "🇺🇾",
+        "away": "Cape Verde Islands",
+        "awayflag": "🏳️",
+        "winPct": 60,
+        "drawPct": 25,
+        "losePct": 15
+      },
+      {
+        "time": "09:00",
+        "group": "GROUP_G组",
+        "venue": "",
+        "home": "新西兰",
+        "homeflag": "🇳🇿",
+        "away": "埃及",
+        "awayflag": "🇪🇬",
+        "winPct": 55,
+        "drawPct": 25,
+        "losePct": 20
       }
     ]
   },
-  "generatedAt": "2026-06-20 10:12"
+  "generatedAt": "2026-06-21 07:12"
 }
