@@ -1,229 +1,230 @@
 {
-  "date": "2026年6月15日 周一",
-  "dayCount": "Day 166",
+  "date": "2026年6月20日 周六",
+  "dayCount": "Day 171",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
-  "generatedAt": "2026-06-15 06:00:00",
   "ops": {
-    "model": "增长飞轮",
-    "icon": "🔄",
-    "desc": "好产品→好体验→口碑传播→更多用户，每圈自我强化、越转越快。核心是找到飞轮的第一个推力。",
+    "model": "AARRR漏斗",
+    "icon": "📊",
+    "desc": "AARRR模型覆盖用户全生命周期，从获客到变现，适合精细化运营。",
     "flow": [
-      "好体验",
-      "口碑传播",
-      "新用户增长",
-      "规模效益↑"
+      "获取用户",
+      "激活用户",
+      "提升留存",
+      "增加收入",
+      "促进传播"
     ],
-    "insight": "储量专区：每次兑换成功后立即推送「分享给好友得双倍积分」，启动口碑飞轮"
+    "insight": "联通储量专区可针对高价值用户设计专属权益包，通过AARRR漏斗分析各环节转化率，重点优化激活与留存。"
   },
   "psych": {
-    "concept": "损失厌恶",
-    "icon": "😰",
-    "def": "人对「失去」的痛苦是「获得」快乐的2倍，宁可不赚也要避免损失。",
-    "quote": "「您有380积分将在3天后过期」比「可兑换好礼」点击率高3倍",
-    "insight": "把权益文案从「赚取」改为「别让它白白消失」，转化率立升20%+"
+    "concept": "峰终定律",
+    "icon": "🧠",
+    "def": "人们对体验的记忆由高峰时刻和结束时刻决定。",
+    "quote": "例如在用户投诉处理中，快速解决问题（峰）和友好结束（终）能提升整体满意度。",
+    "insight": "在用户充值或办理业务后，设计一个惊喜奖励（如流量赠送）作为高峰，并以感谢信息收尾，提升转化率。"
   },
   "biz": {
-    "topic": "护城河",
-    "icon": "🏰",
-    "desc": "让竞争对手难以复制的持久竞争优势，是企业长期价值的根基。巴菲特最看重的投资指标之一。",
-    "stat1label": "品牌力",
-    "stat1pct": 85,
-    "stat1val": "强",
-    "stat2label": "网络效应",
-    "stat2pct": 40,
-    "stat2val": "中",
-    "insight": "联通护城河=号码迁移成本+家庭套餐绑定，储量专区可通过积分沉淀加深用户切换成本"
+    "topic": "复利效应",
+    "icon": "💰",
+    "desc": "复利效应指初始投资产生的利息再投资，实现指数增长。用于用户运营，持续的小动作带来长期大回报。",
+    "stat1label": "日活跃用户增长率",
+    "stat1pct": 75,
+    "stat1val": "2.3%",
+    "stat2label": "月均用户留存率",
+    "stat2pct": 35,
+    "stat2val": "68%",
+    "insight": "每天优化一个用户触点，如推送个性化优惠，长期积累将显著提升活跃度和收入。"
   },
   "global": {
-    "title": "美联储6月维持利率不变",
-    "icon": "🏦",
-    "what": "美联储6月议息会议决定维持基准利率5.25%不变，年内预期降息1次",
-    "why": "全球资金面持续收紧，科技股和新兴市场承压，美元指数走强",
-    "impact": "国内房贷、理财收益率短期难以明显改善，保守配置为主",
-    "newsTime": "",
-    "newsSource": ""
+    "title": "全球多国央行讨论数字货币跨境支付标准",
+    "icon": "🌍",
+    "what": "国际清算银行组织多国央行会议，推进央行数字货币（CBDC）的跨境支付互操作性标准。",
+    "why": "数字货币可降低跨境支付成本，提升效率，各国希望争夺标准制定权。",
+    "impact": "普通用户未来跨境转账可能更快捷、费用更低，但隐私和监管问题需关注。",
+    "newsTime": "2026-06-19",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "OpenAI",
-    "logo": "G",
-    "logoBg": "#10A37F",
-    "news": "GPT-5首周突破1亿用户",
-    "desc": "推理速度提升2倍，代码与多模态能力显著增强，企业版加速全球落地。",
-    "insight": "联通AI客服接入GPT-5级模型后，首次问题解决率预计从62%提升至85%",
-    "newsTime": "",
-    "newsSource": ""
+    "company": "索尼",
+    "logo": "S",
+    "logoBg": "#0033a0",
+    "news": "索尼将“PC”从PlayStation业务战略中移除，新增“AI”",
+    "desc": "索尼在官方业务战略摘要中删除了“PC”关键词，加入“AI”，同时PlayStation部门员工人数自2023年以来首次增长。",
+    "insight": "索尼转向AI可能意味着PlayStation将更深度集成AI技术，如智能游戏推荐、个性化运营，联通可借鉴其数据驱动模式。",
+    "newsTime": "6月19日 07:43",
+    "newsSource": "Gamefile.news"
   },
   "ent": {
-    "title": "《玫瑰的故事》爆了",
-    "icon": "🌹",
-    "desc": "黄亦玫「做自己的主角」引发全网共鸣，上线两周讨论量突破10亿次。",
-    "quote": "「做自己主角」= 当代女性情绪价值的精准命中，品牌借势要趁早",
+    "title": "2026年戛纳电影节获奖影片《星际迷途》引发热议",
+    "icon": "🎬",
+    "desc": "科幻片《星际迷途》斩获金棕榈奖，探讨人类在宇宙中的孤独与连接。",
+    "quote": "连接宇宙，也连接内心。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "Retention",
-        "phonetic": "/rɪˈtenʃən/",
-        "pron": "芮-腾-申",
-        "mean": "用户留存率"
+        "word": "resilience",
+        "phonetic": "/rɪˈzɪliəns/",
+        "pron": "瑞-兹-里-恩-斯",
+        "mean": "韧性"
       },
       {
-        "word": "Churn",
-        "phonetic": "/tʃɜːrn/",
-        "pron": "昌恩",
-        "mean": "用户流失率"
+        "word": "algorithm",
+        "phonetic": "/ˈælɡərɪðəm/",
+        "pron": "阿尔-哥-瑞-森",
+        "mean": "算法"
       },
       {
-        "word": "Upsell",
-        "phonetic": "/ˈʌpsɛl/",
-        "pron": "阿普-赛尔",
-        "mean": "向上销售"
+        "word": "monopoly",
+        "phonetic": "/məˈnɒpəli/",
+        "pron": "莫-诺-波-里",
+        "mean": "垄断"
       }
     ],
-    "example": "Our **retention** dropped 5% as **churn** spiked — time to **upsell** loyal users.",
-    "exampleCN": "留存率下滑5%，流失率飙升——是时候向忠实用户进行升级销售了。"
+    "example": "The company's **resilience** came from its unique **algorithm** that broke the market **monopoly**.",
+    "exampleCN": "该公司的韧性源于其独特的算法，打破了市场垄断。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "特典",
-        "kana": "とくてん",
-        "romaji": "tokuten",
-        "pron": "托-库-腾",
-        "mean": "专属权益"
+        "ja": "絆",
+        "kana": "きずな",
+        "romaji": "kizuna",
+        "pron": "ki-zu-na",
+        "mean": "纽带"
       },
       {
-        "ja": "継続",
-        "kana": "けいぞく",
-        "romaji": "keizoku",
-        "pron": "K-ゾ-库",
-        "mean": "持续/续费"
+        "ja": "進化",
+        "kana": "しんか",
+        "romaji": "shinka",
+        "pron": "shin-ka",
+        "mean": "进化"
       },
       {
-        "ja": "解約",
-        "kana": "かいやく",
-        "romaji": "kaiyaku",
-        "pron": "嗨-压-库",
-        "mean": "取消/退订"
+        "ja": "挑戦",
+        "kana": "ちょうせん",
+        "romaji": "chousen",
+        "pron": "choo-sen",
+        "mean": "挑战"
       }
     ],
-    "example": "会員**特典**を活用して、**継続**をご検討ください。",
-    "exampleCN": "请充分利用会员专属权益，考虑继续订阅。"
+    "example": "5G技術の**進化**が人々の**絆**を強め、新しい**挑戦**を可能にした。",
+    "exampleCN": "5G技术的进化加强了人们的纽带，使新的挑战成为可能。"
   },
   "ai": {
-    "topic": "AI Agent 自主代理",
-    "node1": "📋",
-    "node2": "🤖",
-    "node3": "✅",
-    "desc": "AI自主规划并完成多步骤任务，全程无需人工干预，2026年最热落地方向。",
-    "insight": "联通场景：流量耗尽→AI自动识别→推荐套餐→完成购买，全链路无人化运营"
+    "topic": "AI Agent自主代理",
+    "node1": "🤖",
+    "node2": "🔄",
+    "node3": "🎯",
+    "desc": "AI Agent能自主感知环境、制定计划并执行任务，无需人工干预。",
+    "insight": "联通可用AI Agent自动处理用户常见问题，如流量查询、套餐变更，降低客服成本，提升响应速度。"
   },
   "think": {
-    "question": "如果储量专区只能做一件事来提升次月留存，你会选什么？",
+    "question": "如何利用AI Agent提升联通用户的留存率？",
     "tags": [
       "个性化推荐",
-      "到期预警",
-      "老带新奖励",
-      "限时专属礼包"
+      "自动续费提醒",
+      "智能客服",
+      "权益推送"
     ]
   },
   "worldcup": {
-    "phase": "小组赛第一轮",
-    "daysToFinal": 34,
-    "todayDate": "6月15日",
-    "tomorrowDate": "6月16日",
+    "phase": "小组赛",
+    "daysToFinal": 28,
+    "todayDate": "6月20日",
+    "tomorrowDate": "6月21日",
     "finished": [
       {
-        "time": "01:00",
-        "group": "E组",
-        "venue": "休斯顿",
-        "home": "德国",
-        "homeflag": "🇩🇪",
-        "away": "库拉索",
-        "awayflag": "🇨🇼",
-        "score": "7-1"
+        "time": "03:00",
+        "group": "GROUP_D组",
+        "venue": "",
+        "home": "美国",
+        "homeflag": "🇺🇸",
+        "away": "澳大利亚",
+        "awayflag": "🇦🇺",
+        "score": "2-0"
       },
       {
-        "time": "04:00",
-        "group": "F组",
-        "venue": "达拉斯",
-        "home": "荷兰",
-        "homeflag": "🇳🇱",
-        "away": "日本",
-        "awayflag": "🇯🇵",
-        "score": "2-2"
+        "time": "06:00",
+        "group": "GROUP_C组",
+        "venue": "",
+        "home": "苏格兰",
+        "homeflag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "away": "摩洛哥",
+        "awayflag": "🇲🇦",
+        "score": "0-1"
       }
     ],
     "todayScheduled": [
       {
-        "time": "07:00",
-        "group": "E组",
-        "venue": "费城",
-        "home": "科特迪瓦",
-        "homeflag": "🇨🇮",
-        "away": "厄瓜多尔",
-        "awayflag": "🇪🇨"
+        "time": "08:30",
+        "group": "GROUP_C组",
+        "venue": "",
+        "home": "巴西",
+        "homeflag": "🇧🇷",
+        "away": "海地",
+        "awayflag": "🇭🇹"
       },
       {
-        "time": "10:00",
-        "group": "F组",
-        "venue": "蒙特雷",
-        "home": "瑞典",
-        "homeflag": "🇸🇪",
-        "away": "突尼斯",
-        "awayflag": "🇹🇳"
+        "time": "11:00",
+        "group": "GROUP_D组",
+        "venue": "",
+        "home": "土耳其",
+        "homeflag": "🇹🇷",
+        "away": "巴拉圭",
+        "awayflag": "🇵🇾"
       }
     ],
     "tomorrow": [
       {
-        "time": "00:00",
-        "group": "H组",
-        "venue": "亚特兰大",
-        "home": "西班牙",
-        "homeflag": "🇪🇸",
-        "away": "佛得角",
-        "awayflag": "🇨🇻",
-        "winPct": 78,
-        "drawPct": 14,
-        "losePct": 8
+        "time": "01:00",
+        "group": "GROUP_F组",
+        "venue": "",
+        "home": "荷兰",
+        "homeflag": "🇳🇱",
+        "away": "瑞典",
+        "awayflag": "🇸🇪",
+        "winPct": 55,
+        "drawPct": 25,
+        "losePct": 20
       },
       {
-        "time": "03:00",
-        "group": "G组",
-        "venue": "西雅图",
-        "home": "比利时",
-        "homeflag": "🇧🇪",
-        "away": "埃及",
-        "awayflag": "🇪🇬",
+        "time": "04:00",
+        "group": "GROUP_E组",
+        "venue": "",
+        "home": "德国",
+        "homeflag": "🇩🇪",
+        "away": "科特迪瓦",
+        "awayflag": "🇨🇮",
         "winPct": 60,
-        "drawPct": 24,
-        "losePct": 16
+        "drawPct": 20,
+        "losePct": 20
       },
       {
-        "time": "06:00",
-        "group": "H组",
-        "venue": "迈阿密",
-        "home": "沙特",
-        "homeflag": "🇸🇦",
-        "away": "乌拉圭",
-        "awayflag": "🇺🇾",
-        "winPct": 30,
-        "drawPct": 28,
-        "losePct": 42
+        "time": "08:00",
+        "group": "GROUP_E组",
+        "venue": "",
+        "home": "厄瓜多尔",
+        "homeflag": "🇪🇨",
+        "away": "库拉索",
+        "awayflag": "🇨🇼",
+        "winPct": 50,
+        "drawPct": 30,
+        "losePct": 20
       },
       {
-        "time": "09:00",
-        "group": "G组",
-        "venue": "洛杉矶",
-        "home": "伊朗",
-        "homeflag": "🇮🇷",
-        "away": "新西兰",
-        "awayflag": "🇳🇿",
-        "winPct": 52,
-        "drawPct": 26,
-        "losePct": 22
+        "time": "12:00",
+        "group": "GROUP_F组",
+        "venue": "",
+        "home": "突尼斯",
+        "homeflag": "🇹🇳",
+        "away": "日本",
+        "awayflag": "🇯🇵",
+        "winPct": 45,
+        "drawPct": 30,
+        "losePct": 25
       }
     ]
-  }
+  },
+  "generatedAt": "2026-06-20 09:57"
 }
