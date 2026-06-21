@@ -1,180 +1,137 @@
 {
-  "date": "2026年6月21日 周日",
-  "dayCount": "Day 172",
+  "date": "2026年6月22日 周一",
+  "dayCount": "Day 173",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "JTBD理论",
-    "icon": "🎯",
-    "desc": "JTBD理论关注用户雇佣产品或服务完成的任务，而非用户本身属性。通过理解用户真实需求场景，设计更精准的运营策略。",
+    "model": "增长飞轮",
+    "icon": "⚙️",
+    "desc": "增长飞轮强调通过一系列相互增强的动作形成闭环，驱动持续增长。用户运营中，每个环节的改善会加速整个轮子转动。",
     "flow": [
-      "识别用户要完成的‘任务’（如‘快速给家人充值’）",
-      "分析现有解决方案的痛点",
-      "设计产品/服务帮助用户更好完成任务"
+      "提升产品体验，增加用户留存",
+      "高留存用户产生口碑推荐，带来新用户",
+      "新用户通过优质体验再次留存，循环加速"
     ],
-    "insight": "联通储量专区可细分用户任务场景：如‘临时出差需大流量’、‘给老人办亲情卡’，针对任务推送定制套餐，提升转化率。"
+    "insight": "联通储量专区可设置“分享得流量”机制，老用户推荐新用户激活，双方获得额外流量，形成自增长循环。"
   },
   "psych": {
-    "concept": "社会认同",
-    "icon": "👥",
-    "def": "人们在不确定时，会参考他人的行为来决定自己的行为。",
-    "quote": "例如：在联通APP充值页面显示‘本月已有X万用户选择该套餐’，增加用户信任感。",
-    "insight": "在套餐推荐页加入‘热销’标签、用户评价数、购买动态（如‘李女士1分钟前购买了5G畅享包’），利用社会认同降低决策犹豫。"
+    "concept": "稀缺性原理",
+    "icon": "⏳",
+    "def": "人们认为难以获得的东西更有价值，常因机会有限或数量不足而激发行动。",
+    "quote": "例如：限时抢购、限量发售、专属特权等。",
+    "insight": "在联通储量专区推出“每日限量特惠包”或“前100名赠加倍流量”，利用稀缺性促使犹豫用户立即下单。"
   },
   "biz": {
-    "topic": "ROE净资产收益率",
-    "icon": "📈",
-    "desc": "ROE衡量股东权益的盈利效率，反映公司利用自有资本创造利润的能力。高ROE意味着公司盈利能力强且资本运用高效。",
-    "stat1label": "联通2025年ROE",
-    "stat1pct": 10.2,
-    "stat1val": "10.2%",
-    "stat2label": "行业平均ROE",
-    "stat2pct": 8.5,
-    "stat2val": "8.5%",
-    "insight": "联通ROE高于行业均值，说明运营效率较好。运营可聚焦高价值用户（如政企、高端套餐），通过提升ARPU和降低成本进一步改善ROE。"
+    "topic": "毛利率",
+    "icon": "📊",
+    "desc": "毛利率反映企业每收入100元中有多少毛利，是衡量盈利能力的关键指标。高毛利率意味着产品有定价权或成本优势。",
+    "stat1label": "联通存量用户ARPU",
+    "stat1pct": 75,
+    "stat1val": "45.6元",
+    "stat2label": "联通5G套餐占比",
+    "stat2pct": 35,
+    "stat2val": "1.2亿户",
+    "insight": "通过增值业务（如储量专区）提升ARPU，在不显著增加成本下提高整体毛利率。"
   },
   "global": {
-    "title": "美联储维持利率不变，但暗示年内或降息两次",
+    "title": "美联储维持利率不变，暗示年内或降息一次",
     "icon": "🌍",
-    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.50%不变，同时点阵图显示多数官员预计年内将降息两次。",
-    "why": "美国通胀数据持续回落但经济放缓迹象显现，美联储需平衡通胀与增长风险。",
-    "impact": "降息预期推动全球股市上涨，美元走弱，人民币汇率压力减轻。对普通用户而言，未来贷款成本或下降，但存款利率也将随之降低。",
-    "newsTime": "6月20日 14:00",
-    "newsSource": "Reuters"
+    "what": "美联储在6月FOMC会议上宣布维持联邦基金利率在5.25%-5.5%不变，点阵图显示年内可能降息一次，市场预期9月降息概率上升。",
+    "why": "通胀虽回落但仍高于2%目标，劳动力市场保持韧性，美联储需在控制通胀与支持经济间平衡。",
+    "impact": "对普通人：房贷、信用卡利率短期维持高位，但降息预期可能推动股市上涨，外币理财需关注汇率波动。",
+    "newsTime": "",
+    "newsSource": ""
   },
   "tech": {
-    "company": "Google",
-    "logo": "G",
-    "logoBg": "#4285F4",
-    "news": "Google确认停售Nest Mini和Nest Audio，仅保留一款智能音箱",
-    "desc": "Google宣布停止生产Nest Mini和Nest Audio，未来只销售一款智能音箱（可能是高端新品或现有型号）。",
-    "insight": "硬件产品线精简提示运营商：在物联网和智能家居领域，应聚焦核心产品，避免分散资源。联通可考虑整合自有智能设备SKU，集中推广爆款。",
-    "newsTime": "6月20日 05:25",
-    "newsSource": "Mashable"
+    "company": "理查德·加里奥特",
+    "logo": "RG",
+    "logoBg": "#1E3A5F",
+    "news": "《创世纪》之父欲利用法律漏洞从EA手中夺回该系列版权",
+    "desc": "理查德·加里奥特（Lord British）正探索罕见的法律条款，在不花费巨资的情况下从EA重新获得经典RPG《创世纪》系列版权。",
+    "insight": "此案例提醒联通在合作中注重版权与数据归属，避免未来被动；可启发联通探索法律手段优化与内容提供商的合作模式。",
+    "newsTime": "6月21日 04:38",
+    "newsSource": "Kotaku"
   },
   "ent": {
-    "title": "《黑神话：悟空》全球销量突破2000万份，创国产游戏纪录",
+    "title": "《原神》纳塔版本上线，全球玩家涌入刷新纪录",
     "icon": "🎮",
-    "desc": "国产3A游戏《黑神话：悟空》自2024年发售以来持续热销，成为现象级文化输出案例。",
-    "quote": "优质内容永远是稀缺资源，游戏产业证明了中国文化的全球吸引力。",
-    "stars": "★★★★★"
+    "desc": "米哈游旗下《原神》6月21日更新纳塔地区，新角色、地图和剧情引发热潮，首日全球流水超2亿美元。",
+    "quote": "开放世界内容迭代仍是维持游戏生命力的核心。",
+    "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "equity",
-        "phonetic": "/ˈekwəti/",
-        "pron": "埃奎提",
-        "mean": "权益；公平"
+        "word": "Ultima",
+        "phonetic": "/ˈʌltɪmə/",
+        "pron": "阿尔提玛",
+        "mean": "《创世纪》系列游戏"
       },
       {
-        "word": "monetary",
-        "phonetic": "/ˈmʌnɪtri/",
-        "pron": "马尼特里",
-        "mean": "货币的；金融的"
+        "word": "Eccentric",
+        "phonetic": "/ɪkˈsentrɪk/",
+        "pron": "伊克森特里可",
+        "mean": "古怪的，异乎寻常的"
       },
       {
-        "word": "consolidate",
-        "phonetic": "/kənˈsɒlɪdeɪt/",
-        "pron": "肯索利代特",
-        "mean": "巩固；合并"
+        "word": "Loophole",
+        "phonetic": "/ˈluːphoʊl/",
+        "pron": "卢珀豪",
+        "mean": "漏洞，空子"
       }
     ],
-    "example": "The company's **equity** increased after the **monetary** policy eased, allowing it to **consolidate** its market position.",
-    "exampleCN": "公司权益在货币政策宽松后增加，使其得以巩固市场地位。"
+    "example": "The eccentric billionaire used a legal **loophole** to attempt to reclaim the rights to **Ultima**.",
+    "exampleCN": "这位古怪的亿万富翁利用法律**漏洞**试图夺回《**创世纪**》的版权。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "株主資本",
-        "kana": "かぶぬししほん",
-        "romaji": "kabunushi shihon",
-        "pron": "卡布努西 西红",
-        "mean": "股东权益"
+        "ja": "法律",
+        "kana": "ほうりつ",
+        "romaji": "hōritsu",
+        "pron": "好里次",
+        "mean": "法律"
       },
       {
-        "ja": "利下げ",
-        "kana": "りさげ",
-        "romaji": "risage",
-        "pron": "利萨给",
-        "mean": "降息"
+        "ja": "抜け穴",
+        "kana": "ぬけあな",
+        "romaji": "nukeana",
+        "pron": "努开阿那",
+        "mean": "漏洞"
       },
       {
-        "ja": "統合",
-        "kana": "とうごう",
-        "romaji": "tōgō",
-        "pron": "头搞",
-        "mean": "整合；合并"
+        "ja": "復活",
+        "kana": "ふっかつ",
+        "romaji": "fukkatsu",
+        "pron": "夫卡次",
+        "mean": "复活"
       }
     ],
-    "example": "**株主資本**の効率を高めるため、会社は事業を**統合**し、**利下げ**の恩恵を活用した。",
-    "exampleCN": "为提高股东权益效率，公司整合业务并利用降息红利。"
+    "example": "彼は法的な**抜け穴**を使って、ゲームシリーズを**復活**させようとしている。",
+    "exampleCN": "他试图利用法律**漏洞**来**复活**这个游戏系列。"
   },
   "ai": {
-    "topic": "RAG检索增强",
-    "node1": "📚",
-    "node2": "🔍",
+    "topic": "数字分身",
+    "node1": "👤",
+    "node2": "🔀",
     "node3": "🤖",
-    "desc": "RAG结合信息检索与生成模型，先检索外部知识库，再基于检索结果生成回答，提升准确性和时效性。",
-    "insight": "联通客服场景：用户咨询套餐变更时，RAG可实时检索最新政策文档，生成精准答复，减少人工干预。"
+    "desc": "数字分身是用户在网络空间的虚拟代表，可自动执行任务或提供个性化服务。",
+    "insight": "联通可为每个用户创建数字分身，自动管理流量套餐、推荐最优储量方案，提升用户体验和粘性。"
   },
   "think": {
-    "question": "如果联通要推出一款针对年轻人的‘元宇宙社交套餐’，以下哪种策略最能吸引目标用户？",
+    "question": "如果你是联通储量专区产品经理，你会优先通过哪种方式提升用户转化率？",
     "tags": [
-      "A. 赠送VR设备体验券",
-      "B. 联合热门手游推出专属流量包",
-      "C. 提供虚拟形象定制服务",
-      "D. 举办线上音乐会抽奖"
+      "限时折扣",
+      "会员专属价",
+      "分享得流量",
+      "套餐捆绑"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 27,
-    "todayDate": "6月21日",
-    "tomorrowDate": "6月22日",
+    "daysToFinal": 26,
+    "todayDate": "6月22日",
+    "tomorrowDate": "6月23日",
     "finished": [
-      {
-        "time": "01:00",
-        "group": "GROUP_F组",
-        "venue": "",
-        "home": "荷兰",
-        "homeflag": "🇳🇱",
-        "away": "瑞典",
-        "awayflag": "🇸🇪",
-        "score": "5-1"
-      },
-      {
-        "time": "04:00",
-        "group": "GROUP_E组",
-        "venue": "",
-        "home": "德国",
-        "homeflag": "🇩🇪",
-        "away": "科特迪瓦",
-        "awayflag": "🇨🇮",
-        "score": "2-1"
-      },
-      {
-        "time": "08:00",
-        "group": "GROUP_E组",
-        "venue": "",
-        "home": "厄瓜多尔",
-        "homeflag": "🇪🇨",
-        "away": "库拉索",
-        "awayflag": "🇨🇼",
-        "score": "0-0"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "12:00",
-        "group": "GROUP_F组",
-        "venue": "",
-        "home": "突尼斯",
-        "homeflag": "🇹🇳",
-        "away": "日本",
-        "awayflag": "🇯🇵"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "00:00",
         "group": "GROUP_H组",
@@ -183,9 +140,7 @@
         "homeflag": "🇪🇸",
         "away": "沙特",
         "awayflag": "🇸🇦",
-        "winPct": 65,
-        "drawPct": 20,
-        "losePct": 15
+        "score": "4-0"
       },
       {
         "time": "03:00",
@@ -195,10 +150,10 @@
         "homeflag": "🇧🇪",
         "away": "伊朗",
         "awayflag": "🇮🇷",
-        "winPct": 70,
-        "drawPct": 18,
-        "losePct": 12
-      },
+        "score": "0-0"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "06:00",
         "group": "GROUP_H组",
@@ -206,10 +161,7 @@
         "home": "乌拉圭",
         "homeflag": "🇺🇾",
         "away": "Cape Verde Islands",
-        "awayflag": "🏳️",
-        "winPct": 55,
-        "drawPct": 25,
-        "losePct": 20
+        "awayflag": "🏳️"
       },
       {
         "time": "09:00",
@@ -218,12 +170,59 @@
         "home": "新西兰",
         "homeflag": "🇳🇿",
         "away": "埃及",
-        "awayflag": "🇪🇬",
-        "winPct": 40,
+        "awayflag": "🇪🇬"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "01:00",
+        "group": "GROUP_J组",
+        "venue": "",
+        "home": "阿根廷",
+        "homeflag": "🇦🇷",
+        "away": "奥地利",
+        "awayflag": "🇦🇹",
+        "winPct": 65,
+        "drawPct": 20,
+        "losePct": 15
+      },
+      {
+        "time": "05:00",
+        "group": "GROUP_I组",
+        "venue": "",
+        "home": "法国",
+        "homeflag": "🇫🇷",
+        "away": "伊拉克",
+        "awayflag": "🇮🇶",
+        "winPct": 70,
+        "drawPct": 18,
+        "losePct": 12
+      },
+      {
+        "time": "08:00",
+        "group": "GROUP_I组",
+        "venue": "",
+        "home": "挪威",
+        "homeflag": "🇳🇴",
+        "away": "塞内加尔",
+        "awayflag": "🇸🇳",
+        "winPct": 45,
         "drawPct": 30,
-        "losePct": 30
+        "losePct": 25
+      },
+      {
+        "time": "11:00",
+        "group": "GROUP_J组",
+        "venue": "",
+        "home": "约旦",
+        "homeflag": "🇯🇴",
+        "away": "阿尔及利亚",
+        "awayflag": "🇩🇿",
+        "winPct": 30,
+        "drawPct": 25,
+        "losePct": 45
       }
     ]
   },
-  "generatedAt": "2026-06-21 10:56"
+  "generatedAt": "2026-06-22 07:19"
 }
