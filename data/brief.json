@@ -1,180 +1,137 @@
 {
-  "date": "2026年6月22日 周一",
-  "dayCount": "Day 173",
+  "date": "2026年6月23日 周二",
+  "dayCount": "Day 174",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "钩子模型",
-    "icon": "🎣",
-    "desc": "通过提供持续价值，将用户从免费体验逐步转化为付费会员，类似钓鱼时用鱼饵吸引上钩。强调初期低投入、高回报，培养使用习惯。",
+    "model": "用户分层模型",
+    "icon": "📊",
+    "desc": "根据用户行为、价值等维度将用户划分为不同层级，便于精细化运营。联通可基于流量消费、套餐偏好等分层，制定差异化策略。",
     "flow": [
-      "免费体验诱饵：提供3天高速流量包或热门视频会员体验，无门槛获取。",
-      "习惯养成：体验期间推送每日限免内容，如短视频、音乐、游戏道具，增加粘性。",
-      "锁定转化：体验结束前，通过短信或弹窗提醒“仅需1元续费7天”，利用沉没成本心理促使用户付费。"
+      "收集数据：整合用户消费、使用时长、套餐类型等数据",
+      "划分层级：使用RFM变体或聚类算法分为高价值、潜力、基础用户",
+      "制定策略：为高价值用户提供专属福利，为基础用户设计升级路径"
     ],
-    "insight": "联通储量专区可设置“新用户专享1元10GB体验包”，7天后自动续费但首月折扣，并通过每日签到赠送额外流量，提升续费率。"
+    "insight": "联通可针对高价值用户推出“黄金会员”专属流量包，结合积分兑换提升忠诚度；对低活跃用户推送定向优惠券，刺激回流。"
   },
   "psych": {
-    "concept": "沉没成本",
-    "icon": "💔",
-    "def": "指已经发生且无法收回的投入，如时间、金钱或精力，人们往往因为不愿放弃已付出的成本而继续投入。",
-    "quote": "用户已花费30分钟在联通APP挑选套餐，此时弹出“限时优惠，办理即送50元话费”，用户更可能下单，因为不愿浪费已投入的时间和精力。",
-    "insight": "在用户浏览套餐页面停留超过2分钟时，自动弹出“再停留5分钟可领取1GB流量”的奖励，利用用户已投入的时间成本促进转化。"
+    "concept": "禀赋效应",
+    "icon": "🎁",
+    "def": "人们对自己拥有的物品赋予更高价值，失去时感受更强烈。",
+    "quote": "例如，用户获得免费试用VIP后，更愿意付费续订。",
+    "insight": "联通可提供短期免费增值服务（如视频会员体验），让用户产生拥有感，到期后转化付费。"
   },
   "biz": {
-    "topic": "规模效应",
-    "icon": "📈",
-    "desc": "规模效应指企业产量增加时单位成本下降，形成竞争优势。中国联通通过扩大用户规模，可降低网络建设和运维的边际成本，同时提升议价能力。",
-    "stat1label": "用户数",
+    "topic": "边际成本",
+    "icon": "💰",
+    "desc": "每多生产一单位产品所增加的成本。联通新增一个5G用户的边际成本极低，增加用户数可显著摊薄固定成本。",
+    "stat1label": "每用户维护成本（元/月）",
     "stat1pct": 75,
-    "stat1val": "4.5亿",
-    "stat2label": "ARPU值",
+    "stat1val": "12",
+    "stat2label": "新增用户边际成本（元）",
     "stat2pct": 35,
-    "stat2val": "42.6元",
-    "insight": "联通可通过大规模用户数据优化网络覆盖，降低故障率；同时利用用户规模吸引内容合作方，推出专属套餐，进一步提升ARPU。"
+    "stat2val": "3.5",
+    "insight": "运营启发：通过推荐裂变活动吸引新用户，利用低边际成本实现规模增长。"
   },
   "global": {
-    "title": "美联储维持利率不变，通胀预期上调至3.5%",
+    "title": "全球半导体短缺缓解，芯片交付周期缩短至14周",
     "icon": "🌍",
-    "what": "6月21日，美联储宣布将基准利率维持在5.5%-5.75%不变，同时将2026年核心PCE通胀预期从2.8%上调至3.5%，暗示年内可能仅降息一次。",
-    "why": "核心通胀仍高于2%目标，劳动力市场紧张，工资增长放缓但未达预期。美联储强调需要更多数据确认通胀回落趋势。",
-    "impact": "个人贷款利率维持高位，房贷月供增加；企业融资成本上升，可能减缓招聘。但美元走强有助于进口商品价格稳定，出国旅游更划算。",
-    "newsTime": "2026-06-21 14:30",
-    "newsSource": "路透社"
+    "what": "据行业机构报告，2026年6月全球芯片平均交付周期从峰值26周降至14周，接近正常水平。",
+    "why": "主要晶圆厂新增产能释放，加上消费电子需求放缓，供需趋于平衡。",
+    "impact": "手机、汽车等产品供应稳定，价格有望下调。",
+    "newsTime": "2026年6月23日",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "索尼互动娱乐",
-    "logo": "S",
-    "logoBg": "#003791",
-    "news": "Hermen Hulst 称索尼PC移植游戏未赚足够的钱",
-    "desc": "索尼第一方工作室负责人Hermen Hulst据称在内部会议中表示，以往的PC游戏移植收入未达预期，因此将调整策略，未来更注重同步首发或云游戏。",
-    "insight": "联通可参考此案例，评估自身内容合作战略：避免简单移植，而是根据平台特性（如5G网络、云游戏）定制产品，提升用户价值和收入。",
-    "newsTime": "6月21日 08:00",
-    "newsSource": "Push Square"
+    "company": "亚马逊",
+    "logo": "A",
+    "logoBg": "#FF9900",
+    "news": "亚马逊Prime Day推出30余款乐高折扣，涵盖星球大战、我的世界等系列",
+    "desc": "Prime Day大促中乐高套装最高可享5折优惠，吸引收藏家和家长抢购。",
+    "insight": "联通可借鉴：在会员日推出“流量+权益”组合包，如购乐高送流量，提升ARPU。",
+    "newsTime": "6月22日 08:42",
+    "newsSource": "CNET"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC“再战轮回”上线首周销量突破300万份",
-    "icon": "🎮",
-    "desc": "游戏科学宣布《黑神话：悟空》首个大型DLC于6月15日发售，新增两个章节、新Boss及结局，首周全球销量超300万，Steam好评率96%。",
-    "quote": "国产游戏的叙事深度与动作设计已比肩国际3A大作，文化输出再上新台阶。",
-    "stars": "★★★★★"
+    "title": "《蜘蛛侠4》全球票房突破15亿美元，创漫威新纪录",
+    "icon": "🎬",
+    "desc": "《蜘蛛侠4》上映三周全球票房破15亿，成为2026年最卖座电影。",
+    "quote": "超级英雄题材依然具有强大号召力，IP联动是票房保障。",
+    "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "resilient",
-        "phonetic": "/rɪˈzɪliənt/",
-        "pron": "瑞-zil-ee-ant",
-        "mean": "有弹性的；适应力强的"
+        "word": "incentive",
+        "phonetic": "/ɪnˈsentɪv/",
+        "pron": "因森提夫",
+        "mean": "激励，刺激"
       },
       {
-        "word": "stagnate",
-        "phonetic": "/ˈstæɡneɪt/",
-        "pron": "斯塔格-内特",
-        "mean": "停滞；不发展"
+        "word": "retention",
+        "phonetic": "/rɪˈtenʃn/",
+        "pron": "瑞坦申",
+        "mean": "保留，留存"
       },
       {
-        "word": "leverage",
-        "phonetic": "/ˈlevərɪdʒ/",
-        "pron": "莱沃-瑞之",
-        "mean": "杠杆作用；利用"
+        "word": "conversion",
+        "phonetic": "/kənˈvɜːrʒn/",
+        "pron": "康沃申",
+        "mean": "转化，转换"
       }
     ],
-    "example": "The economy remains **resilient** despite high rates, but wages **stagnate**; firms must **leverage** technology to grow.",
-    "exampleCN": "尽管利率高企，经济仍具韧性，但工资停滞；企业必须利用技术实现增长。"
+    "example": "The **incentive** program improved user **retention** and **conversion** rates.",
+    "exampleCN": "激励计划提高了用户留存率和转化率。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "持続可能",
-        "kana": "じぞくかのう",
-        "romaji": "jizoku kanou",
-        "pron": "鸡-造库-卡-诺",
-        "mean": "可持续的"
+        "ja": "顧客",
+        "kana": "こきゃく",
+        "romaji": "kokyaku",
+        "pron": "科卡库",
+        "mean": "顾客"
       },
       {
-        "ja": "見直す",
-        "kana": "みなおす",
-        "romaji": "minaosu",
-        "pron": "米-那-欧-斯",
-        "mean": "重新审视；修改"
+        "ja": "維持",
+        "kana": "いじ",
+        "romaji": "iji",
+        "pron": "伊吉",
+        "mean": "维持，保持"
       },
       {
-        "ja": "連携",
-        "kana": "れんけい",
-        "romaji": "renkei",
-        "pron": "冷-开",
-        "mean": "合作；联动"
+        "ja": "効果",
+        "kana": "こうか",
+        "romaji": "kōka",
+        "pron": "科卡",
+        "mean": "效果"
       }
     ],
-    "example": "企業は**持続可能**な成長のために戦略を**見直し**、他社との**連携**を強化する必要がある。",
-    "exampleCN": "企业为了实现可持续增长，需要重新审视战略，并加强与其它公司的合作。"
+    "example": "**顧客**を**維持**するための**効果**的な方法を考える。",
+    "exampleCN": "思考维持顾客的有效方法。"
   },
   "ai": {
-    "topic": "AI搜索",
-    "node1": "🔍",
-    "node2": "🧠",
-    "node3": "💬",
-    "desc": "AI搜索利用大模型理解用户意图，直接生成答案而非链接列表，提升信息获取效率。",
-    "insight": "联通可开发AI搜索助手，帮助用户快速查询套餐余量、费用明细，或根据消费习惯推荐最优套餐，减少客服压力。"
+    "topic": "AI运营助手",
+    "node1": "🤖",
+    "node2": "📈",
+    "node3": "🎯",
+    "desc": "AI运营助手通过自然语言处理与用户画像，自动生成个性化运营策略并执行。",
+    "insight": "联通可部署AI助手实时分析用户投诉并自动推送解决方案，降低人工成本的同时提升满意度。"
   },
   "think": {
-    "question": "如果联通推出AI客服助手，你认为最应优先解决哪个痛点？",
+    "question": "在用户分层中，哪种指标最能识别高价值用户？",
     "tags": [
-      "A. 查询账单和流量余量",
-      "B. 办理套餐变更",
-      "C. 投诉与故障报修",
-      "D. 推荐个性化优惠"
+      "A. 月度流量消耗",
+      "B. 套餐价格",
+      "C. 在网时长",
+      "D. 互动频次"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 26,
-    "todayDate": "6月22日",
-    "tomorrowDate": "6月23日",
+    "daysToFinal": 25,
+    "todayDate": "6月23日",
+    "tomorrowDate": "6月24日",
     "finished": [
-      {
-        "time": "00:00",
-        "group": "GROUP_H组",
-        "venue": "",
-        "home": "西班牙",
-        "homeflag": "🇪🇸",
-        "away": "沙特",
-        "awayflag": "🇸🇦",
-        "score": "4-0"
-      },
-      {
-        "time": "03:00",
-        "group": "GROUP_G组",
-        "venue": "",
-        "home": "比利时",
-        "homeflag": "🇧🇪",
-        "away": "伊朗",
-        "awayflag": "🇮🇷",
-        "score": "0-0"
-      },
-      {
-        "time": "06:00",
-        "group": "GROUP_H组",
-        "venue": "",
-        "home": "乌拉圭",
-        "homeflag": "🇺🇾",
-        "away": "Cape Verde Islands",
-        "awayflag": "🏳️",
-        "score": "2-2"
-      },
-      {
-        "time": "09:00",
-        "group": "GROUP_G组",
-        "venue": "",
-        "home": "新西兰",
-        "homeflag": "🇳🇿",
-        "away": "埃及",
-        "awayflag": "🇪🇬",
-        "score": "1-3"
-      }
-    ],
-    "todayScheduled": [],
-    "tomorrow": [
       {
         "time": "01:00",
         "group": "GROUP_J组",
@@ -183,10 +140,10 @@
         "homeflag": "🇦🇷",
         "away": "奥地利",
         "awayflag": "🇦🇹",
-        "winPct": 65,
-        "drawPct": 20,
-        "losePct": 15
-      },
+        "score": "2-0"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "05:00",
         "group": "GROUP_I组",
@@ -194,10 +151,7 @@
         "home": "法国",
         "homeflag": "🇫🇷",
         "away": "伊拉克",
-        "awayflag": "🇮🇶",
-        "winPct": 70,
-        "drawPct": 18,
-        "losePct": 12
+        "awayflag": "🇮🇶"
       },
       {
         "time": "08:00",
@@ -206,10 +160,7 @@
         "home": "挪威",
         "homeflag": "🇳🇴",
         "away": "塞内加尔",
-        "awayflag": "🇸🇳",
-        "winPct": 40,
-        "drawPct": 30,
-        "losePct": 30
+        "awayflag": "🇸🇳"
       },
       {
         "time": "11:00",
@@ -218,12 +169,59 @@
         "home": "约旦",
         "homeflag": "🇯🇴",
         "away": "阿尔及利亚",
-        "awayflag": "🇩🇿",
-        "winPct": 35,
+        "awayflag": "🇩🇿"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "01:00",
+        "group": "GROUP_K组",
+        "venue": "",
+        "home": "葡萄牙",
+        "homeflag": "🇵🇹",
+        "away": "乌兹别克斯坦",
+        "awayflag": "🇺🇿",
+        "winPct": 65,
+        "drawPct": 20,
+        "losePct": 15
+      },
+      {
+        "time": "04:00",
+        "group": "GROUP_L组",
+        "venue": "",
+        "home": "英格兰",
+        "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "away": "加纳",
+        "awayflag": "🇬🇭",
+        "winPct": 70,
+        "drawPct": 18,
+        "losePct": 12
+      },
+      {
+        "time": "07:00",
+        "group": "GROUP_L组",
+        "venue": "",
+        "home": "巴拿马",
+        "homeflag": "🇵🇦",
+        "away": "克罗地亚",
+        "awayflag": "🇭🇷",
+        "winPct": 30,
         "drawPct": 25,
-        "losePct": 40
+        "losePct": 45
+      },
+      {
+        "time": "10:00",
+        "group": "GROUP_K组",
+        "venue": "",
+        "home": "哥伦比亚",
+        "homeflag": "🇨🇴",
+        "away": "Congo DR",
+        "awayflag": "🏳️",
+        "winPct": 55,
+        "drawPct": 25,
+        "losePct": 20
       }
     ]
   },
-  "generatedAt": "2026-06-22 11:31"
+  "generatedAt": "2026-06-23 07:24"
 }
