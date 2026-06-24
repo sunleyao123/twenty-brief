@@ -1,179 +1,139 @@
 {
-  "date": "2026年6月24日 周三",
-  "dayCount": "Day 175",
+  "date": "2026年6月25日 周四",
+  "dayCount": "Day 176",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "LTV计算",
-    "icon": "💰",
-    "desc": "LTV（用户终身价值）预测用户在整个生命周期内贡献的利润。通过LTV计算，可优化获客成本（CAC）和留存策略。",
+    "model": "AARRR漏斗",
+    "icon": "📊",
+    "desc": "分析用户从获取到推荐的全链路转化，识别流失环节并优化，提升整体运营效率。",
     "flow": [
-      "1. 定义周期：按用户活跃生命周期（如12个月）划分。",
-      "2. 计算ARPU：月均收入/用户数，结合毛利率。",
-      "3. 计算留存率：用同期群分析，得出各月留存比例，求和得LTV。"
+      "用户获取",
+      "用户激活",
+      "用户留存",
+      "收入转化",
+      "自传播"
     ],
-    "insight": "联通储量专区可对存量用户按LTV分层，高LTV用户推送5G升级包，低LTV用户尝试融合套餐或流量包，提升整体ARPU。"
+    "insight": "针对联通储量用户，重点优化激活和留存环节：通过首充礼包提升激活率，利用积分换流量活动增强留存。"
   },
   "psych": {
-    "concept": "互惠原则",
-    "icon": "🔄",
-    "def": "互惠原则指人们倾向于回报他人的善意或恩惠。",
-    "quote": "例如，联通向用户免费赠送3天流量包后，用户更可能参与付费升级活动。",
-    "insight": "在储量专区，先给用户免费体验（如7天视频会员），随后推送付费包，利用互惠提升转化率。"
+    "concept": "峰终定律",
+    "icon": "⛰️",
+    "def": "人们对一段体验的评价主要基于高峰时刻和结束时刻的感受。",
+    "quote": "在联通用户服务中，高峰（如客服快速解决问题）和结束（如感谢短信）决定整体满意度。",
+    "insight": "在用户充值或投诉后，立即发送贴心短信并赠送小额流量，提升峰值和终点体验，从而增加复充率。"
   },
   "biz": {
-    "topic": "用户终身价值LTV",
-    "icon": "📈",
-    "desc": "LTV衡量单个用户带来的总利润。高LTV用户是运营核心，需重点维系。",
-    "stat1label": "高LTV用户占比",
+    "topic": "复利效应",
+    "icon": "💰",
+    "desc": "初始收益持续积累产生指数级增长。在运营中，每多一个用户带来的网络效应会加速增长。",
+    "stat1label": "用户数量",
     "stat1pct": 75,
-    "stat1val": "高活跃用户",
-    "stat2label": "低LTV用户占比",
+    "stat1val": "1500万",
+    "stat2label": "ARPU",
     "stat2pct": 35,
-    "stat2val": "低活跃用户",
-    "insight": "联通应聚焦高LTV用户（如合约到期用户）提供专属续约优惠，同时激活低LTV用户（如低频用户）通过定向流量包。"
+    "stat2val": "45元",
+    "insight": "联通可设计推荐奖励机制，让用户邀请好友获得流量复利，实现用户自增长。"
   },
   "global": {
-    "title": "美联储暗示年内或降息两次，美元指数跌破100关口",
+    "title": "全球央行同步加息，新兴市场货币承压",
     "icon": "🌍",
-    "what": "美联储主席鲍威尔在国会听证中表示，若通胀持续回落，2026年可能降息两次，首次或在9月。美元指数应声下跌至99.8。",
-    "why": "美国5月CPI同比降至2.3%，接近目标，市场预期货币政策转向宽松。",
-    "impact": "美元走弱利好进口商品价格，但可能推高人民币汇率，影响出口企业。消费者换汇成本降低，出境游升温。",
-    "newsTime": "",
-    "newsSource": ""
+    "what": "美联储、欧央行、英央行同日宣布加息25个基点，新兴市场货币对美元普遍贬值。",
+    "why": "通胀数据超预期，各国央行被迫继续紧缩以抑制物价。",
+    "impact": "出国留学和旅游成本上升，进口商品价格上涨。",
+    "newsTime": "2026年6月25日",
+    "newsSource": "路透社"
   },
   "tech": {
-    "company": "亚马逊",
-    "logo": "A",
-    "logoBg": "#FF9900",
-    "news": "Prime Day大促正式开启：Apple、Sony、Bose等科技产品最高折扣54%",
-    "desc": "亚马逊Prime Day活动现已上线，涵盖耳机、电视、iPhone配件等品类，折扣力度大。",
-    "insight": "联通可借鉴Prime Day模式，推出“联通会员日”，针对存量用户提供流量包、5G套餐限时折扣，结合互惠原则赠送体验包。",
-    "newsTime": "6月23日 08:30",
-    "newsSource": "Yahoo Entertainment"
+    "company": "Meta",
+    "logo": "M",
+    "logoBg": "#1877F2",
+    "news": "Instagram和Facebook发生大规模宕机",
+    "desc": "全球用户无法访问Instagram和Facebook，持续约两小时，影响数百万用户。",
+    "insight": "联通可借此契机推广自有社交应用或增强网络稳定性宣传，强调运营商级可靠性。",
+    "newsTime": "6月24日 05:36",
+    "newsSource": "The-independent.com"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC「再战轮回」上线首日销量破500万份",
-    "icon": "🎮",
-    "desc": "国产游戏《黑神话：悟空》首个大型DLC于6月23日发布，新增剧情与BOSS，玩家好评如潮。",
-    "quote": "游戏出圈背后是文化自信，联通可探索游戏联名流量卡或云游戏套餐。",
+    "title": "2026年世界杯预选赛亚洲区激战正酣",
+    "icon": "⚽",
+    "desc": "中国男足关键战平韩国，保留出线希望。",
+    "quote": "足球是圆的，一切皆有可能。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "leverage",
-        "phonetic": "/ˈlevərɪdʒ/",
-        "pron": "莱沃瑞之",
-        "mean": "利用，杠杆作用"
+        "word": "acquisition",
+        "phonetic": "/ˌækwɪˈzɪʃən/",
+        "pron": "阿奎贼申",
+        "mean": "获取"
       },
       {
         "word": "retention",
-        "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞坦申",
-        "mean": "留存，保留"
+        "phonetic": "/rɪˈtenʃən/",
+        "pron": "瑞藤申",
+        "mean": "留存"
       },
       {
-        "word": "conversion",
-        "phonetic": "/kənˈvɜːrʒn/",
-        "pron": "康沃慎",
-        "mean": "转化，转换"
+        "word": "revenue",
+        "phonetic": "/ˈrevənuː/",
+        "pron": "瑞沃努",
+        "mean": "收入"
       }
     ],
-    "example": "To **leverage** user data, we must improve **retention** and **conversion** rates.",
-    "exampleCN": "为了利用用户数据，我们必须提高留存率和转化率。"
+    "example": "User **acquisition** is the first step, but **retention** drives long-term **revenue**.",
+    "exampleCN": "用户获取是第一步，但留存驱动长期收入。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "顧客",
-        "kana": "こきゃく",
-        "romaji": "kokyaku",
-        "pron": "考克亚库",
-        "mean": "顾客"
+        "ja": "獲得",
+        "kana": "かくとく",
+        "romaji": "kakutoku",
+        "pron": "卡库托库",
+        "mean": "获取"
       },
       {
-        "ja": "維持",
-        "kana": "いじ",
-        "romaji": "iji",
-        "pron": "一鸡",
-        "mean": "维持，留存"
+        "ja": "定着",
+        "kana": "ていちゃく",
+        "romaji": "teichaku",
+        "pron": "泰恰库",
+        "mean": "留存"
       },
       {
         "ja": "収益",
         "kana": "しゅうえき",
         "romaji": "shūeki",
-        "pron": "秀爱ki",
+        "pron": "修艾ki",
         "mean": "收益"
       }
     ],
-    "example": "**顧客**の**維持**率を高めて**収益**を最大化する。",
-    "exampleCN": "提高顾客留存率，最大化收益。"
+    "example": "ユーザー**獲得**が重要ですが、**定着**が長期的な**収益**を生みます。",
+    "exampleCN": "用户获取很重要，但留存创造长期收益。"
   },
   "ai": {
-    "topic": "具身智能",
+    "topic": "AI Agent自主代理",
     "node1": "🤖",
-    "node2": "🔧",
-    "node3": "🏭",
-    "desc": "具身智能是能感知环境并自主行动的AI，如人形机器人。它融合感知、决策与运动控制。",
-    "insight": "联通5G+边缘计算可为具身智能提供低延迟通信，应用于仓储物流、家庭服务等场景，可推出机器人专用流量套餐。"
+    "node2": "🔄",
+    "node3": "🎯",
+    "desc": "能自主执行任务（如客服、推荐）的AI，无需人类干预。",
+    "insight": "联通可部署AI Agent自动处理用户投诉、推荐套餐，提升响应速度和转化率。"
   },
   "think": {
-    "question": "如何运用互惠原则设计联通储量专区的用户激活活动？",
+    "question": "如果联通推出无限流量套餐但限速，你会选择购买吗？",
     "tags": [
-      "免费体验3天流量包",
-      "充值返现10%",
-      "邀请好友得积分",
-      "生日月双倍积分"
+      "会，速度够用就行",
+      "不会，限速太坑",
+      "看价格",
+      "其他"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 24,
-    "todayDate": "6月24日",
-    "tomorrowDate": "6月25日",
+    "daysToFinal": 23,
+    "todayDate": "6月25日",
+    "tomorrowDate": "6月26日",
     "finished": [
-      {
-        "time": "01:00",
-        "group": "GROUP_K组",
-        "venue": "",
-        "home": "葡萄牙",
-        "homeflag": "🇵🇹",
-        "away": "乌兹别克斯坦",
-        "awayflag": "🇺🇿",
-        "score": "5-0"
-      },
-      {
-        "time": "04:00",
-        "group": "GROUP_L组",
-        "venue": "",
-        "home": "英格兰",
-        "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "away": "加纳",
-        "awayflag": "🇬🇭",
-        "score": "0-0"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "07:00",
-        "group": "GROUP_L组",
-        "venue": "",
-        "home": "巴拿马",
-        "homeflag": "🇵🇦",
-        "away": "克罗地亚",
-        "awayflag": "🇭🇷"
-      },
-      {
-        "time": "10:00",
-        "group": "GROUP_K组",
-        "venue": "",
-        "home": "哥伦比亚",
-        "homeflag": "🇨🇴",
-        "away": "Congo DR",
-        "awayflag": "🏳️"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "03:00",
         "group": "GROUP_B组",
@@ -182,9 +142,7 @@
         "homeflag": "🇨🇭",
         "away": "加拿大",
         "awayflag": "🇨🇦",
-        "winPct": 45,
-        "drawPct": 30,
-        "losePct": 25
+        "score": "2-1"
       },
       {
         "time": "03:00",
@@ -194,10 +152,10 @@
         "homeflag": "🏳️",
         "away": "卡塔尔",
         "awayflag": "🇶🇦",
-        "winPct": 40,
-        "drawPct": 30,
-        "losePct": 30
-      },
+        "score": "3-1"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "06:00",
         "group": "GROUP_C组",
@@ -205,10 +163,7 @@
         "home": "摩洛哥",
         "homeflag": "🇲🇦",
         "away": "海地",
-        "awayflag": "🇭🇹",
-        "winPct": 55,
-        "drawPct": 25,
-        "losePct": 20
+        "awayflag": "🇭🇹"
       },
       {
         "time": "06:00",
@@ -217,10 +172,7 @@
         "home": "苏格兰",
         "homeflag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "away": "巴西",
-        "awayflag": "🇧🇷",
-        "winPct": 20,
-        "drawPct": 25,
-        "losePct": 55
+        "awayflag": "🇧🇷"
       },
       {
         "time": "09:00",
@@ -229,10 +181,7 @@
         "home": "Czechia",
         "homeflag": "🏳️",
         "away": "墨西哥",
-        "awayflag": "🇲🇽",
-        "winPct": 50,
-        "drawPct": 30,
-        "losePct": 20
+        "awayflag": "🇲🇽"
       },
       {
         "time": "09:00",
@@ -241,12 +190,83 @@
         "home": "南非",
         "homeflag": "🇿🇦",
         "away": "韩国",
-        "awayflag": "🇰🇷",
+        "awayflag": "🇰🇷"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "04:00",
+        "group": "GROUP_E组",
+        "venue": "",
+        "home": "厄瓜多尔",
+        "homeflag": "🇪🇨",
+        "away": "德国",
+        "awayflag": "🇩🇪",
+        "winPct": 30,
+        "drawPct": 25,
+        "losePct": 45
+      },
+      {
+        "time": "04:00",
+        "group": "GROUP_E组",
+        "venue": "",
+        "home": "库拉索",
+        "homeflag": "🇨🇼",
+        "away": "科特迪瓦",
+        "awayflag": "🇨🇮",
+        "winPct": 20,
+        "drawPct": 20,
+        "losePct": 60
+      },
+      {
+        "time": "07:00",
+        "group": "GROUP_F组",
+        "venue": "",
+        "home": "突尼斯",
+        "homeflag": "🇹🇳",
+        "away": "荷兰",
+        "awayflag": "🇳🇱",
+        "winPct": 25,
+        "drawPct": 25,
+        "losePct": 50
+      },
+      {
+        "time": "07:00",
+        "group": "GROUP_F组",
+        "venue": "",
+        "home": "日本",
+        "homeflag": "🇯🇵",
+        "away": "瑞典",
+        "awayflag": "🇸🇪",
+        "winPct": 40,
+        "drawPct": 30,
+        "losePct": 30
+      },
+      {
+        "time": "10:00",
+        "group": "GROUP_D组",
+        "venue": "",
+        "home": "土耳其",
+        "homeflag": "🇹🇷",
+        "away": "美国",
+        "awayflag": "🇺🇸",
         "winPct": 35,
         "drawPct": 30,
         "losePct": 35
+      },
+      {
+        "time": "10:00",
+        "group": "GROUP_D组",
+        "venue": "",
+        "home": "巴拉圭",
+        "homeflag": "🇵🇾",
+        "away": "澳大利亚",
+        "awayflag": "🇦🇺",
+        "winPct": 45,
+        "drawPct": 25,
+        "losePct": 30
       }
     ]
   },
-  "generatedAt": "2026-06-24 07:11"
+  "generatedAt": "2026-06-25 07:08"
 }
