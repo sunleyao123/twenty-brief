@@ -1,200 +1,136 @@
 {
-  "date": "2026年6月25日 周四",
-  "dayCount": "Day 176",
+  "date": "2026年6月26日 周五",
+  "dayCount": "Day 177",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "RFM模型",
-    "icon": "📊",
-    "desc": "RFM模型通过最近购买时间（Recency）、购买频率（Frequency）和消费金额（Monetary）三个维度评估用户价值，帮助运营商识别高价值用户并进行精准营销。",
+    "model": "北极星指标",
+    "icon": "🌟",
+    "desc": "北极星指标是驱动产品长期增长的核心指标，指引团队聚焦关键目标。在联通运营中，选择正确的北极星指标能统一方向、衡量进展。",
     "flow": [
-      "对用户进行R、F、M三个维度的数据打分（1-5分）",
-      "根据分数组合将用户划分为8类（如重要价值、重要发展、重要保持、重要挽留等）",
-      "针对不同类别设计差异化运营策略（如高价值用户推送高价套餐，流失用户发放优惠券）"
+      "确定业务核心价值，如'活跃付费用户数'",
+      "分解指标到各团队，如市场、产品、客服",
+      "定期复盘指标达成情况，调整策略"
     ],
-    "insight": "联通储量专区可针对RFM高价值用户（R≤30天、F≥5次/月、M≥100元）定向推送5G升级包或家庭融合套餐，预计转化率提升20%。"
+    "insight": "联通储量专区可选用'月活跃交易用户'作为北极星指标，推动用户持续使用储量服务，提升粘性。"
   },
   "psych": {
-    "concept": "损失厌恶",
-    "icon": "😟",
-    "def": "损失厌恶指人们对损失的敏感度远高于对收益的敏感度，同等金额的损失带来的负效用约为收益正效用的2倍。",
-    "quote": "例如，用户更可能为了不失去已获得的10元优惠券而消费，而不愿为了获得10元新优惠而消费。",
-    "insight": "在套餐续约场景中，用“您当前享有的XX特权即将过期”代替“续约可获新特权”，利用损失厌恶心理提升续约率15%以上。"
+    "concept": "锚定效应",
+    "icon": "⚓",
+    "def": "人们在做决策时过度依赖最先获得的信息（锚点）。",
+    "quote": "比如在套餐推荐页面，先展示198元/月的高价套餐，再展示128元/月的套餐，用户会觉得128元更划算。",
+    "insight": "在联通储量产品中，先展示大容量包（如100GB 50元），再推小容量包（20GB 20元），可提升小容量包转化率。"
   },
   "biz": {
-    "topic": "现金流管理",
-    "icon": "💰",
-    "desc": "现金流管理是企业确保资金链不断裂的核心能力。对于运营商而言，优化预付费用户占比和应收账款周转率可显著提升经营稳健性。",
-    "stat1label": "预付费用户占比",
+    "topic": "护城河",
+    "icon": "🏰",
+    "desc": "护城河是企业长期抵御竞争对手的可持续竞争优势。联通凭借网络基础设施和用户规模，构筑了强大的护城河。",
+    "stat1label": "网络覆盖优势",
     "stat1pct": 75,
-    "stat1val": "75%",
-    "stat2label": "应收账款周转天数",
+    "stat1val": "领先行业",
+    "stat2label": "用户忠诚度",
     "stat2pct": 35,
-    "stat2val": "35天",
-    "insight": "运营启示：通过推出“年付享折扣”活动，引导后付费用户转为预付费，可增加自由现金流，降低坏账风险。"
+    "stat2val": "需提升",
+    "insight": "运营应强化网络质量宣传，同时通过会员权益增加用户转换成本，加深护城河。"
   },
   "global": {
-    "title": "美联储维持利率不变，暗示年内仅降息一次",
+    "title": "美联储维持利率不变，暗示年内或加息一次",
     "icon": "🌍",
-    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.50%不变，点阵图显示2026年内仅预期一次降息。",
-    "why": "尽管通胀有所回落，但核心CPI仍高于2%目标，且就业市场依然强劲，美联储选择谨慎观望。",
-    "impact": "对普通人影响：房贷、车贷利率将继续维持高位，信用卡利息负担加重，储蓄账户利率可能小幅下降。",
-    "newsTime": "",
-    "newsSource": ""
+    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.50%不变，但点阵图显示年内可能加息一次。",
+    "why": "通胀仍高于2%目标，劳动力市场强劲，美联储采取谨慎观望策略。",
+    "impact": "借贷成本维持高位，影响房贷、车贷利率；美元走强，新兴市场资金外流压力增大。",
+    "newsTime": "2026-06-18",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "CNN",
-    "logo": "C",
-    "logoBg": "#cc0000",
-    "news": "我找到了9个亚马逊Prime Day最佳便携充电器优惠——让你的手机电量满满",
-    "desc": "科技作者精选Prime Day期间便携充电器的最优折扣，涵盖Anker、Belkin等品牌，折扣力度最高达50%。",
-    "insight": "对联通运营启发：可联合充电器品牌推出“购5G套餐送充电宝”活动，利用Prime Day热点提升套餐办理量。",
-    "newsTime": "6月24日 08:46",
-    "newsSource": "CNN"
+    "company": "Google",
+    "logo": "G",
+    "logoBg": "#4285F4",
+    "news": "Chrome中的Gemini新增「从屏幕选择」工具，Gemini 3.5 Flash获得计算机使用能力",
+    "desc": "Gemini in Chrome现在允许用户通过新工具聚焦提示，同时开发者可调用3.5 Flash的计算机使用功能。",
+    "insight": "联通可借鉴此交互，在APP内实现截图或屏幕区域选择后直接查询账单、办理业务，提升效率。",
+    "newsTime": "6月25日 01:45",
+    "newsSource": "9to5google.com"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC“再战轮回”发售首周销量破500万",
+    "title": "《黑神话：悟空》DLC「再战轮回」预告播放量破千万",
     "icon": "🎮",
-    "desc": "国产游戏《黑神话：悟空》大型DLC于6月18日发售，新增地图、Boss和剧情，口碑持续走高。",
-    "quote": "玩家自制MOD数量激增，社区二创内容带动游戏热度再创新高。",
+    "desc": "国产3A游戏《黑神话：悟空》首个大型DLC预告片发布，新增地图与Boss，引发玩家热议。",
+    "quote": "国产游戏崛起，文化输出新标杆。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "arbitrage",
-        "phonetic": "/ˈɑːrbɪtrɑːʒ/",
-        "pron": "阿比特拉日",
-        "mean": "套利"
+        "word": "Articulate",
+        "phonetic": "/ɑːrˈtɪkjuleɪt/",
+        "pron": "阿提丘雷特",
+        "mean": "清晰地表达"
       },
       {
-        "word": "leverage",
-        "phonetic": "/ˈlevərɪdʒ/",
-        "pron": "雷沃瑞之",
-        "mean": "杠杆"
+        "word": "Pivotal",
+        "phonetic": "/ˈpɪvətl/",
+        "pron": "皮沃透",
+        "mean": "关键的"
       },
       {
-        "word": "equity",
-        "phonetic": "/ˈekwəti/",
-        "pron": "埃克沃替",
-        "mean": "股权"
+        "word": "Resilience",
+        "phonetic": "/rɪˈzɪliəns/",
+        "pron": "瑞兹里恩斯",
+        "mean": "韧性"
       }
     ],
-    "example": "Investors use **arbitrage** to profit from price differences, **leverage** to amplify returns, and **equity** to represent ownership.",
-    "exampleCN": "投资者利用套利从价差中获利，利用杠杆放大回报，利用股权代表所有权。"
+    "example": "To **articulate** a **pivotal** strategy requires **resilience**.",
+    "exampleCN": "清晰地表达关键策略需要韧性。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "株主",
-        "kana": "かぶぬし",
-        "romaji": "kabunushi",
-        "pron": "卡布努西",
-        "mean": "股东"
+        "ja": "挑戦",
+        "kana": "ちょうせん",
+        "romaji": "chousen",
+        "pron": "乔森",
+        "mean": "挑战"
       },
       {
-        "ja": "配当",
-        "kana": "はいとう",
-        "romaji": "haitou",
-        "pron": "哈依托",
-        "mean": "分红"
+        "ja": "成長",
+        "kana": "せいちょう",
+        "romaji": "seichou",
+        "pron": "塞乔",
+        "mean": "成长"
       },
       {
-        "ja": "買収",
-        "kana": "ばいしゅう",
-        "romaji": "baishuu",
-        "pron": "拜修",
-        "mean": "收购"
+        "ja": "可能性",
+        "kana": "かのうせい",
+        "romaji": "kanousei",
+        "pron": "卡诺塞",
+        "mean": "可能性"
       }
     ],
-    "example": "株主への**配当**を増やすために、会社は他社を**買収**することを検討している。",
-    "exampleCN": "为了增加对股东的分红，公司正在考虑收购其他公司。"
+    "example": "新しい**挑戦**が**成長**の**可能性**を広げる。**",
+    "exampleCN": "新的挑战拓宽了成长的可能性。"
   },
   "ai": {
-    "topic": "Prompt工程",
-    "node1": "🎯",
-    "node2": "🧩",
-    "node3": "🔄",
-    "desc": "Prompt工程是通过精心设计输入指令，引导AI模型生成高质量、符合预期输出的技术。",
-    "insight": "联通应用场景：设计标准化的Prompt模板用于客服机器人，针对套餐查询、故障报修等场景提供统一、准确的回复。"
+    "topic": "多模态AI",
+    "node1": "👁️",
+    "node2": "🗣️",
+    "node3": "📝",
+    "desc": "多模态AI能同时处理文本、图像、语音等多种信息形式，实现更自然的交互。",
+    "insight": "联通可开发多模态客服，用户拍照上传问题即可得到解答，或通过语音直接办理业务。"
   },
   "think": {
-    "question": "如果你是联通运营负责人，你会如何利用RFM模型提升5G套餐的渗透率？",
+    "question": "联通储量专区如何通过锚定效应设计套餐价格，提高中档套餐购买率？",
     "tags": [
-      "A. 向高价值用户推送5G套餐，强调速度与体验",
-      "B. 向低频率用户推送5G流量包，以低价吸引",
-      "C. 结合损失厌恶，提示用户现有4G套餐即将过时",
-      "D. 联合手机厂商推出5G手机优惠购活动"
+      "先推高价套餐",
+      "先推低价套餐",
+      "随机展示价格"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 23,
-    "todayDate": "6月25日",
-    "tomorrowDate": "6月26日",
+    "daysToFinal": 22,
+    "todayDate": "6月26日",
+    "tomorrowDate": "6月27日",
     "finished": [
-      {
-        "time": "03:00",
-        "group": "GROUP_B组",
-        "venue": "",
-        "home": "瑞士",
-        "homeflag": "🇨🇭",
-        "away": "加拿大",
-        "awayflag": "🇨🇦",
-        "score": "2-1"
-      },
-      {
-        "time": "03:00",
-        "group": "GROUP_B组",
-        "venue": "",
-        "home": "Bosnia-Herzegovina",
-        "homeflag": "🏳️",
-        "away": "卡塔尔",
-        "awayflag": "🇶🇦",
-        "score": "3-1"
-      },
-      {
-        "time": "06:00",
-        "group": "GROUP_C组",
-        "venue": "",
-        "home": "摩洛哥",
-        "homeflag": "🇲🇦",
-        "away": "海地",
-        "awayflag": "🇭🇹",
-        "score": "4-2"
-      },
-      {
-        "time": "06:00",
-        "group": "GROUP_C组",
-        "venue": "",
-        "home": "苏格兰",
-        "homeflag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "away": "巴西",
-        "awayflag": "🇧🇷",
-        "score": "0-3"
-      },
-      {
-        "time": "09:00",
-        "group": "GROUP_A组",
-        "venue": "",
-        "home": "Czechia",
-        "homeflag": "🏳️",
-        "away": "墨西哥",
-        "awayflag": "🇲🇽",
-        "score": "0-3"
-      },
-      {
-        "time": "09:00",
-        "group": "GROUP_A组",
-        "venue": "",
-        "home": "南非",
-        "homeflag": "🇿🇦",
-        "away": "韩国",
-        "awayflag": "🇰🇷",
-        "score": "1-0"
-      }
-    ],
-    "todayScheduled": [],
-    "tomorrow": [
       {
         "time": "04:00",
         "group": "GROUP_E组",
@@ -203,9 +139,7 @@
         "homeflag": "🇪🇨",
         "away": "德国",
         "awayflag": "🇩🇪",
-        "winPct": 30,
-        "drawPct": 25,
-        "losePct": 45
+        "score": "2-1"
       },
       {
         "time": "04:00",
@@ -215,10 +149,10 @@
         "homeflag": "🇨🇼",
         "away": "科特迪瓦",
         "awayflag": "🇨🇮",
-        "winPct": 20,
-        "drawPct": 20,
-        "losePct": 60
-      },
+        "score": "0-2"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "07:00",
         "group": "GROUP_F组",
@@ -226,10 +160,7 @@
         "home": "突尼斯",
         "homeflag": "🇹🇳",
         "away": "荷兰",
-        "awayflag": "🇳🇱",
-        "winPct": 25,
-        "drawPct": 25,
-        "losePct": 50
+        "awayflag": "🇳🇱"
       },
       {
         "time": "07:00",
@@ -238,10 +169,7 @@
         "home": "日本",
         "homeflag": "🇯🇵",
         "away": "瑞典",
-        "awayflag": "🇸🇪",
-        "winPct": 35,
-        "drawPct": 30,
-        "losePct": 35
+        "awayflag": "🇸🇪"
       },
       {
         "time": "10:00",
@@ -250,10 +178,7 @@
         "home": "土耳其",
         "homeflag": "🇹🇷",
         "away": "美国",
-        "awayflag": "🇺🇸",
-        "winPct": 40,
-        "drawPct": 30,
-        "losePct": 30
+        "awayflag": "🇺🇸"
       },
       {
         "time": "10:00",
@@ -262,12 +187,83 @@
         "home": "巴拉圭",
         "homeflag": "🇵🇾",
         "away": "澳大利亚",
-        "awayflag": "🇦🇺",
+        "awayflag": "🇦🇺"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "03:00",
+        "group": "GROUP_I组",
+        "venue": "",
+        "home": "挪威",
+        "homeflag": "🇳🇴",
+        "away": "法国",
+        "awayflag": "🇫🇷",
+        "winPct": 20,
+        "drawPct": 25,
+        "losePct": 55
+      },
+      {
+        "time": "03:00",
+        "group": "GROUP_I组",
+        "venue": "",
+        "home": "塞内加尔",
+        "homeflag": "🇸🇳",
+        "away": "伊拉克",
+        "awayflag": "🇮🇶",
         "winPct": 45,
         "drawPct": 30,
         "losePct": 25
+      },
+      {
+        "time": "08:00",
+        "group": "GROUP_H组",
+        "venue": "",
+        "home": "乌拉圭",
+        "homeflag": "🇺🇾",
+        "away": "西班牙",
+        "awayflag": "🇪🇸",
+        "winPct": 30,
+        "drawPct": 25,
+        "losePct": 45
+      },
+      {
+        "time": "08:00",
+        "group": "GROUP_H组",
+        "venue": "",
+        "home": "Cape Verde Islands",
+        "homeflag": "🏳️",
+        "away": "沙特",
+        "awayflag": "🇸🇦",
+        "winPct": 40,
+        "drawPct": 30,
+        "losePct": 30
+      },
+      {
+        "time": "11:00",
+        "group": "GROUP_G组",
+        "venue": "",
+        "home": "新西兰",
+        "homeflag": "🇳🇿",
+        "away": "比利时",
+        "awayflag": "🇧🇪",
+        "winPct": 15,
+        "drawPct": 20,
+        "losePct": 65
+      },
+      {
+        "time": "11:00",
+        "group": "GROUP_G组",
+        "venue": "",
+        "home": "埃及",
+        "homeflag": "🇪🇬",
+        "away": "伊朗",
+        "awayflag": "🇮🇷",
+        "winPct": 35,
+        "drawPct": 30,
+        "losePct": 35
       }
     ]
   },
-  "generatedAt": "2026-06-25 12:35"
+  "generatedAt": "2026-06-26 07:22"
 }
