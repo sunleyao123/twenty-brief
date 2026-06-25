@@ -3,129 +3,127 @@
   "dayCount": "Day 176",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "AARRR漏斗",
+    "model": "RFM模型",
     "icon": "📊",
-    "desc": "分析用户从获取到推荐的全链路转化，识别流失环节并优化，提升整体运营效率。",
+    "desc": "RFM模型通过最近购买时间（Recency）、购买频率（Frequency）和消费金额（Monetary）三个维度评估用户价值，帮助运营商识别高价值用户并进行精准营销。",
     "flow": [
-      "用户获取",
-      "用户激活",
-      "用户留存",
-      "收入转化",
-      "自传播"
+      "对用户进行R、F、M三个维度的数据打分（1-5分）",
+      "根据分数组合将用户划分为8类（如重要价值、重要发展、重要保持、重要挽留等）",
+      "针对不同类别设计差异化运营策略（如高价值用户推送高价套餐，流失用户发放优惠券）"
     ],
-    "insight": "针对联通储量用户，重点优化激活和留存环节：通过首充礼包提升激活率，利用积分换流量活动增强留存。"
+    "insight": "联通储量专区可针对RFM高价值用户（R≤30天、F≥5次/月、M≥100元）定向推送5G升级包或家庭融合套餐，预计转化率提升20%。"
   },
   "psych": {
-    "concept": "峰终定律",
-    "icon": "⛰️",
-    "def": "人们对一段体验的评价主要基于高峰时刻和结束时刻的感受。",
-    "quote": "在联通用户服务中，高峰（如客服快速解决问题）和结束（如感谢短信）决定整体满意度。",
-    "insight": "在用户充值或投诉后，立即发送贴心短信并赠送小额流量，提升峰值和终点体验，从而增加复充率。"
+    "concept": "损失厌恶",
+    "icon": "😟",
+    "def": "损失厌恶指人们对损失的敏感度远高于对收益的敏感度，同等金额的损失带来的负效用约为收益正效用的2倍。",
+    "quote": "例如，用户更可能为了不失去已获得的10元优惠券而消费，而不愿为了获得10元新优惠而消费。",
+    "insight": "在套餐续约场景中，用“您当前享有的XX特权即将过期”代替“续约可获新特权”，利用损失厌恶心理提升续约率15%以上。"
   },
   "biz": {
-    "topic": "复利效应",
+    "topic": "现金流管理",
     "icon": "💰",
-    "desc": "初始收益持续积累产生指数级增长。在运营中，每多一个用户带来的网络效应会加速增长。",
-    "stat1label": "用户数量",
+    "desc": "现金流管理是企业确保资金链不断裂的核心能力。对于运营商而言，优化预付费用户占比和应收账款周转率可显著提升经营稳健性。",
+    "stat1label": "预付费用户占比",
     "stat1pct": 75,
-    "stat1val": "1500万",
-    "stat2label": "ARPU",
+    "stat1val": "75%",
+    "stat2label": "应收账款周转天数",
     "stat2pct": 35,
-    "stat2val": "45元",
-    "insight": "联通可设计推荐奖励机制，让用户邀请好友获得流量复利，实现用户自增长。"
+    "stat2val": "35天",
+    "insight": "运营启示：通过推出“年付享折扣”活动，引导后付费用户转为预付费，可增加自由现金流，降低坏账风险。"
   },
   "global": {
-    "title": "全球央行同步加息，新兴市场货币承压",
+    "title": "美联储维持利率不变，暗示年内仅降息一次",
     "icon": "🌍",
-    "what": "美联储、欧央行、英央行同日宣布加息25个基点，新兴市场货币对美元普遍贬值。",
-    "why": "通胀数据超预期，各国央行被迫继续紧缩以抑制物价。",
-    "impact": "出国留学和旅游成本上升，进口商品价格上涨。",
-    "newsTime": "2026年6月25日",
-    "newsSource": "路透社"
+    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.50%不变，点阵图显示2026年内仅预期一次降息。",
+    "why": "尽管通胀有所回落，但核心CPI仍高于2%目标，且就业市场依然强劲，美联储选择谨慎观望。",
+    "impact": "对普通人影响：房贷、车贷利率将继续维持高位，信用卡利息负担加重，储蓄账户利率可能小幅下降。",
+    "newsTime": "",
+    "newsSource": ""
   },
   "tech": {
-    "company": "Meta",
-    "logo": "M",
-    "logoBg": "#1877F2",
-    "news": "Instagram和Facebook发生大规模宕机",
-    "desc": "全球用户无法访问Instagram和Facebook，持续约两小时，影响数百万用户。",
-    "insight": "联通可借此契机推广自有社交应用或增强网络稳定性宣传，强调运营商级可靠性。",
-    "newsTime": "6月24日 05:36",
-    "newsSource": "The-independent.com"
+    "company": "CNN",
+    "logo": "C",
+    "logoBg": "#cc0000",
+    "news": "我找到了9个亚马逊Prime Day最佳便携充电器优惠——让你的手机电量满满",
+    "desc": "科技作者精选Prime Day期间便携充电器的最优折扣，涵盖Anker、Belkin等品牌，折扣力度最高达50%。",
+    "insight": "对联通运营启发：可联合充电器品牌推出“购5G套餐送充电宝”活动，利用Prime Day热点提升套餐办理量。",
+    "newsTime": "6月24日 08:46",
+    "newsSource": "CNN"
   },
   "ent": {
-    "title": "2026年世界杯预选赛亚洲区激战正酣",
-    "icon": "⚽",
-    "desc": "中国男足关键战平韩国，保留出线希望。",
-    "quote": "足球是圆的，一切皆有可能。",
+    "title": "《黑神话：悟空》DLC“再战轮回”发售首周销量破500万",
+    "icon": "🎮",
+    "desc": "国产游戏《黑神话：悟空》大型DLC于6月18日发售，新增地图、Boss和剧情，口碑持续走高。",
+    "quote": "玩家自制MOD数量激增，社区二创内容带动游戏热度再创新高。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "acquisition",
-        "phonetic": "/ˌækwɪˈzɪʃən/",
-        "pron": "阿奎贼申",
-        "mean": "获取"
+        "word": "arbitrage",
+        "phonetic": "/ˈɑːrbɪtrɑːʒ/",
+        "pron": "阿比特拉日",
+        "mean": "套利"
       },
       {
-        "word": "retention",
-        "phonetic": "/rɪˈtenʃən/",
-        "pron": "瑞藤申",
-        "mean": "留存"
+        "word": "leverage",
+        "phonetic": "/ˈlevərɪdʒ/",
+        "pron": "雷沃瑞之",
+        "mean": "杠杆"
       },
       {
-        "word": "revenue",
-        "phonetic": "/ˈrevənuː/",
-        "pron": "瑞沃努",
-        "mean": "收入"
+        "word": "equity",
+        "phonetic": "/ˈekwəti/",
+        "pron": "埃克沃替",
+        "mean": "股权"
       }
     ],
-    "example": "User **acquisition** is the first step, but **retention** drives long-term **revenue**.",
-    "exampleCN": "用户获取是第一步，但留存驱动长期收入。"
+    "example": "Investors use **arbitrage** to profit from price differences, **leverage** to amplify returns, and **equity** to represent ownership.",
+    "exampleCN": "投资者利用套利从价差中获利，利用杠杆放大回报，利用股权代表所有权。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "獲得",
-        "kana": "かくとく",
-        "romaji": "kakutoku",
-        "pron": "卡库托库",
-        "mean": "获取"
+        "ja": "株主",
+        "kana": "かぶぬし",
+        "romaji": "kabunushi",
+        "pron": "卡布努西",
+        "mean": "股东"
       },
       {
-        "ja": "定着",
-        "kana": "ていちゃく",
-        "romaji": "teichaku",
-        "pron": "泰恰库",
-        "mean": "留存"
+        "ja": "配当",
+        "kana": "はいとう",
+        "romaji": "haitou",
+        "pron": "哈依托",
+        "mean": "分红"
       },
       {
-        "ja": "収益",
-        "kana": "しゅうえき",
-        "romaji": "shūeki",
-        "pron": "修艾ki",
-        "mean": "收益"
+        "ja": "買収",
+        "kana": "ばいしゅう",
+        "romaji": "baishuu",
+        "pron": "拜修",
+        "mean": "收购"
       }
     ],
-    "example": "ユーザー**獲得**が重要ですが、**定着**が長期的な**収益**を生みます。",
-    "exampleCN": "用户获取很重要，但留存创造长期收益。"
+    "example": "株主への**配当**を増やすために、会社は他社を**買収**することを検討している。",
+    "exampleCN": "为了增加对股东的分红，公司正在考虑收购其他公司。"
   },
   "ai": {
-    "topic": "AI Agent自主代理",
-    "node1": "🤖",
-    "node2": "🔄",
-    "node3": "🎯",
-    "desc": "能自主执行任务（如客服、推荐）的AI，无需人类干预。",
-    "insight": "联通可部署AI Agent自动处理用户投诉、推荐套餐，提升响应速度和转化率。"
+    "topic": "Prompt工程",
+    "node1": "🎯",
+    "node2": "🧩",
+    "node3": "🔄",
+    "desc": "Prompt工程是通过精心设计输入指令，引导AI模型生成高质量、符合预期输出的技术。",
+    "insight": "联通应用场景：设计标准化的Prompt模板用于客服机器人，针对套餐查询、故障报修等场景提供统一、准确的回复。"
   },
   "think": {
-    "question": "如果联通推出无限流量套餐但限速，你会选择购买吗？",
+    "question": "如果你是联通运营负责人，你会如何利用RFM模型提升5G套餐的渗透率？",
     "tags": [
-      "会，速度够用就行",
-      "不会，限速太坑",
-      "看价格",
-      "其他"
+      "A. 向高价值用户推送5G套餐，强调速度与体验",
+      "B. 向低频率用户推送5G流量包，以低价吸引",
+      "C. 结合损失厌恶，提示用户现有4G套餐即将过时",
+      "D. 联合手机厂商推出5G手机优惠购活动"
     ]
   },
   "worldcup": {
@@ -153,9 +151,7 @@
         "away": "卡塔尔",
         "awayflag": "🇶🇦",
         "score": "3-1"
-      }
-    ],
-    "todayScheduled": [
+      },
       {
         "time": "06:00",
         "group": "GROUP_C组",
@@ -163,7 +159,8 @@
         "home": "摩洛哥",
         "homeflag": "🇲🇦",
         "away": "海地",
-        "awayflag": "🇭🇹"
+        "awayflag": "🇭🇹",
+        "score": "4-2"
       },
       {
         "time": "06:00",
@@ -172,7 +169,8 @@
         "home": "苏格兰",
         "homeflag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "away": "巴西",
-        "awayflag": "🇧🇷"
+        "awayflag": "🇧🇷",
+        "score": "0-3"
       },
       {
         "time": "09:00",
@@ -181,7 +179,8 @@
         "home": "Czechia",
         "homeflag": "🏳️",
         "away": "墨西哥",
-        "awayflag": "🇲🇽"
+        "awayflag": "🇲🇽",
+        "score": "0-3"
       },
       {
         "time": "09:00",
@@ -190,9 +189,11 @@
         "home": "南非",
         "homeflag": "🇿🇦",
         "away": "韩国",
-        "awayflag": "🇰🇷"
+        "awayflag": "🇰🇷",
+        "score": "1-0"
       }
     ],
+    "todayScheduled": [],
     "tomorrow": [
       {
         "time": "04:00",
@@ -238,9 +239,9 @@
         "homeflag": "🇯🇵",
         "away": "瑞典",
         "awayflag": "🇸🇪",
-        "winPct": 40,
+        "winPct": 35,
         "drawPct": 30,
-        "losePct": 30
+        "losePct": 35
       },
       {
         "time": "10:00",
@@ -250,9 +251,9 @@
         "homeflag": "🇹🇷",
         "away": "美国",
         "awayflag": "🇺🇸",
-        "winPct": 35,
+        "winPct": 40,
         "drawPct": 30,
-        "losePct": 35
+        "losePct": 30
       },
       {
         "time": "10:00",
@@ -263,10 +264,10 @@
         "away": "澳大利亚",
         "awayflag": "🇦🇺",
         "winPct": 45,
-        "drawPct": 25,
-        "losePct": 30
+        "drawPct": 30,
+        "losePct": 25
       }
     ]
   },
-  "generatedAt": "2026-06-25 07:08"
+  "generatedAt": "2026-06-25 12:35"
 }
