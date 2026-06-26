@@ -1,196 +1,137 @@
 {
-  "date": "2026年6月26日 周五",
-  "dayCount": "Day 177",
+  "date": "2026年6月27日 周六",
+  "dayCount": "Day 178",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "北极星指标",
-    "icon": "🌟",
-    "desc": "北极星指标是驱动产品长期增长的核心指标，指引团队聚焦关键目标。在联通运营中，选择正确的北极星指标能统一方向、衡量进展。",
+    "model": "JTBD理论",
+    "icon": "💼",
+    "desc": "用户雇佣产品或服务来完成特定任务（Jobs to Be Done）。关注用户背后的真实需求，而非人口统计特征。",
     "flow": [
-      "确定业务核心价值，如'活跃付费用户数'",
-      "分解指标到各团队，如市场、产品、客服",
-      "定期复盘指标达成情况，调整策略"
+      "1. 识别用户高频场景（如：查话费、流量告急）",
+      "2. 明确用户想完成的“任务”（如：快速充值、获取免费流量）",
+      "3. 设计轻量解决方案（如：一键充值引导、签到领流量）"
     ],
-    "insight": "联通储量专区可选用'月活跃交易用户'作为北极星指标，推动用户持续使用储量服务，提升粘性。"
+    "insight": "联通储量专区可围绕“用户怕流量超额”这一任务，推出低价日包、流量提醒+一键加购，降低用户焦虑。"
   },
   "psych": {
-    "concept": "锚定效应",
-    "icon": "⚓",
-    "def": "人们在做决策时过度依赖最先获得的信息（锚点）。",
-    "quote": "比如在套餐推荐页面，先展示198元/月的高价套餐，再展示128元/月的套餐，用户会觉得128元更划算。",
-    "insight": "在联通储量产品中，先展示大容量包（如100GB 50元），再推小容量包（20GB 20元），可提升小容量包转化率。"
+    "concept": "社会认同",
+    "icon": "👥",
+    "def": "人们在不确定时会参考他人的行为来决定自己的行动。",
+    "quote": "比如“已有100万用户选择联通冰激凌套餐”可提升新用户办理意愿。",
+    "insight": "在套餐推荐页展示“本月热销”、“XX城市用户最多选择”等标签，利用从众心理提升转化率。"
   },
   "biz": {
-    "topic": "护城河",
-    "icon": "🏰",
-    "desc": "护城河是企业长期抵御竞争对手的可持续竞争优势。联通凭借网络基础设施和用户规模，构筑了强大的护城河。",
-    "stat1label": "网络覆盖优势",
+    "topic": "ROE净资产收益率",
+    "icon": "📈",
+    "desc": "衡量股东每投入1元资本赚取多少净利润，是综合盈利能力指标。高ROE意味着公司能有效利用资本创造回报。",
+    "stat1label": "中国联通2025年ROE",
     "stat1pct": 75,
-    "stat1val": "领先行业",
-    "stat2label": "用户忠诚度",
+    "stat1val": "5.2%",
+    "stat2label": "行业平均ROE",
     "stat2pct": 35,
-    "stat2val": "需提升",
-    "insight": "运营应强化网络质量宣传，同时通过会员权益增加用户转换成本，加深护城河。"
+    "stat2val": "4.8%",
+    "insight": "运营可通过提升高价值用户占比（如5G套餐迁移）来增加净利润，从而改善ROE。"
   },
   "global": {
-    "title": "美联储维持利率不变，暗示年内或加息一次",
+    "title": "欧盟正式通过《数字市场法案》修正案，限制科技巨头数据垄断",
     "icon": "🌍",
-    "what": "美联储在6月议息会议后宣布维持联邦基金利率在5.25%-5.50%不变，但点阵图显示年内可能加息一次。",
-    "why": "通胀仍高于2%目标，劳动力市场强劲，美联储采取谨慎观望策略。",
-    "impact": "借贷成本维持高位，影响房贷、车贷利率；美元走强，新兴市场资金外流压力增大。",
-    "newsTime": "2026-06-18",
-    "newsSource": "Reuters"
+    "what": "欧盟委员会6月26日投票通过《数字市场法案》修正案，要求苹果、谷歌等平台必须允许用户卸载预装应用，并开放第三方支付。",
+    "why": "此举旨在打破科技巨头的数据壁垒，促进市场竞争，保护消费者数据隐私。",
+    "impact": "对普通用户：手机预装应用可自主删除，支付选择更多。对运营商：需关注数据互通可能带来的跨界竞争。",
+    "newsTime": "2026年6月26日",
+    "newsSource": "路透社"
   },
   "tech": {
-    "company": "Google",
-    "logo": "G",
-    "logoBg": "#4285F4",
-    "news": "Chrome中的Gemini新增「从屏幕选择」工具，Gemini 3.5 Flash获得计算机使用能力",
-    "desc": "Gemini in Chrome现在允许用户通过新工具聚焦提示，同时开发者可调用3.5 Flash的计算机使用功能。",
-    "insight": "联通可借鉴此交互，在APP内实现截图或屏幕区域选择后直接查询账单、办理业务，提升效率。",
-    "newsTime": "6月25日 01:45",
-    "newsSource": "9to5google.com"
+    "company": "CNET",
+    "logo": "C",
+    "logoBg": "#E53935",
+    "news": "亚马逊Prime Day最佳优惠：Ninja、Anker和三星等品牌低于50美元的好物",
+    "desc": "时间所剩不多，抓住这些价格低于50美元的Prime Day优惠，性价比超高。",
+    "insight": "联通可借鉴Prime Day的限时促销策略，推出“夏日流量包限时5折”等活动，刺激用户下单。",
+    "newsTime": "6月26日 08:42",
+    "newsSource": "CNET"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC「再战轮回」预告播放量破千万",
-    "icon": "🎮",
-    "desc": "国产3A游戏《黑神话：悟空》首个大型DLC预告片发布，新增地图与Boss，引发玩家热议。",
-    "quote": "国产游戏崛起，文化输出新标杆。",
+    "title": "周杰伦2026嘉年华世界巡回演唱会北京站开票秒光",
+    "icon": "🎤",
+    "desc": "6月27日上午10点，周杰伦北京站演唱会门票开售，30万张票瞬间售罄，平台访问量激增。",
+    "quote": "情怀经济持续发酵，粉丝为青春买单毫不手软。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "Articulate",
-        "phonetic": "/ɑːrˈtɪkjuleɪt/",
-        "pron": "阿提丘雷特",
-        "mean": "清晰地表达"
+        "word": "affordable",
+        "phonetic": "/əˈfɔːrdəbl/",
+        "pron": "额佛德宝",
+        "mean": "负担得起的"
       },
       {
-        "word": "Pivotal",
-        "phonetic": "/ˈpɪvətl/",
-        "pron": "皮沃透",
-        "mean": "关键的"
+        "word": "punch",
+        "phonetic": "/pʌntʃ/",
+        "pron": "潘吃",
+        "mean": "冲击力；有力"
       },
       {
-        "word": "Resilience",
-        "phonetic": "/rɪˈzɪliəns/",
-        "pron": "瑞兹里恩斯",
-        "mean": "韧性"
+        "word": "grab",
+        "phonetic": "/ɡræb/",
+        "pron": "格瑞布",
+        "mean": "抓住；抢购"
       }
     ],
-    "example": "To **articulate** a **pivotal** strategy requires **resilience**.",
-    "exampleCN": "清晰地表达关键策略需要韧性。"
+    "example": "Time is running out to **grab** these **affordable** Prime Day finds that **punch** well above their price.",
+    "exampleCN": "时间不多了，赶紧抢购这些价格实惠且物超所值的Prime Day好物。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "挑戦",
-        "kana": "ちょうせん",
-        "romaji": "chousen",
-        "pron": "乔森",
-        "mean": "挑战"
+        "ja": "お得",
+        "kana": "おとく",
+        "romaji": "otoku",
+        "pron": "哦托库",
+        "mean": "划算，优惠"
       },
       {
-        "ja": "成長",
-        "kana": "せいちょう",
-        "romaji": "seichou",
-        "pron": "塞乔",
-        "mean": "成长"
+        "ja": "駆け込み",
+        "kana": "かけこみ",
+        "romaji": "kakekomi",
+        "pron": "卡开考米",
+        "mean": "赶末班车，抢购"
       },
       {
-        "ja": "可能性",
-        "kana": "かのうせい",
-        "romaji": "kanousei",
-        "pron": "卡诺塞",
-        "mean": "可能性"
+        "ja": "掘り出し物",
+        "kana": "ほりだしもの",
+        "romaji": "horidashimono",
+        "pron": "获里达西莫诺",
+        "mean": "便宜货，宝藏商品"
       }
     ],
-    "example": "新しい**挑戦**が**成長**の**可能性**を広げる。**",
-    "exampleCN": "新的挑战拓宽了成长的可能性。"
+    "example": "Prime Dayの**お得**な**掘り出し物**を**駆け込み**でゲットしよう！",
+    "exampleCN": "赶紧抢购Prime Day的划算宝藏商品吧！"
   },
   "ai": {
-    "topic": "多模态AI",
-    "node1": "👁️",
-    "node2": "🗣️",
-    "node3": "📝",
-    "desc": "多模态AI能同时处理文本、图像、语音等多种信息形式，实现更自然的交互。",
-    "insight": "联通可开发多模态客服，用户拍照上传问题即可得到解答，或通过语音直接办理业务。"
+    "topic": "RAG检索增强",
+    "node1": "🔍",
+    "node2": "📚",
+    "node3": "💡",
+    "desc": "RAG（检索增强生成）将外部知识库检索与生成模型结合，提升回答准确性和时效性。",
+    "insight": "联通可构建客服知识库RAG系统，当用户咨询套餐问题时，实时检索最新资费政策并生成个性回复，减少人工成本。"
   },
   "think": {
-    "question": "联通储量专区如何通过锚定效应设计套餐价格，提高中档套餐购买率？",
+    "question": "在存量竞争时代，运营商应优先提升哪项指标来增强盈利能力？",
     "tags": [
-      "先推高价套餐",
-      "先推低价套餐",
-      "随机展示价格"
+      "A. 用户规模",
+      "B. ARPU值",
+      "C. 流失率降低",
+      "D. 渠道覆盖"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 22,
-    "todayDate": "6月26日",
-    "tomorrowDate": "6月27日",
+    "daysToFinal": 21,
+    "todayDate": "6月27日",
+    "tomorrowDate": "6月28日",
     "finished": [
-      {
-        "time": "04:00",
-        "group": "GROUP_E组",
-        "venue": "",
-        "home": "厄瓜多尔",
-        "homeflag": "🇪🇨",
-        "away": "德国",
-        "awayflag": "🇩🇪",
-        "score": "2-1"
-      },
-      {
-        "time": "04:00",
-        "group": "GROUP_E组",
-        "venue": "",
-        "home": "库拉索",
-        "homeflag": "🇨🇼",
-        "away": "科特迪瓦",
-        "awayflag": "🇨🇮",
-        "score": "0-2"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "07:00",
-        "group": "GROUP_F组",
-        "venue": "",
-        "home": "突尼斯",
-        "homeflag": "🇹🇳",
-        "away": "荷兰",
-        "awayflag": "🇳🇱"
-      },
-      {
-        "time": "07:00",
-        "group": "GROUP_F组",
-        "venue": "",
-        "home": "日本",
-        "homeflag": "🇯🇵",
-        "away": "瑞典",
-        "awayflag": "🇸🇪"
-      },
-      {
-        "time": "10:00",
-        "group": "GROUP_D组",
-        "venue": "",
-        "home": "土耳其",
-        "homeflag": "🇹🇷",
-        "away": "美国",
-        "awayflag": "🇺🇸"
-      },
-      {
-        "time": "10:00",
-        "group": "GROUP_D组",
-        "venue": "",
-        "home": "巴拉圭",
-        "homeflag": "🇵🇾",
-        "away": "澳大利亚",
-        "awayflag": "🇦🇺"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "03:00",
         "group": "GROUP_I组",
@@ -199,9 +140,7 @@
         "homeflag": "🇳🇴",
         "away": "法国",
         "awayflag": "🇫🇷",
-        "winPct": 20,
-        "drawPct": 25,
-        "losePct": 55
+        "score": "1-4"
       },
       {
         "time": "03:00",
@@ -211,10 +150,10 @@
         "homeflag": "🇸🇳",
         "away": "伊拉克",
         "awayflag": "🇮🇶",
-        "winPct": 45,
-        "drawPct": 30,
-        "losePct": 25
-      },
+        "score": "5-0"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "08:00",
         "group": "GROUP_H组",
@@ -222,10 +161,7 @@
         "home": "乌拉圭",
         "homeflag": "🇺🇾",
         "away": "西班牙",
-        "awayflag": "🇪🇸",
-        "winPct": 30,
-        "drawPct": 25,
-        "losePct": 45
+        "awayflag": "🇪🇸"
       },
       {
         "time": "08:00",
@@ -234,10 +170,7 @@
         "home": "Cape Verde Islands",
         "homeflag": "🏳️",
         "away": "沙特",
-        "awayflag": "🇸🇦",
-        "winPct": 40,
-        "drawPct": 30,
-        "losePct": 30
+        "awayflag": "🇸🇦"
       },
       {
         "time": "11:00",
@@ -246,10 +179,7 @@
         "home": "新西兰",
         "homeflag": "🇳🇿",
         "away": "比利时",
-        "awayflag": "🇧🇪",
-        "winPct": 15,
-        "drawPct": 20,
-        "losePct": 65
+        "awayflag": "🇧🇪"
       },
       {
         "time": "11:00",
@@ -258,12 +188,83 @@
         "home": "埃及",
         "homeflag": "🇪🇬",
         "away": "伊朗",
-        "awayflag": "🇮🇷",
+        "awayflag": "🇮🇷"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "05:00",
+        "group": "GROUP_L组",
+        "venue": "",
+        "home": "巴拿马",
+        "homeflag": "🇵🇦",
+        "away": "英格兰",
+        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "winPct": 15,
+        "drawPct": 20,
+        "losePct": 65
+      },
+      {
+        "time": "05:00",
+        "group": "GROUP_L组",
+        "venue": "",
+        "home": "克罗地亚",
+        "homeflag": "🇭🇷",
+        "away": "加纳",
+        "awayflag": "🇬🇭",
+        "winPct": 55,
+        "drawPct": 25,
+        "losePct": 20
+      },
+      {
+        "time": "07:30",
+        "group": "GROUP_K组",
+        "venue": "",
+        "home": "哥伦比亚",
+        "homeflag": "🇨🇴",
+        "away": "葡萄牙",
+        "awayflag": "🇵🇹",
+        "winPct": 30,
+        "drawPct": 25,
+        "losePct": 45
+      },
+      {
+        "time": "07:30",
+        "group": "GROUP_K组",
+        "venue": "",
+        "home": "Congo DR",
+        "homeflag": "🏳️",
+        "away": "乌兹别克斯坦",
+        "awayflag": "🇺🇿",
+        "winPct": 40,
+        "drawPct": 30,
+        "losePct": 30
+      },
+      {
+        "time": "10:00",
+        "group": "GROUP_J组",
+        "venue": "",
+        "home": "约旦",
+        "homeflag": "🇯🇴",
+        "away": "阿根廷",
+        "awayflag": "🇦🇷",
+        "winPct": 10,
+        "drawPct": 15,
+        "losePct": 75
+      },
+      {
+        "time": "10:00",
+        "group": "GROUP_J组",
+        "venue": "",
+        "home": "阿尔及利亚",
+        "homeflag": "🇩🇿",
+        "away": "奥地利",
+        "awayflag": "🇦🇹",
         "winPct": 35,
         "drawPct": 30,
         "losePct": 35
       }
     ]
   },
-  "generatedAt": "2026-06-26 07:22"
+  "generatedAt": "2026-06-27 07:11"
 }
