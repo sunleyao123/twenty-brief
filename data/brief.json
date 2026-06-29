@@ -1,150 +1,137 @@
 {
-  "date": "2026年6月29日 周一",
-  "dayCount": "Day 180",
+  "date": "2026年6月30日 周二",
+  "dayCount": "Day 181",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "用户分层模型",
-    "icon": "📊",
-    "desc": "将用户按价值或行为分为不同层级，针对性地制定运营策略，提升效率。",
+    "model": "LTV计算",
+    "icon": "💰",
+    "desc": "通过计算用户生命周期价值，识别高价值用户并优化资源投入，提升长期收益。",
     "flow": [
-      "确定分层维度（如消费频次、ARPU值）",
-      "划分层级（如高价值、潜力、沉默用户）",
-      "针对每层设计专属权益与触达策略"
+      "计算用户平均生命周期（如月均留存率推算）",
+      "计算平均每用户收入（ARPU）",
+      "LTV = 平均生命周期 × ARPU"
     ],
-    "insight": "联通储量专区可对高价值用户推送高端套餐升级，对沉默用户推送0元试用流量包激活使用。"
+    "insight": "建议联通在储量专区中，根据用户LTV分层推送定向权益，如高LTV用户优先体验5G-A套餐或赠送国际漫游包。"
   },
   "psych": {
-    "concept": "禀赋效应",
-    "icon": "💎",
-    "def": "个体对已拥有的物品估值高于未拥有的同类物品。",
-    "quote": "用户试用会员后，对会员权益的心理估值提升，更愿意付费续费。",
-    "insight": "联通可提供7天免费体验套餐，让用户感受高速流量价值，到期后推送续费优惠，提升转化率。"
+    "concept": "互惠原则",
+    "icon": "🤝",
+    "def": "人们倾向于回报他人给予的好处或让步。",
+    "quote": "例如：联通向用户免费赠送1GB流量体验包，用户更可能参与后续付费活动。",
+    "insight": "在流量包续费或套餐升级场景，先提供短期免费体验，利用互惠原则提升转化率。"
   },
   "biz": {
-    "topic": "边际成本",
-    "icon": "📉",
-    "desc": "每多生产一单位产品所增加的成本。数字化产品边际成本极低，适合大规模复制。",
-    "stat1label": "传统运营商新增用户成本",
+    "topic": "用户终身价值LTV",
+    "icon": "📊",
+    "desc": "LTV指单个用户在整个生命周期内为企业带来的总收入。高LTV用户是运营的核心资产。",
+    "stat1label": "高LTV用户占比",
     "stat1pct": 75,
-    "stat1val": "约200元/户",
-    "stat2label": "数字化服务新增用户成本",
+    "stat1val": "贡献75%收入",
+    "stat2label": "低LTV用户流失率",
     "stat2pct": 35,
-    "stat2val": "约5元/户",
-    "insight": "联通可开发虚拟权益包（如云盘、视频会员），边际成本趋近于零，通过捆绑销售提升arpu。"
+    "stat2val": "月流失35%",
+    "insight": "针对高LTV用户建立专属客服与福利体系，对低LTV用户通过自动挽回策略（如优惠券）提升留存。"
   },
   "global": {
-    "title": "全球供应链紧张加剧，芯片交付周期延长至25周以上",
+    "title": "美联储暗示年内或再加息一次 全球市场承压",
     "icon": "🌍",
-    "what": "受地缘政治和物流瓶颈影响，全球芯片平均交付周期从2025年的18周延长至2026年6月的25周。",
-    "why": "中美科技竞争持续，关键半导体设备出口限制加严，叠加港口罢工频发。",
-    "impact": "电子产品价格可能上涨，手机、汽车等交付等待期增加。",
+    "what": "美联储主席鲍威尔在6月29日的讲话中表示，核心通胀仍高于目标，年内可能再加息25个基点。",
+    "why": "美国就业市场强劲与服务业通胀粘性迫使美联储维持紧缩立场，以抑制通胀反弹风险。",
+    "impact": "新兴市场货币贬值压力加大，全球股市波动加剧，企业融资成本上升。",
     "newsTime": "2026年6月29日",
-    "newsSource": "Bloomberg"
+    "newsSource": "路透社"
   },
   "tech": {
-    "company": "索尼",
-    "logo": "S",
-    "logoBg": "#003399",
-    "news": "PlayStation 将从用户库中删除“已购买”的数字电影，未提供道歉",
-    "desc": "索尼致信客户，数百部此前通过其在线商店“购买”的数字电影将被移除。",
-    "insight": "数字资产所有权问题引发用户信任危机，联通应强调套餐内权益的稳定性与长期可用性。",
-    "newsTime": "6月28日 03:57",
-    "newsSource": "Eurogamer.net"
+    "company": "EventHubs",
+    "logo": "E",
+    "logoBg": "#FF6600",
+    "news": "《2XKO》公布新角色Lux和Samira，亮相Evo 2026总决赛",
+    "desc": "在Evo 2026格斗大赛《2XKO》项目决赛后，开发团队公布了第一赛季剩余角色——Lux（光辉女郎）和Samira（沙漠玫瑰）。",
+    "insight": "游戏社区运营可借鉴电竞活动即时发布重大消息的策略，联通可在大型活动（如517电信日）期间，通过直播或推送宣布重磅优惠，提升用户参与度。",
+    "newsTime": "6月29日 05:30",
+    "newsSource": "EventHubs"
   },
   "ent": {
-    "title": "《黑神话：悟空》全球销量突破3000万份，续作确认开发",
+    "title": "《黑神话：悟空》DLC“再战轮回”7月上线 玩家期待爆棚",
     "icon": "🎮",
-    "desc": "国产3A大作《黑神话：悟空》持续火爆，成为2026年上半年最畅销游戏。",
-    "quote": "文化自信与高品质内容结合，是打动全球玩家的关键。",
+    "desc": "游戏科学宣布《黑神话：悟空》首个大型DLC将于7月15日发布，新增地图、Boss与剧情分支。",
+    "quote": "DLC预售已破百万份，国产单机IP运营再创标杆。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "retain",
-        "phonetic": "/rɪˈteɪn/",
-        "pron": "瑞腾",
-        "mean": "保留，保持"
+        "word": "leverage",
+        "phonetic": "/ˈlev.ər.ɪdʒ/",
+        "pron": "莱沃瑞吉",
+        "mean": "利用；杠杆作用"
       },
       {
-        "word": "incentive",
-        "phonetic": "/ɪnˈsentɪv/",
-        "pron": "因森提夫",
-        "mean": "激励，刺激"
+        "word": "retention",
+        "phonetic": "/rɪˈten.ʃən/",
+        "pron": "瑞ten申",
+        "mean": "留存；保留"
       },
       {
-        "word": "churn",
-        "phonetic": "/tʃɜːrn/",
-        "pron": "彻恩",
-        "mean": "客户流失"
+        "word": "monetize",
+        "phonetic": "/ˈmʌn.ɪ.taɪz/",
+        "pron": "马尼泰兹",
+        "mean": "变现；营利"
       }
     ],
-    "example": "To **retain** customers, we offer **incentives** and monitor **churn** rates.",
-    "exampleCN": "为了保留客户，我们提供激励并监控流失率。"
+    "example": "To **leverage** user data for better **retention** and **monetize** effectively, operators must build a robust analytics system.",
+    "exampleCN": "为了利用用户数据提高留存并有效变现，运营商必须建立强大的分析系统。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "特典",
-        "kana": "とくてん",
-        "romaji": "tokuten",
-        "pron": "托库腾",
-        "mean": "优惠，特典"
+        "ja": "収益",
+        "kana": "しゅうえき",
+        "romaji": "shūeki",
+        "pron": "休诶ki",
+        "mean": "收益"
       },
       {
         "ja": "顧客",
         "kana": "こきゃく",
         "romaji": "kokyaku",
-        "pron": "柯卡库",
+        "pron": "考kiゃく",
         "mean": "顾客"
       },
       {
-        "ja": "定着",
-        "kana": "ていちゃく",
-        "romaji": "teichaku",
-        "pron": "泰恰库",
-        "mean": "固定，稳定"
+        "ja": "維持",
+        "kana": "いじ",
+        "romaji": "iji",
+        "pron": "一几",
+        "mean": "维持"
       }
     ],
-    "example": "顧客の定着率を上げるため、特典を充実させる。**定着**率向上が課題だ。",
-    "exampleCN": "为了提高客户留存率，充实特典。提高留存率是课题。"
+    "example": "顧客の**維持**率を高めることで、長期的な**収益**を最大化できる。",
+    "exampleCN": "通过提高顾客留存率，可以最大化长期收益。"
   },
   "ai": {
-    "topic": "AI运营助手",
+    "topic": "具身智能",
     "node1": "🤖",
-    "node2": "📈",
-    "node3": "🎯",
-    "desc": "利用AI自动分析用户行为，生成个性化推荐与营销话术，提升运营效率。",
-    "insight": "联通可部署AI助手自动识别高流失风险用户，实时推送挽留优惠券，降低流失率。"
+    "node2": "🦾",
+    "node3": "🧠",
+    "desc": "具身智能指AI通过物理实体（如机器人）与环境交互，实现感知、决策与行动。",
+    "insight": "联通可探索在智慧家庭场景中部署具身智能机器人，提供设备巡检、老人陪伴等增值服务，提升用户粘性。"
   },
   "think": {
-    "question": "如果联通推出数字资产永久持有计划，你认为最大的挑战是什么？",
+    "question": "在用户运营中，最有效的提升LTV方式是什么？",
     "tags": [
-      "技术实现",
-      "用户信任",
-      "成本控制",
-      "法律合规"
+      "A. 提高ARPU",
+      "B. 延长生命周期",
+      "C. 增加使用频率",
+      "D. 降低获取成本"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 19,
-    "todayDate": "6月29日",
-    "tomorrowDate": "6月30日",
+    "daysToFinal": 18,
+    "todayDate": "6月30日",
+    "tomorrowDate": "7月1日",
     "finished": [
-      {
-        "time": "03:00",
-        "group": "",
-        "venue": "",
-        "home": "南非",
-        "homeflag": "🇿🇦",
-        "away": "加拿大",
-        "awayflag": "🇨🇦",
-        "score": "0-1"
-      }
-    ],
-    "todayScheduled": [],
-    "tomorrow": [
       {
         "time": "01:00",
         "group": "",
@@ -153,10 +140,10 @@
         "homeflag": "🇧🇷",
         "away": "日本",
         "awayflag": "🇯🇵",
-        "winPct": 65,
-        "drawPct": 20,
-        "losePct": 15
-      },
+        "score": "2-1"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "04:30",
         "group": "",
@@ -164,10 +151,7 @@
         "home": "德国",
         "homeflag": "🇩🇪",
         "away": "巴拉圭",
-        "awayflag": "🇵🇾",
-        "winPct": 55,
-        "drawPct": 25,
-        "losePct": 20
+        "awayflag": "🇵🇾"
       },
       {
         "time": "09:00",
@@ -176,12 +160,47 @@
         "home": "荷兰",
         "homeflag": "🇳🇱",
         "away": "摩洛哥",
-        "awayflag": "🇲🇦",
-        "winPct": 60,
+        "awayflag": "🇲🇦"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "01:00",
+        "group": "",
+        "venue": "",
+        "home": "科特迪瓦",
+        "homeflag": "🇨🇮",
+        "away": "挪威",
+        "awayflag": "🇳🇴",
+        "winPct": 35,
+        "drawPct": 30,
+        "losePct": 35
+      },
+      {
+        "time": "05:00",
+        "group": "",
+        "venue": "",
+        "home": "法国",
+        "homeflag": "🇫🇷",
+        "away": "瑞典",
+        "awayflag": "🇸🇪",
+        "winPct": 55,
         "drawPct": 25,
-        "losePct": 15
+        "losePct": 20
+      },
+      {
+        "time": "09:00",
+        "group": "",
+        "venue": "",
+        "home": "墨西哥",
+        "homeflag": "🇲🇽",
+        "away": "厄瓜多尔",
+        "awayflag": "🇪🇨",
+        "winPct": 40,
+        "drawPct": 30,
+        "losePct": 30
       }
     ]
   },
-  "generatedAt": "2026-06-29 07:08"
+  "generatedAt": "2026-06-30 07:02"
 }
