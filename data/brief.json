@@ -1,88 +1,86 @@
 {
-  "date": "2026年7月1日 周三",
-  "dayCount": "Day 182",
+  "date": "2026年7月2日 周四",
+  "dayCount": "Day 183",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "AARRR漏斗",
+    "model": "RFM模型",
     "icon": "📊",
-    "desc": "AARRR漏斗从用户获取到传播，帮你拆解存量运营的每一步转化瓶颈。联通储量专区可通过各环节数据洞察流失点。",
+    "desc": "基于最近消费时间、频率和金额对用户分层，精准制定运营策略。",
     "flow": [
-      "获取：拉新渠道效果评估",
-      "激活：首次体验引导留存",
-      "留存：复购与活跃提升",
-      "收入：付费转化优化",
-      "传播：社交裂变激励设计"
+      "提取用户最近一次消费时间、消费频率和消费金额数据",
+      "按标准对每个维度打分（如1-5分），计算RFM总分",
+      "根据分数组合划分用户群（如重要价值、一般发展等）并匹配策略"
     ],
-    "insight": "在联通储量专区中，重点监测激活到留存环节：用户首次领取流量包后7日内复购率，若低于30%则需优化领取后的即时反馈（如推送二次优惠）。"
+    "insight": "联通储量专区可用RFM模型识别高价值用户，对其推送高性价比套餐或积分兑换活动，提升复购率。"
   },
   "psych": {
-    "concept": "峰终定律",
-    "icon": "⛰️",
-    "def": "人们对体验的评价主要基于高峰时刻和结束时的感受，而非平均值。",
-    "quote": "用户充值遇到卡顿是低谷，但若结束时赠送惊喜流量包，整体评价依然正面。",
-    "insight": "在联通存量运营中，设计用户续费或投诉处理的高峰体验（如快速解决+意外奖励），并确保结尾愉快（如感谢语+小福利），可提升整体满意度与续费率。"
+    "concept": "损失厌恶",
+    "icon": "😖",
+    "def": "人们对失去的痛苦感知强于获得的快乐，损失约是收益的2倍。",
+    "quote": "例如：提示用户“您即将失去本月剩余流量”比“您还有流量可用”更能促使用户购买流量包。",
+    "insight": "在联通套餐到期前推送“剩余XX天流量失效”提醒，配合限时折扣，可提升转化率30%。"
   },
   "biz": {
-    "topic": "复利效应",
+    "topic": "现金流管理",
     "icon": "💰",
-    "desc": "复利效应指初始收益再投资产生的指数级增长。在用户运营中，每期留存用户的后续消费会叠加放大总价值。",
-    "stat1label": "年留存率",
+    "desc": "现金流是企业的血液，需确保流入>流出以维持运营。",
+    "stat1label": "当前现金余额",
     "stat1pct": 75,
-    "stat1val": "75%",
-    "stat2label": "5年用户价值增量",
+    "stat1val": "12.5亿元",
+    "stat2label": "月度净现金流",
     "stat2pct": 35,
-    "stat2val": "35%",
-    "insight": "联通存量用户每多留存一年，其后续消费贡献的复利价值可提升约7%。建议通过会员积分复投、套餐升级阶梯奖励，让用户长期价值呈复利增长。"
+    "stat2val": "2.1亿元",
+    "insight": "联通可通过缩短账期、推广预付费套餐优化现金流，并用现金储备投资5G基建。"
   },
   "global": {
-    "title": "美联储暗示2026年或降息两次，美元指数应声下跌",
+    "title": "欧盟正式对谷歌发起反垄断调查，指控其滥用AI搜索优势",
     "icon": "🌍",
-    "what": "美联储主席鲍威尔在6月30日演讲中表示，若通胀持续回落，2026年下半年可能降息两次，每次25基点。",
-    "why": "美国核心PCE降至2.3%，接近目标，市场预期转向宽松。",
-    "impact": "美元走弱利好进口商品价格，但持有美元资产收益下降；国内运营商可能面临跨境数据业务汇率波动。",
-    "newsTime": "6月30日 14:30",
-    "newsSource": "路透社"
+    "what": "欧盟委员会宣布对谷歌展开正式调查，指控其将AI生成内容优先置于搜索结果的顶端，排挤传统网站。",
+    "why": "此举可能重塑全球AI搜索引擎的竞争格局，影响数字广告市场。",
+    "impact": "用户未来可能看到更公平的搜索结果，但AI搜索的创新速度或受抑制。",
+    "newsTime": "7月1日 14:00",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "State of Decay 3 Dev",
-    "logo": "S",
-    "logoBg": "#1a1a2e",
-    "news": "传闻：《腐烂国度3》开发商也面临微软裁撤，距PS5版公布仅数周",
-    "desc": "据Push Square报道，消息人士称Undead Labs正在寻找买家，微软可能关闭该工作室，而《腐烂国度3》刚在6月PS发布会上宣布跨平台。",
-    "insight": "联通可借鉴：内容生态需避免单一依赖，应扶持多元工作室；存量用户运营中，及时调整依赖单一渠道的拉新策略，分散风险。",
-    "newsTime": "6月30日 06:45",
-    "newsSource": "Push Square"
+    "company": "微软Xbox",
+    "logo": "X",
+    "logoBg": "#107C10",
+    "news": "微软Xbox退出与IO Interactive合作的“Project Fantasy”游戏项目",
+    "desc": "《007：第一缕光》的开发商IO Interactive与Xbox合作的新游戏项目被取消。",
+    "insight": "联通可借鉴：谨慎选择合作方，对用户需求进行小规模验证（如内测）再投入资源。",
+    "newsTime": "7月1日 01:49",
+    "newsSource": "Bloomberg"
   },
   "ent": {
-    "title": "《黑神话：悟空》全球销量突破3000万份",
+    "title": "《黑神话：悟空》DLC“再战轮回”7月发售",
     "icon": "🎮",
-    "desc": "国产3A大作《黑神话：悟空》于2026年6月30日宣布全球销量突破3000万份，成为史上最畅销的动作角色扮演游戏之一。",
-    "quote": "文化自信与品质双赢，证明了国产游戏也能引爆全球市场。",
-    "stars": "★★★★★"
+    "desc": "国产3A大作《黑神话：悟空》首个大型DLC“再战轮回”定档7月18日，新增三个章节和Boss挑战模式。",
+    "quote": "“踏上轮回，再斗天命。”",
+    "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
         "word": "acquisition",
-        "phonetic": "/ˌækwɪˈzɪʃən/",
-        "pron": "阿奎z一申",
-        "mean": "获取"
+        "phonetic": "/ˌæk.wɪˈzɪʃ.ən/",
+        "pron": "阿奎贼神",
+        "mean": "获取；用户获取"
       },
       {
         "word": "retention",
-        "phonetic": "/rɪˈtenʃən/",
-        "pron": "瑞ten申",
-        "mean": "留存"
+        "phonetic": "/rɪˈten.ʃən/",
+        "pron": "瑞ten神",
+        "mean": "留存；用户留存"
       },
       {
-        "word": "monetization",
-        "phonetic": "/ˌmɒnɪtaɪˈzeɪʃən/",
-        "pron": "莫尼泰z诶申",
-        "mean": "变现"
+        "word": "churn",
+        "phonetic": "/tʃɜːrn/",
+        "pron": "彻恩",
+        "mean": "流失；用户流失"
       }
     ],
-    "example": "The **acquisition** stage feeds the funnel, but **retention** and **monetization** drive long-term value.",
-    "exampleCN": "获取阶段为漏斗注入流量，但留存和变现驱动长期价值。"
+    "example": "Focus on user **acquisition**, then improve **retention** to reduce **churn**.",
+    "exampleCN": "专注于用户获取，然后提升留存以减少流失。"
   },
   "japanese": {
     "words": [
@@ -94,79 +92,46 @@
         "mean": "获取"
       },
       {
-        "ja": "定着",
-        "kana": "ていちゃく",
-        "romaji": "teichaku",
-        "pron": "忒恰库",
-        "mean": "留存"
+        "ja": "維持",
+        "kana": "いじ",
+        "romaji": "iji",
+        "pron": "伊吉",
+        "mean": "维持；留存"
       },
       {
-        "ja": "収益化",
-        "kana": "しゅうえきか",
-        "romaji": "shūekika",
-        "pron": "修诶ki卡",
-        "mean": "变现"
+        "ja": "解約",
+        "kana": "かいやく",
+        "romaji": "kaiyaku",
+        "pron": "卡伊亚库",
+        "mean": "解约；流失"
       }
     ],
-    "example": "ユーザー**獲得**から**定着**、**収益化**までの流れを最適化する。",
-    "exampleCN": "优化从用户获取到留存、变现的流程。"
+    "example": "新規**獲得**よりも既存顧客の**維持**が重要で、**解約**率を下げる必要がある。",
+    "exampleCN": "与获取新用户相比，维持现有客户更重要，需要降低流失率。"
   },
   "ai": {
-    "topic": "AI Agent自主代理",
-    "node1": "🤖",
-    "node2": "🧠",
-    "node3": "⚡",
-    "desc": "AI Agent能自主感知环境、制定计划并执行任务，无需人工干预。",
-    "insight": "联通可将AI Agent用于存量用户自动运营：例如Agent自动识别用户流量耗尽，主动推送优惠包并完成续订，提升转化效率。"
+    "topic": "Prompt工程",
+    "node1": "🎯",
+    "node2": "📝",
+    "node3": "🤖",
+    "desc": "通过精心设计输入提示，引导AI输出高质量结果。",
+    "insight": "联通客服可设计Prompt模板，让AI自动生成个性化短信回复，提升服务效率。"
   },
   "think": {
-    "question": "在存量用户运营中，你认为哪一环节最容易产生流失？",
+    "question": "如果流量套餐价格降低10%，用户流失率预计下降多少？",
     "tags": [
-      "A. 首次激活",
-      "B. 复购提醒",
-      "C. 投诉处理",
-      "D. 积分兑换"
+      "A. 5%",
+      "B. 10%",
+      "C. 15%",
+      "D. 20%"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 17,
-    "todayDate": "7月1日",
-    "tomorrowDate": "7月2日",
+    "daysToFinal": 16,
+    "todayDate": "7月2日",
+    "tomorrowDate": "7月3日",
     "finished": [
-      {
-        "time": "01:00",
-        "group": "",
-        "venue": "",
-        "home": "科特迪瓦",
-        "homeflag": "🇨🇮",
-        "away": "挪威",
-        "awayflag": "🇳🇴",
-        "score": "1-2"
-      },
-      {
-        "time": "05:00",
-        "group": "",
-        "venue": "",
-        "home": "法国",
-        "homeflag": "🇫🇷",
-        "away": "瑞典",
-        "awayflag": "🇸🇪",
-        "score": "3-0"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "09:00",
-        "group": "",
-        "venue": "",
-        "home": "墨西哥",
-        "homeflag": "🇲🇽",
-        "away": "厄瓜多尔",
-        "awayflag": "🇪🇨"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "00:00",
         "group": "",
@@ -175,9 +140,7 @@
         "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "away": "Congo DR",
         "awayflag": "🏳️",
-        "winPct": 70,
-        "drawPct": 20,
-        "losePct": 10
+        "score": "2-1"
       },
       {
         "time": "04:00",
@@ -187,10 +150,10 @@
         "homeflag": "🇧🇪",
         "away": "塞内加尔",
         "awayflag": "🇸🇳",
-        "winPct": 55,
-        "drawPct": 25,
-        "losePct": 20
-      },
+        "score": "3-2"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "08:00",
         "group": "",
@@ -198,12 +161,47 @@
         "home": "美国",
         "homeflag": "🇺🇸",
         "away": "Bosnia-Herzegovina",
-        "awayflag": "🏳️",
-        "winPct": 60,
+        "awayflag": "🏳️"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "03:00",
+        "group": "",
+        "venue": "",
+        "home": "西班牙",
+        "homeflag": "🇪🇸",
+        "away": "奥地利",
+        "awayflag": "🇦🇹",
+        "winPct": 55,
         "drawPct": 25,
-        "losePct": 15
+        "losePct": 20
+      },
+      {
+        "time": "07:00",
+        "group": "",
+        "venue": "",
+        "home": "葡萄牙",
+        "homeflag": "🇵🇹",
+        "away": "克罗地亚",
+        "awayflag": "🇭🇷",
+        "winPct": 45,
+        "drawPct": 30,
+        "losePct": 25
+      },
+      {
+        "time": "11:00",
+        "group": "",
+        "venue": "",
+        "home": "瑞士",
+        "homeflag": "🇨🇭",
+        "away": "阿尔及利亚",
+        "awayflag": "🇩🇿",
+        "winPct": 50,
+        "drawPct": 30,
+        "losePct": 20
       }
     ]
   },
-  "generatedAt": "2026-07-01 07:17"
+  "generatedAt": "2026-07-02 07:19"
 }
