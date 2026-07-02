@@ -1,170 +1,137 @@
 {
-  "date": "2026年7月2日 周四",
-  "dayCount": "Day 183",
+  "date": "2026年7月3日 周五",
+  "dayCount": "Day 184",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "RFM模型",
-    "icon": "📊",
-    "desc": "基于最近消费时间、频率和金额对用户分层，精准制定运营策略。",
+    "model": "北极星指标",
+    "icon": "🌟",
+    "desc": "北极星指标是驱动增长的关键唯一指标，指导团队聚焦长期价值。",
     "flow": [
-      "提取用户最近一次消费时间、消费频率和消费金额数据",
-      "按标准对每个维度打分（如1-5分），计算RFM总分",
-      "根据分数组合划分用户群（如重要价值、一般发展等）并匹配策略"
+      "定义核心价值（如用户活跃度）",
+      "分解为可量化子指标",
+      "对齐团队行动并持续追踪"
     ],
-    "insight": "联通储量专区可用RFM模型识别高价值用户，对其推送高性价比套餐或积分兑换活动，提升复购率。"
+    "insight": "联通储量专区可选定“月活跃储量用户数”为北极星，聚焦用户粘性提升。"
   },
   "psych": {
-    "concept": "损失厌恶",
-    "icon": "😖",
-    "def": "人们对失去的痛苦感知强于获得的快乐，损失约是收益的2倍。",
-    "quote": "例如：提示用户“您即将失去本月剩余流量”比“您还有流量可用”更能促使用户购买流量包。",
-    "insight": "在联通套餐到期前推送“剩余XX天流量失效”提醒，配合限时折扣，可提升转化率30%。"
+    "concept": "锚定效应",
+    "icon": "⚓",
+    "def": "首次接触的信息会成为后续判断的参考点。",
+    "quote": "先展示高价套餐，再推中档套餐，后者显得更划算。",
+    "insight": "在套餐页面先显示原价，再标折扣价，提升中档套餐转化率。"
   },
   "biz": {
-    "topic": "现金流管理",
-    "icon": "💰",
-    "desc": "现金流是企业的血液，需确保流入>流出以维持运营。",
-    "stat1label": "当前现金余额",
+    "topic": "护城河",
+    "icon": "🏰",
+    "desc": "护城河是企业持续竞争优势，如网络效应或品牌忠诚。联通储量专区的护城河在于独家数据与生态整合。",
+    "stat1label": "网络覆盖优势",
     "stat1pct": 75,
-    "stat1val": "12.5亿元",
-    "stat2label": "月度净现金流",
+    "stat1val": "领先运营商",
+    "stat2label": "用户基数",
     "stat2pct": 35,
-    "stat2val": "2.1亿元",
-    "insight": "联通可通过缩短账期、推广预付费套餐优化现金流，并用现金储备投资5G基建。"
+    "stat2val": "3.5亿移动用户",
+    "insight": "强化储量专区的独家数据服务，增强用户迁移成本。"
   },
   "global": {
-    "title": "欧盟正式对谷歌发起反垄断调查，指控其滥用AI搜索优势",
+    "title": "英国央行维持利率不变，通胀压力仍存",
     "icon": "🌍",
-    "what": "欧盟委员会宣布对谷歌展开正式调查，指控其将AI生成内容优先置于搜索结果的顶端，排挤传统网站。",
-    "why": "此举可能重塑全球AI搜索引擎的竞争格局，影响数字广告市场。",
-    "impact": "用户未来可能看到更公平的搜索结果，但AI搜索的创新速度或受抑制。",
-    "newsTime": "7月1日 14:00",
+    "what": "英国央行7月2日宣布维持基准利率5.25%不变，因服务业通胀放缓但整体仍高。",
+    "why": "控制通胀仍是首要任务，但经济疲软限制了加息空间。",
+    "impact": "英镑汇率波动，进口成本上升，可能影响国内消费电子价格。",
+    "newsTime": "7月2日 16:00",
     "newsSource": "Reuters"
   },
   "tech": {
-    "company": "微软Xbox",
-    "logo": "X",
-    "logoBg": "#107C10",
-    "news": "微软Xbox退出与IO Interactive合作的“Project Fantasy”游戏项目",
-    "desc": "《007：第一缕光》的开发商IO Interactive与Xbox合作的新游戏项目被取消。",
-    "insight": "联通可借鉴：谨慎选择合作方，对用户需求进行小规模验证（如内测）再投入资源。",
-    "newsTime": "7月1日 01:49",
+    "company": "Apple",
+    "logo": "A",
+    "logoBg": "#A2AAAD",
+    "news": "苹果计划2027年推出新款iPad Pro和重新设计的入门级MacBook Pro",
+    "desc": "苹果为iPhone 20周年备货，升级iPad Pro并重新设计入门MacBook Pro。",
+    "insight": "联通可提前布局eSIM支持，在高端用户中推广iPad Pro套餐。",
+    "newsTime": "7月2日 04:47",
     "newsSource": "Bloomberg"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC“再战轮回”7月发售",
-    "icon": "🎮",
-    "desc": "国产3A大作《黑神话：悟空》首个大型DLC“再战轮回”定档7月18日，新增三个章节和Boss挑战模式。",
-    "quote": "“踏上轮回，再斗天命。”",
+    "title": "《哪吒2》票房突破60亿，刷新国产动画纪录",
+    "icon": "🎬",
+    "desc": "暑期档《哪吒2》持续火爆，成为2026年现象级国产动画。",
+    "quote": "国漫崛起，文化自信带动消费热情。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "acquisition",
-        "phonetic": "/ˌæk.wɪˈzɪʃ.ən/",
-        "pron": "阿奎贼神",
-        "mean": "获取；用户获取"
+        "word": "launch",
+        "phonetic": "/lɔːntʃ/",
+        "pron": "朗奇",
+        "mean": "推出，发布"
       },
       {
-        "word": "retention",
-        "phonetic": "/rɪˈten.ʃən/",
-        "pron": "瑞ten神",
-        "mean": "留存；用户留存"
+        "word": "redesign",
+        "phonetic": "/ˌriːdɪˈzaɪn/",
+        "pron": "瑞迪赞",
+        "mean": "重新设计"
       },
       {
-        "word": "churn",
-        "phonetic": "/tʃɜːrn/",
-        "pron": "彻恩",
-        "mean": "流失；用户流失"
+        "word": "upgrade",
+        "phonetic": "/ˈʌpɡreɪd/",
+        "pron": "阿普格雷德",
+        "mean": "升级"
       }
     ],
-    "example": "Focus on user **acquisition**, then improve **retention** to reduce **churn**.",
-    "exampleCN": "专注于用户获取，然后提升留存以减少流失。"
+    "example": "Apple plans to **launch** an **upgraded** iPad Pro and a **redesigned** MacBook Pro in 2027.",
+    "exampleCN": "苹果计划在2027年推出升级版iPad Pro和重新设计的MacBook Pro。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "獲得",
-        "kana": "かくとく",
-        "romaji": "kakutoku",
-        "pron": "卡库托库",
-        "mean": "获取"
+        "ja": "発売",
+        "kana": "はつばい",
+        "romaji": "hatsubai",
+        "pron": "哈次拜",
+        "mean": "发售"
       },
       {
-        "ja": "維持",
-        "kana": "いじ",
-        "romaji": "iji",
-        "pron": "伊吉",
-        "mean": "维持；留存"
+        "ja": "改良",
+        "kana": "かいりょう",
+        "romaji": "kairyō",
+        "pron": "卡伊流",
+        "mean": "改良"
       },
       {
-        "ja": "解約",
-        "kana": "かいやく",
-        "romaji": "kaiyaku",
-        "pron": "卡伊亚库",
-        "mean": "解约；流失"
+        "ja": "計画",
+        "kana": "けいかく",
+        "romaji": "keikaku",
+        "pron": "凯卡库",
+        "mean": "计划"
       }
     ],
-    "example": "新規**獲得**よりも既存顧客の**維持**が重要で、**解約**率を下げる必要がある。",
-    "exampleCN": "与获取新用户相比，维持现有客户更重要，需要降低流失率。"
+    "example": "Appleは2027年に**改良**されたiPad Proと**発売**を**計画**している。",
+    "exampleCN": "苹果计划在2027年发售改良版iPad Pro。"
   },
   "ai": {
-    "topic": "Prompt工程",
-    "node1": "🎯",
-    "node2": "📝",
-    "node3": "🤖",
-    "desc": "通过精心设计输入提示，引导AI输出高质量结果。",
-    "insight": "联通客服可设计Prompt模板，让AI自动生成个性化短信回复，提升服务效率。"
+    "topic": "多模态AI",
+    "node1": "📷",
+    "node2": "🎤",
+    "node3": "📝",
+    "desc": "多模态AI能同时处理图像、语音和文本，实现更自然交互。",
+    "insight": "联通可开发多模态客服，用户拍照即识别故障，提升效率。"
   },
   "think": {
-    "question": "如果流量套餐价格降低10%，用户流失率预计下降多少？",
+    "question": "如果联通储量专区要引入多模态AI，最优先的应用场景是？",
     "tags": [
-      "A. 5%",
-      "B. 10%",
-      "C. 15%",
-      "D. 20%"
+      "智能拍照测速",
+      "语音查询流量",
+      "图文识别套餐建议",
+      "视频客服指导"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 16,
-    "todayDate": "7月2日",
-    "tomorrowDate": "7月3日",
+    "daysToFinal": 15,
+    "todayDate": "7月3日",
+    "tomorrowDate": "7月4日",
     "finished": [
-      {
-        "time": "00:00",
-        "group": "",
-        "venue": "",
-        "home": "英格兰",
-        "homeflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "away": "Congo DR",
-        "awayflag": "🏳️",
-        "score": "2-1"
-      },
-      {
-        "time": "04:00",
-        "group": "",
-        "venue": "",
-        "home": "比利时",
-        "homeflag": "🇧🇪",
-        "away": "塞内加尔",
-        "awayflag": "🇸🇳",
-        "score": "3-2"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "08:00",
-        "group": "",
-        "venue": "",
-        "home": "美国",
-        "homeflag": "🇺🇸",
-        "away": "Bosnia-Herzegovina",
-        "awayflag": "🏳️"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "03:00",
         "group": "",
@@ -173,10 +140,10 @@
         "homeflag": "🇪🇸",
         "away": "奥地利",
         "awayflag": "🇦🇹",
-        "winPct": 55,
-        "drawPct": 25,
-        "losePct": 20
-      },
+        "score": "3-0"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "07:00",
         "group": "",
@@ -184,10 +151,7 @@
         "home": "葡萄牙",
         "homeflag": "🇵🇹",
         "away": "克罗地亚",
-        "awayflag": "🇭🇷",
-        "winPct": 45,
-        "drawPct": 30,
-        "losePct": 25
+        "awayflag": "🇭🇷"
       },
       {
         "time": "11:00",
@@ -196,12 +160,47 @@
         "home": "瑞士",
         "homeflag": "🇨🇭",
         "away": "阿尔及利亚",
-        "awayflag": "🇩🇿",
-        "winPct": 50,
+        "awayflag": "🇩🇿"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "02:00",
+        "group": "",
+        "venue": "",
+        "home": "澳大利亚",
+        "homeflag": "🇦🇺",
+        "away": "埃及",
+        "awayflag": "🇪🇬",
+        "winPct": 45,
         "drawPct": 30,
+        "losePct": 25
+      },
+      {
+        "time": "06:00",
+        "group": "",
+        "venue": "",
+        "home": "阿根廷",
+        "homeflag": "🇦🇷",
+        "away": "Cape Verde Islands",
+        "awayflag": "🏳️",
+        "winPct": 70,
+        "drawPct": 20,
+        "losePct": 10
+      },
+      {
+        "time": "09:30",
+        "group": "",
+        "venue": "",
+        "home": "哥伦比亚",
+        "homeflag": "🇨🇴",
+        "away": "加纳",
+        "awayflag": "🇬🇭",
+        "winPct": 55,
+        "drawPct": 25,
         "losePct": 20
       }
     ]
   },
-  "generatedAt": "2026-07-02 07:19"
+  "generatedAt": "2026-07-03 07:12"
 }
