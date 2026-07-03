@@ -1,169 +1,137 @@
 {
-  "date": "2026年7月3日 周五",
-  "dayCount": "Day 184",
+  "date": "2026年7月4日 周六",
+  "dayCount": "Day 185",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "北极星指标",
-    "icon": "🌟",
-    "desc": "北极星指标是驱动增长的关键唯一指标，指导团队聚焦长期价值。",
+    "model": "JTBD理论",
+    "icon": "🎯",
+    "desc": "用户雇佣产品或服务是为了完成特定任务（Jobs to Be Done），而非产品本身。聚焦用户需要实现的目标，而非特征。",
     "flow": [
-      "定义核心价值（如用户活跃度）",
-      "分解为可量化子指标",
-      "对齐团队行动并持续追踪"
+      "识别用户核心任务：如“省钱”“省时”",
+      "设计完成任务的完整流程：从触发到解决",
+      "优化流程中每个环节，移除障碍"
     ],
-    "insight": "联通储量专区可选定“月活跃储量用户数”为北极星，聚焦用户粘性提升。"
+    "insight": "联通储量专区可围绕“管理家庭通信开支”任务，提供从套餐推荐到用量提醒的一站式服务，而非单纯卖流量包。"
   },
   "psych": {
-    "concept": "锚定效应",
-    "icon": "⚓",
-    "def": "首次接触的信息会成为后续判断的参考点。",
-    "quote": "先展示高价套餐，再推中档套餐，后者显得更划算。",
-    "insight": "在套餐页面先显示原价，再标折扣价，提升中档套餐转化率。"
+    "concept": "社会认同",
+    "icon": "👥",
+    "def": "人们在不确定时会参照他人的行为做决策。",
+    "quote": "“90%的用户选择了这个套餐”比“这个套餐性价比高”更有效。",
+    "insight": "在推荐页面显示“已有XXX人办理5G套餐”，并加入用户评价和续费数据，提升转化率。"
   },
   "biz": {
-    "topic": "护城河",
-    "icon": "🏰",
-    "desc": "护城河是企业持续竞争优势，如网络效应或品牌忠诚。联通储量专区的护城河在于独家数据与生态整合。",
-    "stat1label": "网络覆盖优势",
-    "stat1pct": 75,
-    "stat1val": "领先运营商",
-    "stat2label": "用户基数",
-    "stat2pct": 35,
-    "stat2val": "3.5亿移动用户",
-    "insight": "强化储量专区的独家数据服务，增强用户迁移成本。"
+    "topic": "ROE净资产收益率",
+    "icon": "📊",
+    "desc": "衡量企业使用股东资本盈利的效率。ROE=净利润/股东权益，越高说明资本运用能力越强。",
+    "stat1label": "中国联通2025年ROE",
+    "stat1pct": 5.8,
+    "stat1val": "5.8%",
+    "stat2label": "行业平均ROE",
+    "stat2pct": 8.2,
+    "stat2val": "8.2%",
+    "insight": "提升ROE需提高净利润或降低权益，运营可聚焦高价值用户留存和ARPU提升，减少低效补贴。"
   },
   "global": {
-    "title": "英国央行维持利率不变，通胀压力仍存",
+    "title": "英国新首相斯塔默公布经济复苏计划",
     "icon": "🌍",
-    "what": "英国央行7月2日宣布维持基准利率5.25%不变，因服务业通胀放缓但整体仍高。",
-    "why": "控制通胀仍是首要任务，但经济疲软限制了加息空间。",
-    "impact": "英镑汇率波动，进口成本上升，可能影响国内消费电子价格。",
-    "newsTime": "7月2日 16:00",
-    "newsSource": "Reuters"
+    "what": "英国新任首相基尔·斯塔默宣布了以绿色能源和数字基建为核心的经济复苏计划，包括投资150亿英镑建设全国光纤网络。",
+    "why": "英国经济面临高通胀和增长放缓，斯塔默希望借助科技投资拉动就业和生产率。",
+    "impact": "对联通启示：全球通信基建竞争加剧，中国需加速5G/6G和算力网络布局以保持领先。",
+    "newsTime": "",
+    "newsSource": ""
   },
   "tech": {
-    "company": "Apple",
-    "logo": "A",
-    "logoBg": "#A2AAAD",
-    "news": "苹果计划2027年推出新款iPad Pro和重新设计的入门级MacBook Pro",
-    "desc": "苹果为iPhone 20周年备货，升级iPad Pro并重新设计入门MacBook Pro。",
-    "insight": "联通可提前布局eSIM支持，在高端用户中推广iPad Pro套餐。",
-    "newsTime": "7月2日 04:47",
-    "newsSource": "Bloomberg"
+    "company": "Ars Technica",
+    "logo": "AT",
+    "logoBg": "#D32F2F",
+    "news": "新macOS恶意软件PamStealer使用精巧技术保持隐蔽",
+    "desc": "研究人员发现一款名为PamStealer的新型macOS信息窃取恶意软件，采用高明手法躲避检测。",
+    "insight": "联通运营商需加强移动端安全防护，特别是iOS/macOS用户的数据安全，可推出安全管家服务。",
+    "newsTime": "7月3日 03:38",
+    "newsSource": "Ars Technica"
   },
   "ent": {
-    "title": "《哪吒2》票房突破60亿，刷新国产动画纪录",
-    "icon": "🎬",
-    "desc": "暑期档《哪吒2》持续火爆，成为2026年现象级国产动画。",
-    "quote": "国漫崛起，文化自信带动消费热情。",
+    "title": "《黑神话：悟空》DLC“再战轮回”上线，销量破千万",
+    "icon": "🎮",
+    "desc": "国产3A游戏《黑神话：悟空》首个大型DLC上线，新增剧情和Boss战，全球销量突破1000万份。",
+    "quote": "“游戏是第九艺术，也是文化输出的最佳载体。”",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "launch",
-        "phonetic": "/lɔːntʃ/",
-        "pron": "朗奇",
-        "mean": "推出，发布"
+        "word": "stealthy",
+        "phonetic": "/ˈstelθi/",
+        "pron": "斯特尔西",
+        "mean": "隐蔽的"
       },
       {
-        "word": "redesign",
-        "phonetic": "/ˌriːdɪˈzaɪn/",
-        "pron": "瑞迪赞",
-        "mean": "重新设计"
+        "word": "malware",
+        "phonetic": "/ˈmælwer/",
+        "pron": "摩尔威尔",
+        "mean": "恶意软件"
       },
       {
-        "word": "upgrade",
-        "phonetic": "/ˈʌpɡreɪd/",
-        "pron": "阿普格雷德",
-        "mean": "升级"
+        "word": "infostealer",
+        "phonetic": "/ˈɪnfoʊˌstiːlər/",
+        "pron": "音否斯蒂勒",
+        "mean": "信息窃取者"
       }
     ],
-    "example": "Apple plans to **launch** an **upgraded** iPad Pro and a **redesigned** MacBook Pro in 2027.",
-    "exampleCN": "苹果计划在2027年推出升级版iPad Pro和重新设计的MacBook Pro。"
+    "example": "The new **infostealer** malware uses clever tradecraft to remain **stealthy**.",
+    "exampleCN": "新型信息窃取恶意软件使用精巧技术保持隐蔽。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "発売",
-        "kana": "はつばい",
-        "romaji": "hatsubai",
-        "pron": "哈次拜",
-        "mean": "发售"
+        "ja": "マルウェア",
+        "kana": "マルウェア",
+        "romaji": "maruwea",
+        "pron": "玛露威阿",
+        "mean": "恶意软件"
       },
       {
-        "ja": "改良",
-        "kana": "かいりょう",
-        "romaji": "kairyō",
-        "pron": "卡伊流",
-        "mean": "改良"
+        "ja": "ステルス",
+        "kana": "ステルス",
+        "romaji": "suterusu",
+        "pron": "斯泰露斯",
+        "mean": "隐蔽"
       },
       {
-        "ja": "計画",
-        "kana": "けいかく",
-        "romaji": "keikaku",
-        "pron": "凯卡库",
-        "mean": "计划"
+        "ja": "情報窃取",
+        "kana": "じょうほうせっしゅ",
+        "romaji": "jouhou sesshu",
+        "pron": "觉霍塞修",
+        "mean": "信息窃取"
       }
     ],
-    "example": "Appleは2027年に**改良**されたiPad Proと**発売**を**計画**している。",
-    "exampleCN": "苹果计划在2027年发售改良版iPad Pro。"
+    "example": "新しい**マルウェア**は**ステルス**技術で**情報窃取**を行う。",
+    "exampleCN": "新型恶意软件使用隐蔽技术进行信息窃取。"
   },
   "ai": {
-    "topic": "多模态AI",
-    "node1": "📷",
-    "node2": "🎤",
-    "node3": "📝",
-    "desc": "多模态AI能同时处理图像、语音和文本，实现更自然交互。",
-    "insight": "联通可开发多模态客服，用户拍照即识别故障，提升效率。"
+    "topic": "RAG检索增强",
+    "node1": "📚",
+    "node2": "🔍",
+    "node3": "💡",
+    "desc": "RAG（Retrieval-Augmented Generation）通过检索外部知识库增强大模型回答，减少幻觉。",
+    "insight": "联通客服场景：接入知识库和用户历史，RAG可提供精准的个性化答案，提升满意度。"
   },
   "think": {
-    "question": "如果联通储量专区要引入多模态AI，最优先的应用场景是？",
+    "question": "面对新macOS恶意软件PamStealer，运营商应如何保护用户？",
     "tags": [
-      "智能拍照测速",
-      "语音查询流量",
-      "图文识别套餐建议",
-      "视频客服指导"
+      "A. 推广安全软件",
+      "B. 加强网络层检测",
+      "C. 用户教育",
+      "D. 以上都是"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 15,
-    "todayDate": "7月3日",
-    "tomorrowDate": "7月4日",
+    "daysToFinal": 14,
+    "todayDate": "7月4日",
+    "tomorrowDate": "7月5日",
     "finished": [
-      {
-        "time": "03:00",
-        "group": "",
-        "venue": "",
-        "home": "西班牙",
-        "homeflag": "🇪🇸",
-        "away": "奥地利",
-        "awayflag": "🇦🇹",
-        "score": "3-0"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "07:00",
-        "group": "",
-        "venue": "",
-        "home": "葡萄牙",
-        "homeflag": "🇵🇹",
-        "away": "克罗地亚",
-        "awayflag": "🇭🇷"
-      },
-      {
-        "time": "11:00",
-        "group": "",
-        "venue": "",
-        "home": "瑞士",
-        "homeflag": "🇨🇭",
-        "away": "阿尔及利亚",
-        "awayflag": "🇩🇿"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "02:00",
         "group": "",
@@ -172,10 +140,10 @@
         "homeflag": "🇦🇺",
         "away": "埃及",
         "awayflag": "🇪🇬",
-        "winPct": 45,
-        "drawPct": 30,
-        "losePct": 25
-      },
+        "score": "3-5"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "06:00",
         "group": "",
@@ -183,10 +151,7 @@
         "home": "阿根廷",
         "homeflag": "🇦🇷",
         "away": "Cape Verde Islands",
-        "awayflag": "🏳️",
-        "winPct": 70,
-        "drawPct": 20,
-        "losePct": 10
+        "awayflag": "🏳️"
       },
       {
         "time": "09:30",
@@ -195,12 +160,35 @@
         "home": "哥伦比亚",
         "homeflag": "🇨🇴",
         "away": "加纳",
-        "awayflag": "🇬🇭",
-        "winPct": 55,
+        "awayflag": "🇬🇭"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "01:00",
+        "group": "",
+        "venue": "",
+        "home": "加拿大",
+        "homeflag": "🇨🇦",
+        "away": "摩洛哥",
+        "awayflag": "🇲🇦",
+        "winPct": 35,
+        "drawPct": 30,
+        "losePct": 35
+      },
+      {
+        "time": "05:00",
+        "group": "",
+        "venue": "",
+        "home": "巴拉圭",
+        "homeflag": "🇵🇾",
+        "away": "法国",
+        "awayflag": "🇫🇷",
+        "winPct": 20,
         "drawPct": 25,
-        "losePct": 20
+        "losePct": 55
       }
     ]
   },
-  "generatedAt": "2026-07-03 07:12"
+  "generatedAt": "2026-07-04 07:08"
 }
