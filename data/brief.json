@@ -1,169 +1,137 @@
 {
-  "date": "2026年7月4日 周六",
-  "dayCount": "Day 185",
+  "date": "2026年7月5日 周日",
+  "dayCount": "Day 186",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "JTBD理论",
-    "icon": "🎯",
-    "desc": "用户雇佣产品或服务是为了完成特定任务（Jobs to Be Done），而非产品本身。聚焦用户需要实现的目标，而非特征。",
+    "model": "增长飞轮",
+    "icon": "⚙️",
+    "desc": "通过存量用户活跃和推荐驱动新客获取，形成自强化循环。联通储量专区可借助飞轮效应，以高价值权益促老用户裂变拉新。",
     "flow": [
-      "识别用户核心任务：如“省钱”“省时”",
-      "设计完成任务的完整流程：从触发到解决",
-      "优化流程中每个环节，移除障碍"
+      "存量用户激活：推送专属优惠，提升活跃度",
+      "推荐激励：设置双倍积分奖励老用户分享",
+      "新客转化：新用户注册即享首充福利"
     ],
-    "insight": "联通储量专区可围绕“管理家庭通信开支”任务，提供从套餐推荐到用量提醒的一站式服务，而非单纯卖流量包。"
+    "insight": "联通储量专区可推出「推荐有礼」活动，老用户每邀请1人获10GB流量，新用户得20元话费券，形成飞轮。"
   },
   "psych": {
-    "concept": "社会认同",
-    "icon": "👥",
-    "def": "人们在不确定时会参照他人的行为做决策。",
-    "quote": "“90%的用户选择了这个套餐”比“这个套餐性价比高”更有效。",
-    "insight": "在推荐页面显示“已有XXX人办理5G套餐”，并加入用户评价和续费数据，提升转化率。"
+    "concept": "稀缺性原理",
+    "icon": "⏳",
+    "def": "人们认为难以获得的东西更有价值。",
+    "quote": "「最后100份」「限时3天」等提示激发紧迫感。",
+    "insight": "在联通APP首页设置「限量秒杀」专区，每日10点开抢5折流量包，并显示剩余数量，提升转化率。"
   },
   "biz": {
-    "topic": "ROE净资产收益率",
-    "icon": "📊",
-    "desc": "衡量企业使用股东资本盈利的效率。ROE=净利润/股东权益，越高说明资本运用能力越强。",
-    "stat1label": "中国联通2025年ROE",
-    "stat1pct": 5.8,
-    "stat1val": "5.8%",
-    "stat2label": "行业平均ROE",
-    "stat2pct": 8.2,
-    "stat2val": "8.2%",
-    "insight": "提升ROE需提高净利润或降低权益，运营可聚焦高价值用户留存和ARPU提升，减少低效补贴。"
+    "topic": "毛利率",
+    "icon": "💰",
+    "desc": "毛利率=（收入-成本）/收入，反映企业盈利效率。高毛利率意味着更强的定价能力和成本控制。",
+    "stat1label": "联通2025年毛利率",
+    "stat1pct": 75,
+    "stat1val": "31.2%",
+    "stat2label": "行业平均毛利率",
+    "stat2pct": 35,
+    "stat2val": "28.5%",
+    "insight": "联通毛利率高于行业平均，可加大高毛利增值业务（如云盘、视频会员）推广，提升整体盈利。"
   },
   "global": {
-    "title": "英国新首相斯塔默公布经济复苏计划",
-    "icon": "🌍",
-    "what": "英国新任首相基尔·斯塔默宣布了以绿色能源和数字基建为核心的经济复苏计划，包括投资150亿英镑建设全国光纤网络。",
-    "why": "英国经济面临高通胀和增长放缓，斯塔默希望借助科技投资拉动就业和生产率。",
-    "impact": "对联通启示：全球通信基建竞争加剧，中国需加速5G/6G和算力网络布局以保持领先。",
-    "newsTime": "",
-    "newsSource": ""
+    "title": "英国央行维持利率不变，通胀仍高于目标",
+    "icon": "🏦",
+    "what": "英国央行7月4日宣布维持基准利率5.25%不变，因服务业通胀顽固。",
+    "why": "英国5月CPI同比8.7%，核心通胀服务项居高不下，央行需平衡通胀与增长。",
+    "impact": "对普通储户：存款利率维持高位，但贷款成本增加；对投资者：英镑汇率短期走强。",
+    "newsTime": "2026-07-04",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "Ars Technica",
-    "logo": "AT",
-    "logoBg": "#D32F2F",
-    "news": "新macOS恶意软件PamStealer使用精巧技术保持隐蔽",
-    "desc": "研究人员发现一款名为PamStealer的新型macOS信息窃取恶意软件，采用高明手法躲避检测。",
-    "insight": "联通运营商需加强移动端安全防护，特别是iOS/macOS用户的数据安全，可推出安全管家服务。",
-    "newsTime": "7月3日 03:38",
-    "newsSource": "Ars Technica"
+    "company": "Spike Chunsoft",
+    "logo": "S",
+    "logoBg": "#e63946",
+    "news": "《弹丸论破2x2》新剧本「Slayhem」延期至2027年初",
+    "desc": "新作「Slayhem」剧本长约35小时，原定2026年底发售，现推迟至2027年初。",
+    "insight": "游戏延期提示内容质量优先于上市速度。联通可借鉴：推出新套餐前充分内测，避免匆忙上线影响用户体验。",
+    "newsTime": "7月4日 02:44",
+    "newsSource": "Anime News Network"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC“再战轮回”上线，销量破千万",
-    "icon": "🎮",
-    "desc": "国产3A游戏《黑神话：悟空》首个大型DLC上线，新增剧情和Boss战，全球销量突破1000万份。",
-    "quote": "“游戏是第九艺术，也是文化输出的最佳载体。”",
+    "title": "《黑神话：悟空》DLC「轮回」发布预告",
+    "icon": "🐒",
+    "desc": "游戏科学7月4日公布DLC预告，新增地图与Boss，预计2026年Q4上线。",
+    "quote": "「神话续写，再战天命。」",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "stealthy",
-        "phonetic": "/ˈstelθi/",
-        "pron": "斯特尔西",
-        "mean": "隐蔽的"
+        "word": "resilient",
+        "phonetic": "/rɪˈzɪliənt/",
+        "pron": "瑞-兹利-恩特",
+        "mean": "有弹性的；坚韧的"
       },
       {
-        "word": "malware",
-        "phonetic": "/ˈmælwer/",
-        "pron": "摩尔威尔",
-        "mean": "恶意软件"
+        "word": "inflation",
+        "phonetic": "/ɪnˈfleɪʃən/",
+        "pron": "因-弗莱-申",
+        "mean": "通货膨胀"
       },
       {
-        "word": "infostealer",
-        "phonetic": "/ˈɪnfoʊˌstiːlər/",
-        "pron": "音否斯蒂勒",
-        "mean": "信息窃取者"
+        "word": "scarcity",
+        "phonetic": "/ˈskeəsəti/",
+        "pron": "斯凯尔-瑟-提",
+        "mean": "稀缺"
       }
     ],
-    "example": "The new **infostealer** malware uses clever tradecraft to remain **stealthy**.",
-    "exampleCN": "新型信息窃取恶意软件使用精巧技术保持隐蔽。"
+    "example": "Despite **resilient** demand, **inflation** remains high due to **scarcity** of resources.",
+    "exampleCN": "尽管需求有韧性，但资源稀缺导致通胀仍高。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "マルウェア",
-        "kana": "マルウェア",
-        "romaji": "maruwea",
-        "pron": "玛露威阿",
-        "mean": "恶意软件"
+        "ja": "限定",
+        "kana": "げんてい",
+        "romaji": "gentei",
+        "pron": "根-忒",
+        "mean": "限定"
       },
       {
-        "ja": "ステルス",
-        "kana": "ステルス",
-        "romaji": "suterusu",
-        "pron": "斯泰露斯",
-        "mean": "隐蔽"
+        "ja": "希少性",
+        "kana": "きしょうせい",
+        "romaji": "kishōsei",
+        "pron": "基-肖-塞",
+        "mean": "稀缺性"
       },
       {
-        "ja": "情報窃取",
-        "kana": "じょうほうせっしゅ",
-        "romaji": "jouhou sesshu",
-        "pron": "觉霍塞修",
-        "mean": "信息窃取"
+        "ja": "成長",
+        "kana": "せいちょう",
+        "romaji": "seichō",
+        "pron": "塞-乔",
+        "mean": "成长"
       }
     ],
-    "example": "新しい**マルウェア**は**ステルス**技術で**情報窃取**を行う。",
-    "exampleCN": "新型恶意软件使用隐蔽技术进行信息窃取。"
+    "example": "**限定**品は**希少性**が高く、**成長**の鍵となる。",
+    "exampleCN": "限定品稀缺性高，是成长的关键。"
   },
   "ai": {
-    "topic": "RAG检索增强",
-    "node1": "📚",
-    "node2": "🔍",
-    "node3": "💡",
-    "desc": "RAG（Retrieval-Augmented Generation）通过检索外部知识库增强大模型回答，减少幻觉。",
-    "insight": "联通客服场景：接入知识库和用户历史，RAG可提供精准的个性化答案，提升满意度。"
+    "topic": "数字分身",
+    "node1": "🤖",
+    "node2": "📱",
+    "node3": "👥",
+    "desc": "数字分身是利用AI创建的用户虚拟替身，可模拟行为偏好，提供个性化服务。",
+    "insight": "联通可为高价值用户生成数字分身，自动推荐最优套餐组合，提升续约率与ARPU。"
   },
   "think": {
-    "question": "面对新macOS恶意软件PamStealer，运营商应如何保护用户？",
+    "question": "存量用户运营中，哪个手段最能提升长期留存？",
     "tags": [
-      "A. 推广安全软件",
-      "B. 加强网络层检测",
-      "C. 用户教育",
-      "D. 以上都是"
+      "A. 积分体系",
+      "B. 社群运营",
+      "C. 个性化推荐",
+      "D. 会员权益"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 14,
-    "todayDate": "7月4日",
-    "tomorrowDate": "7月5日",
+    "daysToFinal": 13,
+    "todayDate": "7月5日",
+    "tomorrowDate": "7月6日",
     "finished": [
-      {
-        "time": "02:00",
-        "group": "",
-        "venue": "",
-        "home": "澳大利亚",
-        "homeflag": "🇦🇺",
-        "away": "埃及",
-        "awayflag": "🇪🇬",
-        "score": "3-5"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "06:00",
-        "group": "",
-        "venue": "",
-        "home": "阿根廷",
-        "homeflag": "🇦🇷",
-        "away": "Cape Verde Islands",
-        "awayflag": "🏳️"
-      },
-      {
-        "time": "09:30",
-        "group": "",
-        "venue": "",
-        "home": "哥伦比亚",
-        "homeflag": "🇨🇴",
-        "away": "加纳",
-        "awayflag": "🇬🇭"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "01:00",
         "group": "",
@@ -172,10 +140,10 @@
         "homeflag": "🇨🇦",
         "away": "摩洛哥",
         "awayflag": "🇲🇦",
-        "winPct": 35,
-        "drawPct": 30,
-        "losePct": 35
-      },
+        "score": "0-3"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "05:00",
         "group": "",
@@ -183,12 +151,35 @@
         "home": "巴拉圭",
         "homeflag": "🇵🇾",
         "away": "法国",
-        "awayflag": "🇫🇷",
-        "winPct": 20,
+        "awayflag": "🇫🇷"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "04:00",
+        "group": "",
+        "venue": "",
+        "home": "巴西",
+        "homeflag": "🇧🇷",
+        "away": "挪威",
+        "awayflag": "🇳🇴",
+        "winPct": 65,
+        "drawPct": 20,
+        "losePct": 15
+      },
+      {
+        "time": "08:00",
+        "group": "",
+        "venue": "",
+        "home": "墨西哥",
+        "homeflag": "🇲🇽",
+        "away": "英格兰",
+        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "winPct": 30,
         "drawPct": 25,
-        "losePct": 55
+        "losePct": 45
       }
     ]
   },
-  "generatedAt": "2026-07-04 07:08"
+  "generatedAt": "2026-07-05 07:01"
 }
