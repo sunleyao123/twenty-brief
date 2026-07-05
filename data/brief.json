@@ -1,160 +1,137 @@
 {
-  "date": "2026年7月5日 周日",
-  "dayCount": "Day 186",
+  "date": "2026年7月6日 周一",
+  "dayCount": "Day 187",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "增长飞轮",
-    "icon": "⚙️",
-    "desc": "通过存量用户活跃和推荐驱动新客获取，形成自强化循环。联通储量专区可借助飞轮效应，以高价值权益促老用户裂变拉新。",
+    "model": "钩子模型",
+    "icon": "🎣",
+    "desc": "通过免费或低门槛服务吸引用户，逐步培养使用习惯，最终引导付费或深度使用。强调首次体验的价值感。",
     "flow": [
-      "存量用户激活：推送专属优惠，提升活跃度",
-      "推荐激励：设置双倍积分奖励老用户分享",
-      "新客转化：新用户注册即享首充福利"
+      "设计免费试用或低价体验包（如1元10GB流量日包）",
+      "在体验中设置关键触点，引导用户完成核心操作（如登录APP、绑定银行卡）",
+      "体验结束后推送续费优惠，利用已投入的时间成本促进转化"
     ],
-    "insight": "联通储量专区可推出「推荐有礼」活动，老用户每邀请1人获10GB流量，新用户得20元话费券，形成飞轮。"
+    "insight": "联通可推出5G体验套餐，首月低价，次月恢复原价，利用用户对高速网络的依赖提升留存率。"
   },
   "psych": {
-    "concept": "稀缺性原理",
-    "icon": "⏳",
-    "def": "人们认为难以获得的东西更有价值。",
-    "quote": "「最后100份」「限时3天」等提示激发紧迫感。",
-    "insight": "在联通APP首页设置「限量秒杀」专区，每日10点开抢5折流量包，并显示剩余数量，提升转化率。"
+    "concept": "沉没成本",
+    "icon": "💸",
+    "def": "指已经发生且不可收回的支出，如时间、金钱或精力，会影响用户后续决策。",
+    "quote": "用户已下载APP并填写详细资料，即使发现功能不完善，也可能因已投入时间而继续使用。",
+    "insight": "在联通套餐升级页面，先让用户填写个人信息，再展示优惠，利用填写动作提升转化率。"
   },
   "biz": {
-    "topic": "毛利率",
-    "icon": "💰",
-    "desc": "毛利率=（收入-成本）/收入，反映企业盈利效率。高毛利率意味着更强的定价能力和成本控制。",
-    "stat1label": "联通2025年毛利率",
+    "topic": "规模效应",
+    "icon": "📈",
+    "desc": "随着用户规模扩大，单位成本下降，同时网络价值提升（梅特卡夫定律）。运营商是典型规模效应行业。",
+    "stat1label": "用户数（亿）",
     "stat1pct": 75,
-    "stat1val": "31.2%",
-    "stat2label": "行业平均毛利率",
+    "stat1val": "4.5",
+    "stat2label": "网络利用率",
     "stat2pct": 35,
-    "stat2val": "28.5%",
-    "insight": "联通毛利率高于行业平均，可加大高毛利增值业务（如云盘、视频会员）推广，提升整体盈利。"
+    "stat2val": "35%",
+    "insight": "联通可通过话费补贴刺激用户增长，利用规模效应摊薄基站运维成本，提升利润。"
   },
   "global": {
-    "title": "英国央行维持利率不变，通胀仍高于目标",
-    "icon": "🏦",
-    "what": "英国央行7月4日宣布维持基准利率5.25%不变，因服务业通胀顽固。",
-    "why": "英国5月CPI同比8.7%，核心通胀服务项居高不下，央行需平衡通胀与增长。",
-    "impact": "对普通储户：存款利率维持高位，但贷款成本增加；对投资者：英镑汇率短期走强。",
-    "newsTime": "2026-07-04",
-    "newsSource": "Reuters"
+    "title": "美国宣布对华半导体出口新限制，涉及高端AI芯片",
+    "icon": "🌍",
+    "what": "美国商务部新增出口管制，限制英伟达、AMD等公司向中国出售部分高性能AI芯片。",
+    "why": "旨在遏制中国AI技术发展，保护美国国家安全利益。",
+    "impact": "中国科技企业面临计算能力瓶颈，可能加速国产芯片替代进程。",
+    "newsTime": "2026年7月5日",
+    "newsSource": "路透社"
   },
   "tech": {
-    "company": "Spike Chunsoft",
+    "company": "Square Enix",
     "logo": "S",
-    "logoBg": "#e63946",
-    "news": "《弹丸论破2x2》新剧本「Slayhem」延期至2027年初",
-    "desc": "新作「Slayhem」剧本长约35小时，原定2026年底发售，现推迟至2027年初。",
-    "insight": "游戏延期提示内容质量优先于上市速度。联通可借鉴：推出新套餐前充分内测，避免匆忙上线影响用户体验。",
-    "newsTime": "7月4日 02:44",
-    "newsSource": "Anime News Network"
+    "logoBg": "#2B3A67",
+    "news": "《勇者斗恶龙11 S》公布任天堂Switch 2版帧率和分辨率细节",
+    "desc": "Square Enix确认Switch 2版将提供两种图形选项，玩家可选择更高帧率或更高分辨率。",
+    "insight": "联通可为Switch 2用户推出专属游戏加速套餐，利用云游戏场景推广5G低延迟优势。",
+    "newsTime": "7月5日 04:33",
+    "newsSource": "Nintendoeverything.com"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC「轮回」发布预告",
-    "icon": "🐒",
-    "desc": "游戏科学7月4日公布DLC预告，新增地图与Boss，预计2026年Q4上线。",
-    "quote": "「神话续写，再战天命。」",
+    "title": "《黑神话：悟空》DLC“再战天宫”上线首日销量破200万",
+    "icon": "🎮",
+    "desc": "国产3A大作《黑神话：悟空》发布首个大型DLC，新增地图和Boss战，玩家好评如潮。",
+    "quote": "中国游戏工业的里程碑，证明单机付费模式在国内市场同样可行。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "resilient",
-        "phonetic": "/rɪˈzɪliənt/",
-        "pron": "瑞-兹利-恩特",
-        "mean": "有弹性的；坚韧的"
+        "word": "retention",
+        "phonetic": "/rɪˈtenʃn/",
+        "pron": "瑞-ten-申",
+        "mean": "留存，保留"
       },
       {
-        "word": "inflation",
-        "phonetic": "/ɪnˈfleɪʃən/",
-        "pron": "因-弗莱-申",
-        "mean": "通货膨胀"
+        "word": "conversion",
+        "phonetic": "/kənˈvɜːrʒn/",
+        "pron": "肯-ver-任",
+        "mean": "转化，转变"
       },
       {
-        "word": "scarcity",
-        "phonetic": "/ˈskeəsəti/",
-        "pron": "斯凯尔-瑟-提",
-        "mean": "稀缺"
+        "word": "funnel",
+        "phonetic": "/ˈfʌnl/",
+        "pron": "发-脑",
+        "mean": "漏斗"
       }
     ],
-    "example": "Despite **resilient** demand, **inflation** remains high due to **scarcity** of resources.",
-    "exampleCN": "尽管需求有韧性，但资源稀缺导致通胀仍高。"
+    "example": "Improving user **retention** is key to increasing **conversion** rates at the bottom of the **funnel**.",
+    "exampleCN": "提高用户留存率是增加漏斗底部转化率的关键。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "限定",
-        "kana": "げんてい",
-        "romaji": "gentei",
-        "pron": "根-忒",
-        "mean": "限定"
+        "ja": "定着",
+        "kana": "ていちゃく",
+        "romaji": "teichaku",
+        "pron": "tei-cha-ku",
+        "mean": "留存，固定"
       },
       {
-        "ja": "希少性",
-        "kana": "きしょうせい",
-        "romaji": "kishōsei",
-        "pron": "基-肖-塞",
-        "mean": "稀缺性"
+        "ja": "変換",
+        "kana": "へんかん",
+        "romaji": "henkan",
+        "pron": "hen-kan",
+        "mean": "转化，转换"
       },
       {
-        "ja": "成長",
-        "kana": "せいちょう",
-        "romaji": "seichō",
-        "pron": "塞-乔",
-        "mean": "成长"
+        "ja": "漏斗",
+        "kana": "ろうと",
+        "romaji": "rōto",
+        "pron": "ro-u-to",
+        "mean": "漏斗"
       }
     ],
-    "example": "**限定**品は**希少性**が高く、**成長**の鍵となる。",
-    "exampleCN": "限定品稀缺性高，是成长的关键。"
+    "example": "ユーザーの**定着**率を向上させることが、**漏斗**の底での**変換**率向上の鍵です。",
+    "exampleCN": "提高用户留存率是提升漏斗底部转化率的关键。"
   },
   "ai": {
-    "topic": "数字分身",
-    "node1": "🤖",
-    "node2": "📱",
-    "node3": "👥",
-    "desc": "数字分身是利用AI创建的用户虚拟替身，可模拟行为偏好，提供个性化服务。",
-    "insight": "联通可为高价值用户生成数字分身，自动推荐最优套餐组合，提升续约率与ARPU。"
+    "topic": "AI搜索",
+    "node1": "🔍",
+    "node2": "🧠",
+    "node3": "🗂️",
+    "desc": "利用大语言模型理解用户意图，直接生成答案而非链接列表。",
+    "insight": "联通可开发AI客服助手，快速解答套餐疑问，降低人工客服压力。"
   },
   "think": {
-    "question": "存量用户运营中，哪个手段最能提升长期留存？",
+    "question": "联通用户流失率较高，以下哪种策略最可能有效降低流失？",
     "tags": [
-      "A. 积分体系",
-      "B. 社群运营",
-      "C. 个性化推荐",
-      "D. 会员权益"
+      "A. 推出更低价套餐",
+      "B. 改善网络覆盖质量",
+      "C. 增加积分兑换礼品",
+      "D. 提供专属客服"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 13,
-    "todayDate": "7月5日",
-    "tomorrowDate": "7月6日",
+    "daysToFinal": 12,
+    "todayDate": "7月6日",
+    "tomorrowDate": "7月7日",
     "finished": [
-      {
-        "time": "01:00",
-        "group": "",
-        "venue": "",
-        "home": "加拿大",
-        "homeflag": "🇨🇦",
-        "away": "摩洛哥",
-        "awayflag": "🇲🇦",
-        "score": "0-3"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "05:00",
-        "group": "",
-        "venue": "",
-        "home": "巴拉圭",
-        "homeflag": "🇵🇾",
-        "away": "法国",
-        "awayflag": "🇫🇷"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "04:00",
         "group": "",
@@ -163,10 +140,10 @@
         "homeflag": "🇧🇷",
         "away": "挪威",
         "awayflag": "🇳🇴",
-        "winPct": 65,
-        "drawPct": 20,
-        "losePct": 15
-      },
+        "score": "1-2"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "08:00",
         "group": "",
@@ -174,12 +151,35 @@
         "home": "墨西哥",
         "homeflag": "🇲🇽",
         "away": "英格兰",
-        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "winPct": 30,
+        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "03:00",
+        "group": "",
+        "venue": "",
+        "home": "葡萄牙",
+        "homeflag": "🇵🇹",
+        "away": "西班牙",
+        "awayflag": "🇪🇸",
+        "winPct": 35,
+        "drawPct": 30,
+        "losePct": 35
+      },
+      {
+        "time": "08:00",
+        "group": "",
+        "venue": "",
+        "home": "美国",
+        "homeflag": "🇺🇸",
+        "away": "比利时",
+        "awayflag": "🇧🇪",
+        "winPct": 40,
         "drawPct": 25,
-        "losePct": 45
+        "losePct": 35
       }
     ]
   },
-  "generatedAt": "2026-07-05 07:01"
+  "generatedAt": "2026-07-06 07:05"
 }
