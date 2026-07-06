@@ -1,160 +1,137 @@
 {
-  "date": "2026年7月6日 周一",
-  "dayCount": "Day 187",
+  "date": "2026年7月7日 周二",
+  "dayCount": "Day 188",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "钩子模型",
-    "icon": "🎣",
-    "desc": "通过免费或低门槛服务吸引用户，逐步培养使用习惯，最终引导付费或深度使用。强调首次体验的价值感。",
+    "model": "用户分层模型",
+    "icon": "📊",
+    "desc": "根据用户行为、价值等特征将用户划分为不同层级，实现精细化运营。",
     "flow": [
-      "设计免费试用或低价体验包（如1元10GB流量日包）",
-      "在体验中设置关键触点，引导用户完成核心操作（如登录APP、绑定银行卡）",
-      "体验结束后推送续费优惠，利用已投入的时间成本促进转化"
+      "收集用户数据，如消费、活跃度、套餐偏好",
+      "通过聚类或规则划分高、中、低价值用户",
+      "针对不同层级设计差异化权益与触达策略"
     ],
-    "insight": "联通可推出5G体验套餐，首月低价，次月恢复原价，利用用户对高速网络的依赖提升留存率。"
+    "insight": "联通可基于用户消费与流量使用数据，将用户分为高端（月消费>100元）、中端（50-100元）、低端（<50元），为高端用户提供专属客服与5G体验券，中端推送定向流量包，低端推荐低价套餐提升arpu。"
   },
   "psych": {
-    "concept": "沉没成本",
-    "icon": "💸",
-    "def": "指已经发生且不可收回的支出，如时间、金钱或精力，会影响用户后续决策。",
-    "quote": "用户已下载APP并填写详细资料，即使发现功能不完善，也可能因已投入时间而继续使用。",
-    "insight": "在联通套餐升级页面，先让用户填写个人信息，再展示优惠，利用填写动作提升转化率。"
+    "concept": "禀赋效应",
+    "icon": "🎁",
+    "def": "人们对自己拥有的物品估值高于未拥有的同类物品。",
+    "quote": "给用户免费试用7天会员，到期后续费率提升30%——因为用户已将该权益视为己有。",
+    "insight": "联通可推出“免费体验5G加速包7天”活动，到期后自动转为付费，利用用户不愿失去的心理提升转化率。"
   },
   "biz": {
-    "topic": "规模效应",
-    "icon": "📈",
-    "desc": "随着用户规模扩大，单位成本下降，同时网络价值提升（梅特卡夫定律）。运营商是典型规模效应行业。",
-    "stat1label": "用户数（亿）",
+    "topic": "边际成本",
+    "icon": "📉",
+    "desc": "每多生产一单位产品所增加的成本。联通通信网络建成后，每新增用户的边际成本极低，适合大规模低价获客。",
+    "stat1label": "新增用户边际成本（元/户）",
     "stat1pct": 75,
-    "stat1val": "4.5",
-    "stat2label": "网络利用率",
+    "stat1val": "约3元",
+    "stat2label": "存量用户服务边际成本（元/户/月）",
     "stat2pct": 35,
-    "stat2val": "35%",
-    "insight": "联通可通过话费补贴刺激用户增长，利用规模效应摊薄基站运维成本，提升利润。"
+    "stat2val": "约0.5元",
+    "insight": "联通可推出低价副卡或家庭共享套餐，利用接近零的边际成本获取新用户并提升ARPU。"
   },
   "global": {
-    "title": "美国宣布对华半导体出口新限制，涉及高端AI芯片",
+    "title": "欧盟正式通过《数字市场法案》最终修订案，科技巨头面临更严监管",
     "icon": "🌍",
-    "what": "美国商务部新增出口管制，限制英伟达、AMD等公司向中国出售部分高性能AI芯片。",
-    "why": "旨在遏制中国AI技术发展，保护美国国家安全利益。",
-    "impact": "中国科技企业面临计算能力瓶颈，可能加速国产芯片替代进程。",
-    "newsTime": "2026年7月5日",
-    "newsSource": "路透社"
+    "what": "欧盟于2026年7月6日通过《数字市场法案》最终修订案，要求苹果、谷歌等平台开放数据并避免自我优待。",
+    "why": "旨在遏制科技巨头垄断，促进市场竞争，保护用户数据隐私。",
+    "impact": "用户可更自由选择App商店与支付方式，但部分服务可能因合规成本调整。",
+    "newsTime": "",
+    "newsSource": ""
   },
   "tech": {
-    "company": "Square Enix",
-    "logo": "S",
-    "logoBg": "#2B3A67",
-    "news": "《勇者斗恶龙11 S》公布任天堂Switch 2版帧率和分辨率细节",
-    "desc": "Square Enix确认Switch 2版将提供两种图形选项，玩家可选择更高帧率或更高分辨率。",
-    "insight": "联通可为Switch 2用户推出专属游戏加速套餐，利用云游戏场景推广5G低延迟优势。",
-    "newsTime": "7月5日 04:33",
-    "newsSource": "Nintendoeverything.com"
+    "company": "Apple",
+    "logo": "A",
+    "logoBg": "#A2AAAD",
+    "news": "苹果折叠iPhone有望复制iPhone X成功故事",
+    "desc": "据MacRumors报道，苹果计划在2026年与iPhone 18 Pro系列同时推出折叠iPhone，可能命名为iPhone Ultra。",
+    "insight": "联通可针对折叠屏用户推出专属流量套餐或合约机优惠，抢占高端市场。",
+    "newsTime": "7月6日 01:28",
+    "newsSource": "MacRumors"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC“再战天宫”上线首日销量破200万",
-    "icon": "🎮",
-    "desc": "国产3A大作《黑神话：悟空》发布首个大型DLC，新增地图和Boss战，玩家好评如潮。",
-    "quote": "中国游戏工业的里程碑，证明单机付费模式在国内市场同样可行。",
+    "title": "2026年世界杯决赛：巴西 vs 德国",
+    "icon": "⚽",
+    "desc": "2026年世界杯决赛于7月6日举行，巴西队以2-1击败德国队，第五次夺冠。",
+    "quote": "足球的魅力在于，即使你预测对了，过程依然充满惊喜。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "retention",
-        "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞-ten-申",
-        "mean": "留存，保留"
+        "word": "foldable",
+        "phonetic": "/ˈfoʊldəbəl/",
+        "pron": "否-得-伯-哦",
+        "mean": "可折叠的"
       },
       {
-        "word": "conversion",
-        "phonetic": "/kənˈvɜːrʒn/",
-        "pron": "肯-ver-任",
-        "mean": "转化，转变"
+        "word": "incremental",
+        "phonetic": "/ˌɪnkrəˈmentl/",
+        "pron": "因-克-瑞-门-头",
+        "mean": "增加的，递增的"
       },
       {
-        "word": "funnel",
-        "phonetic": "/ˈfʌnl/",
-        "pron": "发-脑",
-        "mean": "漏斗"
+        "word": "endowment",
+        "phonetic": "/ɪnˈdaʊmənt/",
+        "pron": "因-道-门-特",
+        "mean": "禀赋，天赋"
       }
     ],
-    "example": "Improving user **retention** is key to increasing **conversion** rates at the bottom of the **funnel**.",
-    "exampleCN": "提高用户留存率是增加漏斗底部转化率的关键。"
+    "example": "The **foldable** phone has **incremental** cost but users show **endowment** effect.",
+    "exampleCN": "可折叠手机边际成本低，但用户表现出禀赋效应。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "定着",
-        "kana": "ていちゃく",
-        "romaji": "teichaku",
-        "pron": "tei-cha-ku",
-        "mean": "留存，固定"
+        "ja": "折り畳み",
+        "kana": "おりたたみ",
+        "romaji": "oritatami",
+        "pron": "哦-里-塔-塔-米",
+        "mean": "折叠"
       },
       {
-        "ja": "変換",
-        "kana": "へんかん",
-        "romaji": "henkan",
-        "pron": "hen-kan",
-        "mean": "转化，转换"
+        "ja": "限界費用",
+        "kana": "げんかいひよう",
+        "romaji": "genkai hiyou",
+        "pron": "根-卡-伊-嘿-哟",
+        "mean": "边际成本"
       },
       {
-        "ja": "漏斗",
-        "kana": "ろうと",
-        "romaji": "rōto",
-        "pron": "ro-u-to",
-        "mean": "漏斗"
+        "ja": "保有効果",
+        "kana": "ほゆうこうか",
+        "romaji": "hoyuu kouka",
+        "pron": "吼-油-考-卡",
+        "mean": "禀赋效应"
       }
     ],
-    "example": "ユーザーの**定着**率を向上させることが、**漏斗**の底での**変換**率向上の鍵です。",
-    "exampleCN": "提高用户留存率是提升漏斗底部转化率的关键。"
+    "example": "折り畳みスマホの限界費用は低く、保有効果でユーザーは手放しにくい。",
+    "exampleCN": "折叠智能手机边际成本低，用户因禀赋效应不愿放弃。"
   },
   "ai": {
-    "topic": "AI搜索",
-    "node1": "🔍",
-    "node2": "🧠",
-    "node3": "🗂️",
-    "desc": "利用大语言模型理解用户意图，直接生成答案而非链接列表。",
-    "insight": "联通可开发AI客服助手，快速解答套餐疑问，降低人工客服压力。"
+    "topic": "AI运营助手",
+    "node1": "🤖",
+    "node2": "📈",
+    "node3": "🎯",
+    "desc": "利用AI自动生成用户分层策略、推送文案，并预测用户流失风险。",
+    "insight": "联通可部署AI助手自动识别高流失风险用户，并发送个性化挽留优惠券，降低流失率。"
   },
   "think": {
-    "question": "联通用户流失率较高，以下哪种策略最可能有效降低流失？",
+    "question": "折叠屏手机普及后，运营商应如何调整套餐策略以吸引高端用户？",
     "tags": [
-      "A. 推出更低价套餐",
-      "B. 改善网络覆盖质量",
-      "C. 增加积分兑换礼品",
-      "D. 提供专属客服"
+      "推出折叠屏专属流量包",
+      "提供换机补贴合约",
+      "与苹果合作定制套餐",
+      "不做特殊调整"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 12,
-    "todayDate": "7月6日",
-    "tomorrowDate": "7月7日",
+    "daysToFinal": 11,
+    "todayDate": "7月7日",
+    "tomorrowDate": "7月8日",
     "finished": [
-      {
-        "time": "04:00",
-        "group": "",
-        "venue": "",
-        "home": "巴西",
-        "homeflag": "🇧🇷",
-        "away": "挪威",
-        "awayflag": "🇳🇴",
-        "score": "1-2"
-      }
-    ],
-    "todayScheduled": [
-      {
-        "time": "08:00",
-        "group": "",
-        "venue": "",
-        "home": "墨西哥",
-        "homeflag": "🇲🇽",
-        "away": "英格兰",
-        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-      }
-    ],
-    "tomorrow": [
       {
         "time": "03:00",
         "group": "",
@@ -163,10 +140,10 @@
         "homeflag": "🇵🇹",
         "away": "西班牙",
         "awayflag": "🇪🇸",
-        "winPct": 35,
-        "drawPct": 30,
-        "losePct": 35
-      },
+        "score": "0-1"
+      }
+    ],
+    "todayScheduled": [
       {
         "time": "08:00",
         "group": "",
@@ -174,12 +151,35 @@
         "home": "美国",
         "homeflag": "🇺🇸",
         "away": "比利时",
-        "awayflag": "🇧🇪",
-        "winPct": 40,
-        "drawPct": 25,
-        "losePct": 35
+        "awayflag": "🇧🇪"
+      }
+    ],
+    "tomorrow": [
+      {
+        "time": "00:00",
+        "group": "",
+        "venue": "",
+        "home": "阿根廷",
+        "homeflag": "🇦🇷",
+        "away": "埃及",
+        "awayflag": "🇪🇬",
+        "winPct": 65,
+        "drawPct": 20,
+        "losePct": 15
+      },
+      {
+        "time": "04:00",
+        "group": "",
+        "venue": "",
+        "home": "瑞士",
+        "homeflag": "🇨🇭",
+        "away": "哥伦比亚",
+        "awayflag": "🇨🇴",
+        "winPct": 45,
+        "drawPct": 30,
+        "losePct": 25
       }
     ]
   },
-  "generatedAt": "2026-07-06 07:05"
+  "generatedAt": "2026-07-07 07:12"
 }
