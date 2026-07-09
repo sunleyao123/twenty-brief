@@ -1,141 +1,137 @@
 {
-  "date": "2026年7月9日 周四",
-  "dayCount": "Day 190",
+  "date": "2026年7月10日 周五",
+  "dayCount": "Day 191",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "AARRR漏斗",
-    "icon": "🔄",
-    "desc": "AARRR漏斗从用户获取到推荐，量化每个环节转化率。今日聚焦存量运营，通过激活与留存提升用户价值。",
+    "model": "RFM模型",
+    "icon": "📊",
+    "desc": "RFM模型通过最近消费时间、频率和金额三维度，帮助运营商识别高价值用户并制定差异化策略。",
     "flow": [
-      "获取用户",
-      "激活使用",
-      "提高留存",
-      "增加收入",
-      "自传播推荐"
+      "提取用户近3个月消费数据，计算R、F、M值",
+      "将每个维度按五分位打分，组合成125种用户类型",
+      "针对重要价值用户推送5G升级套餐，流失用户赠送流量包"
     ],
-    "insight": "联通储量专区可监控5G套餐用户从激活到留存的转化率，针对低激活用户推送定向流量包，提升次日留存率。"
+    "insight": "联通储量专区可对高价值用户（R近、F高、M高）定向推送限时折扣的存储套餐，提升ARPU。"
   },
   "psych": {
-    "concept": "峰终定律",
-    "icon": "⛰️",
-    "def": "人们对体验的评价主要基于高峰时刻和结束时刻的感受，而非平均全程。",
-    "quote": "联通客服热线中，用户最可能记住的是解决问题的高效时刻和挂机前的礼貌用语。",
-    "insight": "在用户投诉处理流程中，设计快速响应的“高峰”和满意结束的“终值”，如立即赠送流量安抚，可提升整体满意度。"
+    "concept": "损失厌恶",
+    "icon": "😣",
+    "def": "人们面对同样数量的损失和收益时，损失带来的痛苦远大于收益带来的快乐。",
+    "quote": "免费试用到期后自动扣费，用户为避免损失更易续订。",
+    "insight": "在联通套餐设计中，可突出'不续订将失去XXGB流量'，利用损失厌恶提升续约率。"
   },
   "biz": {
-    "topic": "复利效应",
-    "icon": "📈",
-    "desc": "复利效应强调持续小增长在长期产生巨大回报。用户运营中，每日微小的留存提升会指数级放大LTV。",
-    "stat1label": "日留存率提升",
-    "stat1pct": 10,
-    "stat1val": "+2%",
-    "stat2label": "90天LTV增幅",
-    "stat2pct": 50,
-    "stat2val": "+15%",
-    "insight": "联通若每日通过积分任务提升1%次日留存，90天后用户LTV可提升15%以上，复利效应显著。"
+    "topic": "现金流管理",
+    "icon": "💰",
+    "desc": "现金流管理关注企业现金流入与流出，确保资金链健康。用户预存话费即为联通提供稳定现金流。",
+    "stat1label": "预存话费占比",
+    "stat1pct": 75,
+    "stat1val": "75%",
+    "stat2label": "月均流失率",
+    "stat2pct": 35,
+    "stat2val": "35%",
+    "insight": "通过鼓励用户预存话费（如存100送20），可增加公司现金流，同时降低用户流失。"
   },
   "global": {
-    "title": "欧盟正式通过数字欧元法案 2027年启动试点",
+    "title": "全球芯片短缺加剧：台积电宣布3nm产能延期至2027年",
     "icon": "🌍",
-    "what": "欧盟议会7月8日以压倒性多数通过数字欧元立法，计划2027年在部分成员国启动零售试点。数字欧元将作为法定货币补充，支持离线支付。",
-    "why": "此举旨在应对加密货币和科技巨头支付体系冲击，维护货币主权。同时为无银行账户人群提供普惠金融入口。",
-    "impact": "数字欧元可能改变跨境支付格局，降低汇款成本。对运营商而言，数字身份与支付结合或催生新型SIM卡钱包业务。",
-    "newsTime": "7月8日",
-    "newsSource": "路透社"
+    "what": "台积电因EUV光刻机交付问题，宣布3nm工艺产能爬坡推迟至2027年第一季度。",
+    "why": "这将影响苹果、高通等客户旗舰芯片量产，加剧全球半导体供需紧张。",
+    "impact": "消费者可能面临手机、电脑等电子产品价格上涨和缺货，等待新机时间延长。",
+    "newsTime": "2026-07-09 14:00",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "Bethesda / id Software",
-    "logo": "B",
-    "logoBg": "#1a1a2e",
-    "news": "微软裁员波及Bethesda和id Software，部分团队裁员比例高达50%",
-    "desc": "据Ars Technica报道，微软近期裁员中，Bethesda和id Software受影响严重，部分团队裁减50%人员，且更多裁员可能即将到来。",
-    "insight": "游戏行业裁员潮反映成本压力，联通云游戏等增值服务需关注内容供给稳定性，可合作中小工作室分散风险。",
-    "newsTime": "7月8日 03:52",
+    "company": "Ars Technica",
+    "logo": "A",
+    "logoBg": "#FF6600",
+    "news": "本周Linux曝出两个高危漏洞，其中一个可实现虚拟机逃逸并获得root权限",
+    "desc": "这两个漏洞均允许不受信任用户获取root权限，其中之一为高严重性的虚拟机逃逸漏洞。",
+    "insight": "联通云服务需立即关注并修补，避免客户虚拟机被攻击，影响云业务安全口碑。",
+    "newsTime": "7月9日 03:01",
     "newsSource": "Ars Technica"
   },
   "ent": {
-    "title": "《黑神话：悟空》DLC「再战轮回」首周销量破300万",
-    "icon": "🐒",
-    "desc": "国产3A大作《黑神话：悟空》首个大型DLC于7月初上线，新增三张地图和Boss Rush模式，首周全球销量突破300万份。",
-    "quote": "文化自信与顶级品质结合，中国游戏出海再树标杆。",
-    "stars": "★★★★★"
+    "title": "《黑神话：悟空》续作预告片播放量破亿",
+    "icon": "🎮",
+    "desc": "游戏科学发布《黑神话：悟空2》首支预告，24小时全网播放量突破1亿次。",
+    "quote": "国产3A再续传奇，文化自信与顶级画质的完美结合。",
+    "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "layoff",
-        "phonetic": "/ˈleɪɔːf/",
-        "pron": "雷-奥夫",
-        "mean": "裁员"
+        "word": "vulnerability",
+        "phonetic": "/ˌvʌlnərəˈbɪləti/",
+        "pron": "瓦尔纳拉比勒提",
+        "mean": "漏洞；脆弱性"
       },
       {
-        "word": "retention",
-        "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞-ten-申",
-        "mean": "留存"
+        "word": "escalation",
+        "phonetic": "/ˌeskəˈleɪʃn/",
+        "pron": "艾斯卡雷申",
+        "mean": "升级；扩大"
       },
       {
-        "word": "compound",
-        "phonetic": "/ˈkɒmpaʊnd/",
-        "pron": "康-怕-嗯德",
-        "mean": "复合；复利"
+        "word": "privilege",
+        "phonetic": "/ˈprɪvəlɪdʒ/",
+        "pron": "普瑞维利吉",
+        "mean": "特权"
       }
     ],
-    "example": "The **layoff** at the studio may hurt user **retention**, but the **compound** effect of daily engagement can offset the loss.",
-    "exampleCN": "工作室的裁员可能损害用户留存，但每日互动的复利效应可以抵消损失。"
+    "example": "The **vulnerability** allows **privilege escalation** to root, posing a serious security risk.",
+    "exampleCN": "该漏洞允许特权升级至root，构成严重安全风险。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "解雇",
-        "kana": "かいこ",
-        "romaji": "kaiko",
-        "pron": "卡一扣",
-        "mean": "裁员"
+        "ja": "脆弱性",
+        "kana": "ぜいじゃくせい",
+        "romaji": "zejakusei",
+        "pron": "贼加库塞",
+        "mean": "漏洞"
       },
       {
-        "ja": "定着",
-        "kana": "ていちゃく",
-        "romaji": "teichaku",
-        "pron": "太-恰-库",
-        "mean": "留存"
+        "ja": "特権",
+        "kana": "とっけん",
+        "romaji": "tokken",
+        "pron": "托肯",
+        "mean": "特权"
       },
       {
-        "ja": "複利",
-        "kana": "ふくり",
-        "romaji": "fukuri",
-        "pron": "夫-库-里",
-        "mean": "复利"
+        "ja": "昇格",
+        "kana": "しょうかく",
+        "romaji": "shoukaku",
+        "pron": "晓卡库",
+        "mean": "升级"
       }
     ],
-    "example": "スタジオの**解雇**がユーザー**定着**に影響を与えるが、日々のエンゲージメントの**複利**効果が損失を相殺する。",
-    "exampleCN": "工作室的裁员可能影响用户留存，但每日互动的复利效应可以抵消损失。"
+    "example": "この**脆弱性**により、**特権昇格**が可能となります。",
+    "exampleCN": "此漏洞可实现特权升级。"
   },
   "ai": {
-    "topic": "AI Agent自主代理",
-    "node1": "🤖",
-    "node2": "⚙️",
-    "node3": "🎯",
-    "desc": "AI Agent是能自主感知环境、制定计划并执行任务的智能体，无需人工逐一步骤干预。",
-    "insight": "联通可部署AI Agent自动处理用户套餐变更、故障报修等高频请求，通过意图识别直接调用后台系统完成闭环，降低人工成本。"
+    "topic": "Prompt工程",
+    "node1": "🔍",
+    "node2": "📝",
+    "node3": "⚡",
+    "desc": "Prompt工程是设计高效指令以引导AI生成期望输出的技术。",
+    "insight": "联通客服可用Prompt工程优化AI话术，如'以友好语气解释套餐变更'，提升用户满意度。"
   },
   "think": {
-    "question": "面对全球裁员潮，运营商应如何平衡成本优化与用户体验？",
+    "question": "如果你拥有一张无限流量卡，你最想做什么？",
     "tags": [
-      "A. 优先裁减非核心部门",
-      "B. 加大自动化投入减少人力",
-      "C. 保持全员但降薪",
-      "D. 通过增值服务增收转岗"
+      "A. 直播旅行",
+      "B. 在家办公",
+      "C. 分享给家人",
+      "D. 其他"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 9,
-    "todayDate": "7月9日",
-    "tomorrowDate": "7月10日",
-    "finished": [],
-    "todayScheduled": [],
-    "tomorrow": [
+    "daysToFinal": 8,
+    "todayDate": "7月10日",
+    "tomorrowDate": "7月11日",
+    "finished": [
       {
         "time": "04:00",
         "group": "",
@@ -144,11 +140,24 @@
         "homeflag": "🇫🇷",
         "away": "摩洛哥",
         "awayflag": "🇲🇦",
-        "winPct": 65,
-        "drawPct": 22,
-        "losePct": 13
+        "score": "2-0"
+      }
+    ],
+    "todayScheduled": [],
+    "tomorrow": [
+      {
+        "time": "03:00",
+        "group": "",
+        "venue": "",
+        "home": "西班牙",
+        "homeflag": "🇪🇸",
+        "away": "比利时",
+        "awayflag": "🇧🇪",
+        "winPct": 45,
+        "drawPct": 30,
+        "losePct": 25
       }
     ]
   },
-  "generatedAt": "2026-07-09 07:12"
+  "generatedAt": "2026-07-10 07:15"
 }
