@@ -1,150 +1,137 @@
 {
-  "date": "2026年7月10日 周五",
-  "dayCount": "Day 191",
+  "date": "2026年7月11日 周六",
+  "dayCount": "Day 192",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "RFM模型",
-    "icon": "📊",
-    "desc": "RFM模型通过最近消费时间、频率和金额三维度，帮助运营商识别高价值用户并制定差异化策略。",
+    "model": "北极星指标",
+    "icon": "⭐",
+    "desc": "北极星指标是牵引业务增长的核心指标，能指引团队聚焦长期价值。联通储量专区应围绕用户活跃度与存储转化率制定北极星指标，驱动精细化运营。",
     "flow": [
-      "提取用户近3个月消费数据，计算R、F、M值",
-      "将每个维度按五分位打分，组合成125种用户类型",
-      "针对重要价值用户推送5G升级套餐，流失用户赠送流量包"
+      "1. 确定北极星指标：如'月活跃储量用户数'或'付费存储转化率'",
+      "2. 拆解指标至各运营环节：拉新、激活、留存、付费",
+      "3. 对齐团队行动，每日跟踪并迭代优化策略"
     ],
-    "insight": "联通储量专区可对高价值用户（R近、F高、M高）定向推送限时折扣的存储套餐，提升ARPU。"
+    "insight": "联通储量专区可将'月均存储付费用户数'作为北极星指标，通过免费试用、家庭共享等场景提升用户粘性，最终驱动付费转化。"
   },
   "psych": {
-    "concept": "损失厌恶",
-    "icon": "😣",
-    "def": "人们面对同样数量的损失和收益时，损失带来的痛苦远大于收益带来的快乐。",
-    "quote": "免费试用到期后自动扣费，用户为避免损失更易续订。",
-    "insight": "在联通套餐设计中，可突出'不续订将失去XXGB流量'，利用损失厌恶提升续约率。"
+    "concept": "锚定效应",
+    "icon": "⚓",
+    "def": "锚定效应指人们在做决策时过度依赖最先接触到的信息（锚点），后续判断会受此影响。",
+    "quote": "例如，先展示原价199元的套餐，再打折至99元，用户会觉得更划算。",
+    "insight": "在联通套餐推荐中，先展示高价位套餐（如199元/月）作为锚点，再推荐中档套餐（如99元/月），可提升中档套餐的转化率。"
   },
   "biz": {
-    "topic": "现金流管理",
-    "icon": "💰",
-    "desc": "现金流管理关注企业现金流入与流出，确保资金链健康。用户预存话费即为联通提供稳定现金流。",
-    "stat1label": "预存话费占比",
+    "topic": "护城河",
+    "icon": "🛡️",
+    "desc": "护城河是企业抵御竞争、维持长期优势的壁垒。联通需构建网络覆盖、客户关系、数据资产等护城河。",
+    "stat1label": "网络覆盖优势",
     "stat1pct": 75,
-    "stat1val": "75%",
-    "stat2label": "月均流失率",
+    "stat1val": "领先同行",
+    "stat2label": "客户关系深度",
     "stat2pct": 35,
-    "stat2val": "35%",
-    "insight": "通过鼓励用户预存话费（如存100送20），可增加公司现金流，同时降低用户流失。"
+    "stat2val": "需加强",
+    "insight": "联通应强化网络覆盖优势（护城河），同时通过会员权益、积分体系加深客户关系，提升用户粘性。"
   },
   "global": {
-    "title": "全球芯片短缺加剧：台积电宣布3nm产能延期至2027年",
+    "title": "英国新首相斯塔默宣布全面改革计划",
     "icon": "🌍",
-    "what": "台积电因EUV光刻机交付问题，宣布3nm工艺产能爬坡推迟至2027年第一季度。",
-    "why": "这将影响苹果、高通等客户旗舰芯片量产，加剧全球半导体供需紧张。",
-    "impact": "消费者可能面临手机、电脑等电子产品价格上涨和缺货，等待新机时间延长。",
-    "newsTime": "2026-07-09 14:00",
-    "newsSource": "Reuters"
+    "what": "英国新任首相基尔·斯塔默（Keir Starmer）于2026年7月10日公布全面改革议程，涵盖经济、医疗、教育等领域。",
+    "why": "斯塔默领导的工党在7月4日大选中获胜，此次改革旨在兑现竞选承诺，应对英国经济增长乏力、公共服务压力等问题。",
+    "impact": "对普通人而言，改革可能带来税收调整、医疗等待时间缩短及教育投入增加，但也面临财政赤字挑战。",
+    "newsTime": "2026-07-10",
+    "newsSource": "BBC News"
   },
   "tech": {
-    "company": "Ars Technica",
-    "logo": "A",
-    "logoBg": "#FF6600",
-    "news": "本周Linux曝出两个高危漏洞，其中一个可实现虚拟机逃逸并获得root权限",
-    "desc": "这两个漏洞均允许不受信任用户获取root权限，其中之一为高严重性的虚拟机逃逸漏洞。",
-    "insight": "联通云服务需立即关注并修补，避免客户虚拟机被攻击，影响云业务安全口碑。",
-    "newsTime": "7月9日 03:01",
-    "newsSource": "Ars Technica"
+    "company": "三星",
+    "logo": "S",
+    "logoBg": "#1428A0",
+    "news": "三星据称将在Flip8后停产Galaxy Z Flip系列",
+    "desc": "据中国可靠爆料者透露，三星可能放弃Z Flip系列，未来专注于其他折叠屏形态。",
+    "insight": "联通可关注折叠屏市场变化，调整终端补贴策略，优先推广三星Galaxy Z Fold系列或其他品牌折叠机。",
+    "newsTime": "7月10日 01:34",
+    "newsSource": "GSMArena.com"
   },
   "ent": {
-    "title": "《黑神话：悟空》续作预告片播放量破亿",
-    "icon": "🎮",
-    "desc": "游戏科学发布《黑神话：悟空2》首支预告，24小时全网播放量突破1亿次。",
-    "quote": "国产3A再续传奇，文化自信与顶级画质的完美结合。",
-    "stars": "★★★★☆"
+    "title": "2026年世界杯决赛：巴西vs阿根廷",
+    "icon": "⚽",
+    "desc": "2026年世界杯决赛于7月12日上演南美德比，梅西领衔阿根廷对阵内马尔的巴西队，全球瞩目。",
+    "quote": "足球的魅力在于，90分钟内的胜负能点燃整个夏天的激情。",
+    "stars": "★★★★★"
   },
   "english": {
     "words": [
       {
-        "word": "vulnerability",
-        "phonetic": "/ˌvʌlnərəˈbɪləti/",
-        "pron": "瓦尔纳拉比勒提",
-        "mean": "漏洞；脆弱性"
+        "word": "discontinue",
+        "phonetic": "/ˌdɪskənˈtɪnjuː/",
+        "pron": "迪斯-肯-提-纽",
+        "mean": "停止，中断"
       },
       {
-        "word": "escalation",
-        "phonetic": "/ˌeskəˈleɪʃn/",
-        "pron": "艾斯卡雷申",
-        "mean": "升级；扩大"
+        "word": "tipster",
+        "phonetic": "/ˈtɪpstər/",
+        "pron": "提普-斯特",
+        "mean": "线人，爆料者"
       },
       {
-        "word": "privilege",
-        "phonetic": "/ˈprɪvəlɪdʒ/",
-        "pron": "普瑞维利吉",
-        "mean": "特权"
+        "word": "track record",
+        "phonetic": "/træk ˈrekɔːrd/",
+        "pron": "崔克 瑞-考德",
+        "mean": "过往记录，业绩"
       }
     ],
-    "example": "The **vulnerability** allows **privilege escalation** to root, posing a serious security risk.",
-    "exampleCN": "该漏洞允许特权升级至root，构成严重安全风险。"
+    "example": "The **tipster** with a solid **track record** said Samsung will **discontinue** the Galaxy Z Flip series.",
+    "exampleCN": "这位有可靠记录的爆料者称三星将停产Galaxy Z Flip系列。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "脆弱性",
-        "kana": "ぜいじゃくせい",
-        "romaji": "zejakusei",
-        "pron": "贼加库塞",
-        "mean": "漏洞"
+        "ja": "廃止",
+        "kana": "はいし",
+        "romaji": "haishi",
+        "pron": "哈-伊-希",
+        "mean": "废止，停产"
       },
       {
-        "ja": "特権",
-        "kana": "とっけん",
-        "romaji": "tokken",
-        "pron": "托肯",
-        "mean": "特权"
+        "ja": "リーク",
+        "kana": "リーク",
+        "romaji": "riiku",
+        "pron": "利-库",
+        "mean": "泄露"
       },
       {
-        "ja": "昇格",
-        "kana": "しょうかく",
-        "romaji": "shoukaku",
-        "pron": "晓卡库",
-        "mean": "升级"
+        "ja": "実績",
+        "kana": "じっせき",
+        "romaji": "jisseki",
+        "pron": "基-塞-基",
+        "mean": "实际成绩，实绩"
       }
     ],
-    "example": "この**脆弱性**により、**特権昇格**が可能となります。",
-    "exampleCN": "此漏洞可实现特权升级。"
+    "example": "信頼できる**リーク**元が、サムスンがGalaxy Z Flipシリーズを**廃止**するとの**実績**ある情報を提供した。",
+    "exampleCN": "可靠的爆料者提供了三星将停产Galaxy Z Flip系列的信息，其过往记录良好。"
   },
   "ai": {
-    "topic": "Prompt工程",
-    "node1": "🔍",
-    "node2": "📝",
-    "node3": "⚡",
-    "desc": "Prompt工程是设计高效指令以引导AI生成期望输出的技术。",
-    "insight": "联通客服可用Prompt工程优化AI话术，如'以友好语气解释套餐变更'，提升用户满意度。"
+    "topic": "多模态AI",
+    "node1": "🖼️",
+    "node2": "🎵",
+    "node3": "📝",
+    "desc": "多模态AI能同时处理文本、图像、声音等多种数据类型，实现更智能的交互。",
+    "insight": "联通可在客服场景应用多模态AI：用户发送屏幕截图或语音描述问题，AI自动识别并提供解决方案，提升服务效率。"
   },
   "think": {
-    "question": "如果你拥有一张无限流量卡，你最想做什么？",
+    "question": "面对三星可能停产Z Flip系列，联通应如何调整折叠屏手机策略？",
     "tags": [
-      "A. 直播旅行",
-      "B. 在家办公",
-      "C. 分享给家人",
-      "D. 其他"
+      "A. 减少Z Flip采购，主推Z Fold",
+      "B. 加大Z Flip促销清库存",
+      "C. 转向其他品牌折叠机",
+      "D. 暂不调整，等待官方确认"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 8,
-    "todayDate": "7月10日",
-    "tomorrowDate": "7月11日",
+    "daysToFinal": 7,
+    "todayDate": "7月11日",
+    "tomorrowDate": "7月12日",
     "finished": [
-      {
-        "time": "04:00",
-        "group": "",
-        "venue": "",
-        "home": "法国",
-        "homeflag": "🇫🇷",
-        "away": "摩洛哥",
-        "awayflag": "🇲🇦",
-        "score": "2-0"
-      }
-    ],
-    "todayScheduled": [],
-    "tomorrow": [
       {
         "time": "03:00",
         "group": "",
@@ -153,11 +140,36 @@
         "homeflag": "🇪🇸",
         "away": "比利时",
         "awayflag": "🇧🇪",
+        "score": "2-1"
+      }
+    ],
+    "todayScheduled": [],
+    "tomorrow": [
+      {
+        "time": "05:00",
+        "group": "",
+        "venue": "",
+        "home": "挪威",
+        "homeflag": "🇳🇴",
+        "away": "英格兰",
+        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "winPct": 20,
+        "drawPct": 30,
+        "losePct": 50
+      },
+      {
+        "time": "09:00",
+        "group": "",
+        "venue": "",
+        "home": "阿根廷",
+        "homeflag": "🇦🇷",
+        "away": "瑞士",
+        "awayflag": "🇨🇭",
         "winPct": 45,
         "drawPct": 30,
         "losePct": 25
       }
     ]
   },
-  "generatedAt": "2026-07-10 07:15"
+  "generatedAt": "2026-07-11 07:01"
 }
