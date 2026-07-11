@@ -1,150 +1,138 @@
 {
-  "date": "2026年7月11日 周六",
-  "dayCount": "Day 192",
+  "date": "2026年7月12日 周日",
+  "dayCount": "Day 193",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "北极星指标",
-    "icon": "⭐",
-    "desc": "北极星指标是牵引业务增长的核心指标，能指引团队聚焦长期价值。联通储量专区应围绕用户活跃度与存储转化率制定北极星指标，驱动精细化运营。",
+    "model": "JTBD理论",
+    "icon": "🎯",
+    "desc": "用户雇佣产品或服务完成特定任务。运营者应聚焦用户想要达成的“工作”，而非产品功能。",
     "flow": [
-      "1. 确定北极星指标：如'月活跃储量用户数'或'付费存储转化率'",
-      "2. 拆解指标至各运营环节：拉新、激活、留存、付费",
-      "3. 对齐团队行动，每日跟踪并迭代优化策略"
+      "识别用户要完成的核心任务（如：想快速找到低价流量包）",
+      "分析任务背景和痛点（如：现有套餐复杂，选择困难）",
+      "设计解决方案帮助用户高效完成任务（如：推出“流量救急”轻量包）"
     ],
-    "insight": "联通储量专区可将'月均存储付费用户数'作为北极星指标，通过免费试用、家庭共享等场景提升用户粘性，最终驱动付费转化。"
+    "insight": "联通储量专区可围绕“用户每月10号流量告急”这一高频任务，设计“10号流量补给包”入口，减少用户决策时间。"
   },
   "psych": {
-    "concept": "锚定效应",
-    "icon": "⚓",
-    "def": "锚定效应指人们在做决策时过度依赖最先接触到的信息（锚点），后续判断会受此影响。",
-    "quote": "例如，先展示原价199元的套餐，再打折至99元，用户会觉得更划算。",
-    "insight": "在联通套餐推荐中，先展示高价位套餐（如199元/月）作为锚点，再推荐中档套餐（如99元/月），可提升中档套餐的转化率。"
+    "concept": "社会认同",
+    "icon": "👥",
+    "def": "人们倾向于参照他人的行为来决定自己的行动。",
+    "quote": "“90%的联通用户选择了这款套餐”等话术可强化用户跟随行为。",
+    "insight": "在套餐推荐页显示“本月已有XX人办理”或“附近用户最常选”，提升转化率。"
   },
   "biz": {
-    "topic": "护城河",
-    "icon": "🛡️",
-    "desc": "护城河是企业抵御竞争、维持长期优势的壁垒。联通需构建网络覆盖、客户关系、数据资产等护城河。",
-    "stat1label": "网络覆盖优势",
+    "topic": "ROE净资产收益率",
+    "icon": "📊",
+    "desc": "衡量股东权益的收益水平。ROE = 净利润/平均净资产，反映公司为股东创造价值的能力。",
+    "stat1label": "高ROE行业均值",
     "stat1pct": 75,
-    "stat1val": "领先同行",
-    "stat2label": "客户关系深度",
+    "stat1val": "15%",
+    "stat2label": "低ROE行业均值",
     "stat2pct": 35,
-    "stat2val": "需加强",
-    "insight": "联通应强化网络覆盖优势（护城河），同时通过会员权益、积分体系加深客户关系，提升用户粘性。"
+    "stat2val": "5%",
+    "insight": "运营活动应关注每投入1元成本带来的用户价值增长，通过精细化运营提升ROE。"
   },
   "global": {
-    "title": "英国新首相斯塔默宣布全面改革计划",
+    "title": "欧盟正式通过数字服务法案第二阶段，科技巨头面临更严监管",
     "icon": "🌍",
-    "what": "英国新任首相基尔·斯塔默（Keir Starmer）于2026年7月10日公布全面改革议程，涵盖经济、医疗、教育等领域。",
-    "why": "斯塔默领导的工党在7月4日大选中获胜，此次改革旨在兑现竞选承诺，应对英国经济增长乏力、公共服务压力等问题。",
-    "impact": "对普通人而言，改革可能带来税收调整、医疗等待时间缩短及教育投入增加，但也面临财政赤字挑战。",
-    "newsTime": "2026-07-10",
-    "newsSource": "BBC News"
+    "what": "欧盟于7月10日投票通过数字服务法案（DSA）第二阶段，要求大型平台（月活超4500万）必须进行年度风险评估，并公开算法推荐逻辑。",
+    "why": "该法案旨在遏制虚假信息、非法内容和算法操纵，保护用户权益，尤其针对Meta、Google、TikTok等巨头。",
+    "impact": "普通用户将看到更透明的广告标签，平台需提供不基于用户画像的推荐选项。",
+    "newsTime": "7月10日",
+    "newsSource": "路透社"
   },
   "tech": {
-    "company": "三星",
-    "logo": "S",
-    "logoBg": "#1428A0",
-    "news": "三星据称将在Flip8后停产Galaxy Z Flip系列",
-    "desc": "据中国可靠爆料者透露，三星可能放弃Z Flip系列，未来专注于其他折叠屏形态。",
-    "insight": "联通可关注折叠屏市场变化，调整终端补贴策略，优先推广三星Galaxy Z Fold系列或其他品牌折叠机。",
-    "newsTime": "7月10日 01:34",
-    "newsSource": "GSMArena.com"
+    "company": "Roku",
+    "logo": "R",
+    "logoBg": "#6f1d7b",
+    "news": "新版Roku更新遭用户强烈反对：广告泛滥，界面混乱",
+    "desc": "Roku推送的最新系统更新因强行植入广告、改变导航逻辑引发众怒，用户纷纷在社交平台吐槽。",
+    "insight": "联通应避免在核心业务界面（如余额查询、充值）强行插入广告，优先保障用户体验。",
+    "newsTime": "7月11日 04:48",
+    "newsSource": "Kotaku"
   },
   "ent": {
-    "title": "2026年世界杯决赛：巴西vs阿根廷",
+    "title": "2026世界杯决赛：巴西VS德国，内马尔能否圆梦？",
     "icon": "⚽",
-    "desc": "2026年世界杯决赛于7月12日上演南美德比，梅西领衔阿根廷对阵内马尔的巴西队，全球瞩目。",
-    "quote": "足球的魅力在于，90分钟内的胜负能点燃整个夏天的激情。",
+    "desc": "2026世界杯决赛将于7月12日晚在纽约举行，巴西对阵德国，内马尔冲击首冠。",
+    "quote": "“四年等待，今夜见证传奇”",
     "stars": "★★★★★"
   },
   "english": {
     "words": [
       {
-        "word": "discontinue",
-        "phonetic": "/ˌdɪskənˈtɪnjuː/",
-        "pron": "迪斯-肯-提-纽",
-        "mean": "停止，中断"
+        "word": "algorithm",
+        "phonetic": "/ˈælɡərɪðəm/",
+        "pron": "阿尔戈瑞森",
+        "mean": "算法"
       },
       {
-        "word": "tipster",
-        "phonetic": "/ˈtɪpstər/",
-        "pron": "提普-斯特",
-        "mean": "线人，爆料者"
+        "word": "transparency",
+        "phonetic": "/trænsˈpærənsi/",
+        "pron": "川斯帕润西",
+        "mean": "透明度"
       },
       {
-        "word": "track record",
-        "phonetic": "/træk ˈrekɔːrd/",
-        "pron": "崔克 瑞-考德",
-        "mean": "过往记录，业绩"
+        "word": "backlash",
+        "phonetic": "/ˈbæklæʃ/",
+        "pron": "巴克莱什",
+        "mean": "强烈反对"
       }
     ],
-    "example": "The **tipster** with a solid **track record** said Samsung will **discontinue** the Galaxy Z Flip series.",
-    "exampleCN": "这位有可靠记录的爆料者称三星将停产Galaxy Z Flip系列。"
+    "example": "The **algorithm** **transparency** requirements led to a **backlash** from tech companies.",
+    "exampleCN": "算法透明度要求引发了科技公司的强烈反对。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "廃止",
-        "kana": "はいし",
-        "romaji": "haishi",
-        "pron": "哈-伊-希",
-        "mean": "废止，停产"
+        "ja": "アルゴリズム",
+        "kana": "アルゴリズム",
+        "romaji": "arugorizumu",
+        "pron": "阿鲁高里兹姆",
+        "mean": "算法"
       },
       {
-        "ja": "リーク",
-        "kana": "リーク",
-        "romaji": "riiku",
-        "pron": "利-库",
-        "mean": "泄露"
+        "ja": "透明性",
+        "kana": "とうめいせい",
+        "romaji": "tōmeisei",
+        "pron": "托梅塞",
+        "mean": "透明度"
       },
       {
-        "ja": "実績",
-        "kana": "じっせき",
-        "romaji": "jisseki",
-        "pron": "基-塞-基",
-        "mean": "实际成绩，实绩"
+        "ja": "反発",
+        "kana": "はんぱつ",
+        "romaji": "hanpatsu",
+        "pron": "汉帕茨",
+        "mean": "反对，反弹"
       }
     ],
-    "example": "信頼できる**リーク**元が、サムスンがGalaxy Z Flipシリーズを**廃止**するとの**実績**ある情報を提供した。",
-    "exampleCN": "可靠的爆料者提供了三星将停产Galaxy Z Flip系列的信息，其过往记录良好。"
+    "example": "**アルゴリズム**の**透明性**が求められる中、企業から**反発**の声が上がった。",
+    "exampleCN": "在要求算法透明性的背景下，企业发出了反对之声。"
   },
   "ai": {
-    "topic": "多模态AI",
-    "node1": "🖼️",
-    "node2": "🎵",
-    "node3": "📝",
-    "desc": "多模态AI能同时处理文本、图像、声音等多种数据类型，实现更智能的交互。",
-    "insight": "联通可在客服场景应用多模态AI：用户发送屏幕截图或语音描述问题，AI自动识别并提供解决方案，提升服务效率。"
+    "topic": "RAG检索增强",
+    "node1": "🔍",
+    "node2": "📚",
+    "node3": "💡",
+    "desc": "结合检索与生成，让AI基于外部知识库回答，减少幻觉。本质是“先查后答”。",
+    "insight": "联通客服可构建内部知识库RAG，用户咨询套餐时AI实时检索最新资费，提供准确答复。"
   },
   "think": {
-    "question": "面对三星可能停产Z Flip系列，联通应如何调整折叠屏手机策略？",
+    "question": "如果联通推出“世界杯专属流量包”，以下哪个定价策略最可能成功？",
     "tags": [
-      "A. 减少Z Flip采购，主推Z Fold",
-      "B. 加大Z Flip促销清库存",
-      "C. 转向其他品牌折叠机",
-      "D. 暂不调整，等待官方确认"
+      "A. 9元包1天，限时抢购",
+      "B. 19元包7天，赠送赛事提醒",
+      "C. 29元包月，包含高清直播权益",
+      "D. 免费试用1小时，后按量计费"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
-    "daysToFinal": 7,
-    "todayDate": "7月11日",
-    "tomorrowDate": "7月12日",
-    "finished": [
-      {
-        "time": "03:00",
-        "group": "",
-        "venue": "",
-        "home": "西班牙",
-        "homeflag": "🇪🇸",
-        "away": "比利时",
-        "awayflag": "🇧🇪",
-        "score": "2-1"
-      }
-    ],
-    "todayScheduled": [],
-    "tomorrow": [
+    "daysToFinal": 6,
+    "todayDate": "7月12日",
+    "tomorrowDate": "7月13日",
+    "finished": [],
+    "todayScheduled": [
       {
         "time": "05:00",
         "group": "",
@@ -152,10 +140,7 @@
         "home": "挪威",
         "homeflag": "🇳🇴",
         "away": "英格兰",
-        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "winPct": 20,
-        "drawPct": 30,
-        "losePct": 50
+        "awayflag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
       },
       {
         "time": "09:00",
@@ -164,12 +149,10 @@
         "home": "阿根廷",
         "homeflag": "🇦🇷",
         "away": "瑞士",
-        "awayflag": "🇨🇭",
-        "winPct": 45,
-        "drawPct": 30,
-        "losePct": 25
+        "awayflag": "🇨🇭"
       }
-    ]
+    ],
+    "tomorrow": []
   },
-  "generatedAt": "2026-07-11 07:01"
+  "generatedAt": "2026-07-12 06:54"
 }
