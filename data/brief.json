@@ -1,139 +1,140 @@
 {
-  "date": "2026年8月8日 周六",
-  "dayCount": "Day 220",
+  "date": "2026年8月9日 周日",
+  "dayCount": "Day 221",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "JTBD理论",
-    "icon": "🎯",
-    "desc": "用户雇佣你的产品不是为了拥有它，而是为了完成某个任务。聚焦用户真正想完成的任务，而非产品功能本身。",
+    "model": "增长飞轮",
+    "icon": "🔄",
+    "desc": "增长飞轮强调各环节相互促进，形成良性循环，推动业务持续增长。",
     "flow": [
-      "识别用户的核心任务（如：快速办理业务）",
-      "移除完成任务过程中的障碍（如：简化流程）",
-      "提供超出预期的体验（如：即时反馈）"
+      "提升用户体验",
+      "增加用户粘性",
+      "促进口碑传播",
+      "吸引新用户"
     ],
-    "insight": "联通储量专区可围绕用户'快速查流量、办套餐'的任务，优化搜索与推荐，减少操作步骤。"
+    "insight": "联通储量专区可通过提供专属优惠和优质服务，提升用户满意度，促使用户分享，吸引更多用户加入。"
   },
   "psych": {
-    "concept": "社会认同",
-    "icon": "👥",
-    "def": "人们在不确定时，会模仿他人的行为或决策，以寻求安全感。",
-    "quote": "例如：显示'已有X万用户选择此套餐'，能显著提升转化率。",
-    "insight": "在套餐页面展示用户评价、销量数据，或标注'最受欢迎'标签，增强信任感。"
+    "concept": "稀缺性原理",
+    "icon": "⏳",
+    "def": "当某物稀缺时，人们会认为其价值更高，从而产生更强的购买或行动欲望。",
+    "quote": "运营场景举例：限时抢购、限量版套餐，让用户感到机会难得。",
+    "insight": "在联通储量专区推出限量版流量包或限时折扣，结合倒计时提示，提升转化率。"
   },
   "biz": {
-    "topic": "ROE净资产收益率",
-    "icon": "📈",
-    "desc": "ROE衡量股东权益的收益水平，反映公司运用自有资本的效率。高ROE意味着公司能为股东创造更高价值。",
-    "stat1label": "维度A",
+    "topic": "毛利率",
+    "icon": "💹",
+    "desc": "毛利率反映企业销售收入扣除直接成本后的盈利能力。高毛利率意味着更强的定价权和成本控制能力。",
+    "stat1label": "行业平均",
     "stat1pct": 75,
-    "stat1val": "高ROE（>15%）公司常具竞争优势",
-    "stat2label": "维度B",
+    "stat1val": "75%",
+    "stat2label": "联通增值业务",
     "stat2pct": 35,
-    "stat2val": "低ROE（<8%）公司可能资本效率低",
-    "insight": "运营中可借鉴ROE思维，评估用户资产（如流量包）的回报率，优化资源分配。"
+    "stat2val": "35%",
+    "insight": "提升毛利率可通过优化套餐设计，增加高附加值服务，降低边际成本。"
   },
   "global": {
-    "title": "全球央行释放鸽派信号，风险资产普遍上涨",
+    "title": "全球市场波动加剧，投资者关注美联储政策",
     "icon": "🌍",
-    "what": "美联储主席在杰克逊霍尔会议上暗示通胀压力缓解，可能提前结束加息周期；欧洲央行维持利率不变但下调经济预期。",
-    "why": "全球流动性预期改善，推动股市、加密货币等风险资产反弹，美元指数走弱。",
-    "impact": "对普通投资者而言，资产配置需调整，关注新兴市场机会；对消费者，贷款成本可能下降，刺激消费。",
-    "newsTime": "2026年8月7日",
-    "newsSource": "路透社"
+    "what": "2026年8月，全球股市震荡，美联储释放可能加息的信号，引发市场担忧。",
+    "why": "通货膨胀压力持续，美联储计划收紧货币政策，影响全球资本流动。",
+    "impact": "对普通人的影响：贷款利率上升，投资回报波动，需合理规划财务。",
+    "newsTime": "8月9日 08:00",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "Bethesda Softworks",
-    "logo": "B",
-    "logoBg": "#1a1a2e",
-    "news": "《雷神之锤》重制版发布'机器黎明'免费更新",
-    "desc": "id Software和Nightdive Studios为2021年发售的《雷神之锤》重制版推出免费扩展包，增加新内容。",
-    "insight": "游戏行业通过免费更新维持用户活跃，联通可借鉴，为老用户提供免费流量或权益包，提升粘性。",
-    "newsTime": "8月7日 02:10",
-    "newsSource": "Gematsu"
+    "company": "THQ Nordic",
+    "logo": "T",
+    "logoBg": "#C8102E",
+    "news": "THQ Nordic Showcase 2026 — 所有Xbox公布内容",
+    "desc": "THQ Nordic在2026年展示会上公布了《Wreckfest 2》和《Reanimal》等游戏的最新消息。",
+    "insight": "游戏大作发布可带动流量需求，联通可推出游戏专属流量包或加速服务。",
+    "newsTime": "8月8日 03:50",
+    "newsSource": "TrueAchievements"
   },
   "ent": {
-    "title": "《漫威宇宙：新纪元》电影全球热映，票房破纪录",
+    "title": "2026年热门电影《星际穿越2》上映",
     "icon": "🎬",
-    "desc": "漫威新作上映首周全球票房突破12亿美元，成为今年最卖座影片，引发讨论热潮。",
-    "quote": "超级英雄电影为何总能抓住观众？或许是人们对正义的永恒向往。",
-    "stars": "★★★★☆"
+    "desc": "经典科幻续作《星际穿越2》引发观影热潮，视觉效果震撼。",
+    "quote": "探索未知，永不止步。",
+    "stars": "★★★★★"
   },
   "english": {
     "words": [
       {
-        "word": "retrieval",
-        "phonetic": "/rɪˈtriːvəl/",
-        "pron": "瑞垂沃",
-        "mean": "检索"
+        "word": "scarcity",
+        "phonetic": "/ˈskeəsəti/",
+        "pron": "斯凯尔西提",
+        "mean": "稀缺"
       },
       {
-        "word": "augmented",
-        "phonetic": "/ɔːɡˈmentɪd/",
-        "pron": "奥格门提德",
-        "mean": "增强的"
+        "word": "margin",
+        "phonetic": "/ˈmɑːdʒɪn/",
+        "pron": "马金",
+        "mean": "利润"
       },
       {
-        "word": "generation",
-        "phonetic": "/ˌdʒenəˈreɪʃn/",
-        "pron": "哲内瑞申",
-        "mean": "生成"
+        "word": "flywheel",
+        "phonetic": "/ˈflaɪwiːl/",
+        "pron": "弗莱威尔",
+        "mean": "飞轮"
       }
     ],
-    "example": "The **retrieval** augmented **generation** system improves answer accuracy by fetching relevant documents before **generation**.",
-    "exampleCN": "检索增强生成系统通过先检索相关文档再生成，提高了答案的准确性。"
+    "example": "The **scarcity** of the offer increased the **margin** and started a growth **flywheel**.",
+    "exampleCN": "产品的稀缺性提高了利润率，并启动了增长飞轮。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "検索",
-        "kana": "けんさく",
-        "romaji": "kensaku",
-        "pron": "肯萨库",
-        "mean": "检索"
+        "ja": "希少",
+        "kana": "きしょう",
+        "romaji": "kishou",
+        "pron": "ki-sho-u",
+        "mean": "稀缺"
       },
       {
-        "ja": "拡張",
-        "kana": "かくちょう",
-        "romaji": "kakuchō",
-        "pron": "卡库秋",
-        "mean": "增强"
+        "ja": "利益率",
+        "kana": "りえきりつ",
+        "romaji": "riekiritsu",
+        "pron": "li-e-ki-li-tsu",
+        "mean": "毛利率"
       },
       {
-        "ja": "生成",
-        "kana": "せいせい",
-        "romaji": "seisei",
-        "pron": "塞塞",
-        "mean": "生成"
+        "ja": "好循環",
+        "kana": "こうじゅんかん",
+        "romaji": "koujunkan",
+        "pron": "ko-u-jun-kan",
+        "mean": "良性循环"
       }
     ],
-    "example": "**検索拡張生成**（RAG）は、関連文書を検索してから生成するため、精度が高い。",
-    "exampleCN": "检索增强生成（RAG）通过先检索相关文档再生成，精度更高。"
+    "example": "**希少性**が**利益率**を高め、**好循環**を生み出す。",
+    "exampleCN": "稀缺性提高了毛利率，产生了良性循环。"
   },
   "ai": {
-    "topic": "RAG检索增强",
-    "node1": "📚",
-    "node2": "🔍",
-    "node3": "🤖",
-    "desc": "RAG结合信息检索与语言生成，先检索外部知识库，再生成答案，提高准确性和时效性。",
-    "insight": "联通可构建用户问题知识库，通过RAG为客服机器人提供精准回答，提升服务效率。"
+    "topic": "数字分身",
+    "node1": "👤",
+    "node2": "🤖",
+    "node3": "📱",
+    "desc": "数字分身是AI技术生成的个人虚拟形象，可用于自动化任务和个性化服务。",
+    "insight": "联通可用数字分身为用户提供24小时智能客服，个性化推荐套餐，提升服务效率。"
   },
   "think": {
-    "question": "在5G时代，联通如何利用RAG技术优化用户自助服务，减少人工客服压力？",
+    "question": "如何利用数字分身提升联通储量专区的用户参与度？",
     "tags": [
-      "知识库建设",
-      "智能问答",
-      "用户意图识别",
-      "实时更新"
+      "智能推荐",
+      "虚拟助手",
+      "游戏互动",
+      "个性化优惠"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
     "daysToFinal": 0,
-    "todayDate": "8月8日",
-    "tomorrowDate": "8月9日",
+    "todayDate": "8月9日",
+    "tomorrowDate": "8月10日",
     "finished": [],
     "todayScheduled": [],
     "tomorrow": []
   },
-  "generatedAt": "2026-08-08 06:40"
+  "generatedAt": "2026-08-09 06:33"
 }
