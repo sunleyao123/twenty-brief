@@ -1,139 +1,139 @@
 {
-  "date": "2026年8月19日 周三",
-  "dayCount": "Day 231",
+  "date": "2026年8月20日 周四",
+  "dayCount": "Day 232",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "用户分层模型",
-    "icon": "🗂️",
-    "desc": "根据用户行为、价值或需求将用户划分为不同层级，以便针对性运营。它帮助识别高价值用户并优化资源配置。",
+    "model": "LTV计算",
+    "icon": "📈",
+    "desc": "LTV（用户终身价值）是预测用户在整个生命周期内带来的总利润，帮助运营者识别高价值用户并优化资源分配。通过计算LTV，可以更精准地制定留存策略和营销投入。",
     "flow": [
-      "定义分层维度（如消费频次、ARPU值）",
-      "划分层级（如高价值、中价值、低价值）",
-      "制定差异化运营策略"
+      "确定计算周期：根据业务类型设定用户生命周期时长（如12个月）",
+      "计算平均客单价和购买频率，得出每期收入",
+      "乘以毛利率得到每期利润，再累加或折现得出LTV"
     ],
-    "insight": "联通储量专区可基于用户套餐使用情况分层，为高价值用户提供专属储量包优惠，提升留存。"
+    "insight": "联通可针对高LTV的政企客户提供专属客户经理和定制套餐，提升续约率；对低LTV用户推送优惠活动，激活使用。"
   },
   "psych": {
-    "concept": "禀赋效应",
-    "icon": "💎",
-    "def": "人们倾向于高估自己拥有的物品的价值，从而在失去时产生更高的心理成本。",
-    "quote": "例如，用户一旦拥有某套餐，可能因禀赋效应而更不愿意降级或更换。",
-    "insight": "在用户考虑携号转网时，强调其现有套餐的专属福利或积分，增加其“拥有感”，降低转网意愿。"
+    "concept": "互惠原则",
+    "icon": "🤝",
+    "def": "互惠原则指人们倾向于回报他人的善意和帮助，即“投桃报李”的心理倾向。",
+    "quote": "例如，联通为用户提供免费流量体验包，用户因感激而更愿意续费或升级套餐。",
+    "insight": "运营中可先提供免费服务或小礼品（如免费会员），再引导用户完成目标行为，能有效提升转化率。"
   },
   "biz": {
-    "topic": "边际成本",
-    "icon": "📉",
-    "desc": "每增加一单位产量所增加的成本。数字产品边际成本趋近于零，可大规模扩展。",
-    "stat1label": "数字产品边际成本",
+    "topic": "用户终身价值LTV",
+    "icon": "💰",
+    "desc": "LTV是衡量用户长期贡献的核心指标，指导企业从短期交易转向长期关系经营。高LTV用户是利润的主要来源，值得投入更多资源维护。",
+    "stat1label": "高LTV用户占比",
     "stat1pct": 75,
-    "stat1val": "低",
-    "stat2label": "传统服务边际成本",
+    "stat1val": "贡献75%利润",
+    "stat2label": "低LTV用户占比",
     "stat2pct": 35,
-    "stat2val": "高",
-    "insight": "联通可开发标准化数字服务，如云盘扩容包，以低边际成本增加收入。"
+    "stat2val": "仅贡献35%利润",
+    "insight": "运营启发：识别高LTV用户特征，提供VIP服务；对低LTV用户设计唤醒策略，提升整体价值。"
   },
   "global": {
-    "title": "全球央行年会聚焦通胀与利率走向",
+    "title": "全球金融市场波动：美联储暗示加息，科技股承压",
     "icon": "🌍",
-    "what": "全球主要央行行长将在杰克逊霍尔年会讨论通胀控制与未来利率政策。",
-    "why": "市场关注降息信号，影响全球资本流动和通信设备投资。",
-    "impact": "利率变化影响消费者支出，可能影响联通用户ARPU和5G升级意愿。",
-    "newsTime": "2026-08-19",
-    "newsSource": "综合财经媒体"
+    "what": "美联储主席在Jackson Hole会议上暗示将继续加息以抑制通胀，引发全球股市震荡，科技股领跌。",
+    "why": "加息预期导致资金成本上升，高估值科技股首当其冲，同时美元走强影响新兴市场。",
+    "impact": "对普通人而言，房贷利率和消费贷款成本可能上升，股市投资回报波动加大，需关注资产配置。",
+    "newsTime": "2026年8月19日",
+    "newsSource": "Reuters"
   },
   "tech": {
-    "company": "Relay",
+    "company": "Rockstar Games",
     "logo": "R",
-    "logoBg": "#4A90D9",
-    "news": "AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队",
-    "desc": "Relay创始人Jacob Bank表示将致力于在Chrome中集成AI以帮助用户完成任务。",
-    "insight": "联通可关注浏览器AI集成趋势，探索将AI助手嵌入联通营业厅或App，提升用户体验。",
-    "newsTime": "8月18日 05:27",
-    "newsSource": "TechCrunch"
+    "logoBg": "#FF0000",
+    "news": "GTA 6游戏画面泄露：官方公布前，篮球训练和驾驶片段流出",
+    "desc": "据Push Square报道，GTA 6的实机片段在官方发布前泄露，展示篮球训练和驾驶场景。",
+    "insight": "联通可借鉴游戏热度，推出5G加速包或游戏专属流量套餐，吸引年轻用户，提升数据业务收入。",
+    "newsTime": "8月19日 02:15",
+    "newsSource": "Push Square"
   },
   "ent": {
-    "title": "2026年热门娱乐话题：虚拟偶像演唱会",
-    "icon": "🎤",
-    "desc": "虚拟偶像演唱会成为年轻人新宠，融合全息投影与互动技术。",
-    "quote": "虚实结合，体验为王。",
+    "title": "2026年夏季音乐节热潮席卷全球",
+    "icon": "🎶",
+    "desc": "各大音乐节如Coachella、Glastonbury相继举办，线上直播和短视频二次传播引发热议。",
+    "quote": "音乐无界，互动无限——现场与虚拟体验融合成为新趋势。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "acquisition",
-        "phonetic": "/ˌækwɪˈzɪʃn/",
-        "pron": "阿奎齐申",
-        "mean": "获取"
+        "word": "leverage",
+        "phonetic": "/ˈlevərɪdʒ/",
+        "pron": "莱沃瑞奇",
+        "mean": "利用；杠杆"
       },
       {
         "word": "retention",
         "phonetic": "/rɪˈtenʃn/",
-        "pron": "瑞坦申",
-        "mean": "留存"
+        "pron": "瑞滕申",
+        "mean": "保留；留存"
       },
       {
-        "word": "monetization",
-        "phonetic": "/ˌmʌnɪtaɪˈzeɪʃn/",
-        "pron": "马尼泰泽申",
-        "mean": "变现"
+        "word": "monetize",
+        "phonetic": "/ˈmʌnɪtaɪz/",
+        "pron": "马尼泰兹",
+        "mean": "变现；营利"
       }
     ],
-    "example": "Our **acquisition** strategy focuses on high-value users, while **retention** and **monetization** are key to growth.",
-    "exampleCN": "我们的获取策略聚焦高价值用户，而留存和变现是增长的关键。"
+    "example": "**Leverage** user data to improve **retention** and **monetize** effectively.",
+    "exampleCN": "利用用户数据提升留存并有效变现。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "獲得",
-        "kana": "かくとく",
-        "romaji": "kakutoku",
-        "pron": "卡库托库",
-        "mean": "获取"
+        "ja": "顧客",
+        "kana": "こきゃく",
+        "romaji": "kokyaku",
+        "pron": "科克亚库",
+        "mean": "客户"
       },
       {
-        "ja": "維持",
-        "kana": "いじ",
-        "romaji": "iji",
-        "pron": "伊吉",
-        "mean": "留存"
+        "ja": "価値",
+        "kana": "かち",
+        "romaji": "kachi",
+        "pron": "卡奇",
+        "mean": "价值"
       },
       {
-        "ja": "収益化",
-        "kana": "しゅうえきか",
-        "romaji": "shūekika",
-        "pron": "修诶基卡",
-        "mean": "变现"
+        "ja": "向上",
+        "kana": "こうじょう",
+        "romaji": "koujou",
+        "pron": "科久",
+        "mean": "提升"
       }
     ],
-    "example": "**獲得**と**維持**を重視し、**収益化**を図る。",
-    "exampleCN": "重视获取和留存，并谋求变现。"
+    "example": "顧客の価値を**向上**させることが重要です。",
+    "exampleCN": "提升客户价值非常重要。"
   },
   "ai": {
-    "topic": "AI运营助手",
-    "node1": "📊",
-    "node2": "🤖",
-    "node3": "📈",
-    "desc": "AI运营助手利用自然语言处理和数据分析，自动执行运营任务并提供决策建议。",
-    "insight": "联通可部署AI运营助手处理用户咨询，推荐个性化套餐，提升运营效率。"
+    "topic": "具身智能",
+    "node1": "🤖",
+    "node2": "👀",
+    "node3": "🦾",
+    "desc": "具身智能是让AI通过实体载体感知和交互的智能形态，如人形机器人。",
+    "insight": "联通可布局5G+具身智能，提供低延迟通信方案，支持远程操控和实时数据回传，开拓工业和服务场景。"
   },
   "think": {
-    "question": "在5G时代，联通如何利用用户分层模型提升ARPU？",
+    "question": "面对GTA 6泄露事件，游戏公司应如何平衡玩家期待与官方发布节奏？",
     "tags": [
-      "A. 针对高价值用户推出专属服务",
-      "B. 结合AI助手个性化推荐",
-      "C. 利用禀赋效应增强用户粘性",
-      "D. 降低边际成本扩展数字服务"
+      "加强保密措施",
+      "顺势提前公布",
+      "法律手段维权",
+      "利用热度营销"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
     "daysToFinal": 0,
-    "todayDate": "8月19日",
-    "tomorrowDate": "8月20日",
+    "todayDate": "8月20日",
+    "tomorrowDate": "8月21日",
     "finished": [],
     "todayScheduled": [],
     "tomorrow": []
   },
-  "generatedAt": "2026-08-19 06:27"
+  "generatedAt": "2026-08-20 06:28"
 }
