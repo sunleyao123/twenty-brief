@@ -1,140 +1,141 @@
 {
-  "date": "2026年9月5日 周六",
-  "dayCount": "Day 248",
+  "date": "2026年9月6日 周日",
+  "dayCount": "Day 249",
   "slogan": "每天10分钟｜提升认知｜连接世界｜改变自己",
   "ops": {
-    "model": "LTV计算",
+    "model": "AARRR漏斗",
     "icon": "📈",
-    "desc": "通过计算用户全生命周期价值，识别高价值用户群体，优化资源配置。帮助运营者从短期转化转向长期价值经营。",
+    "desc": "AARRR漏斗是运营中经典的转化路径分析模型，从用户获取到传播的五个环节，帮助定位流失点并优化策略。",
     "flow": [
-      "计算用户平均生命周期长度（月）",
-      "计算每用户每月平均贡献收入（ARPU）",
-      "LTV = 平均生命周期 × ARPU，并扣除服务成本",
-      "按LTV分层用户，制定差异化运营策略"
+      "用户获取",
+      "用户激活",
+      "用户留存",
+      "用户推荐",
+      "用户收益"
     ],
-    "insight": "在联通储量专区，可依据LTV细分用户，对高LTV用户提供专属5G升级包或国际漫游优惠，提升留存与ARPU。"
+    "insight": "联通储量专区的用户可基于AARRR漏斗，分析各环节转化率，针对低转化环节设计个性化提醒或激励，提升整体利用率。"
   },
   "psych": {
-    "concept": "互惠原则",
-    "icon": "🤝",
-    "def": "人们倾向于回报他人给予的好处，即使是不请自来的。",
-    "quote": "例如，联通向用户免费赠送流量包，用户可能因此更愿意升级套餐或参与活动。",
-    "insight": "在用户转化关键节点，先提供小福利（如免费体验包、客服优先权），增强用户好感，提升转化率。"
+    "concept": "峰终定律",
+    "icon": "⛰️",
+    "def": "人们对体验的评价主要基于高峰时刻和结束时的感受，而非全程平均。",
+    "quote": "例如，在用户完成一笔充值后，立即给予惊喜优惠，会让他们对服务的整体评价更高。",
+    "insight": "在联通储量专区的用户旅程中，设置峰值体验（如快速完成、即时反馈）和愉悦的结束（如感谢页、成就徽章），可增强用户满意度与忠诚度。"
   },
   "biz": {
-    "topic": "用户终身价值LTV",
-    "icon": "💎",
-    "desc": "LTV是衡量用户在整个生命周期内为企业创造的总价值。它帮助企业决定获客成本上限和资源投入。",
-    "stat1label": "高LTV用户占比",
+    "topic": "复利效应",
+    "icon": "🔄",
+    "desc": "复利效应指收益再投资产生额外收益，长期积累后效果显著。运营中通过持续优化用户价值，可实现指数级增长。",
+    "stat1label": "用户月均消费",
     "stat1pct": 75,
-    "stat1val": "贡献60%",
-    "stat2label": "低LTV用户占比",
+    "stat1val": "120元",
+    "stat2label": "用户留存率",
     "stat2pct": 35,
-    "stat2val": "贡献15%",
-    "insight": "运营启发：重点维护高LTV用户，提供专属服务；同时对低LTV用户尝试价值挖掘或成本优化。"
+    "stat2val": "35%",
+    "insight": "联通储量专区可鼓励用户定期小额充值或参与长期计划，通过复利思维培育用户习惯，长期提升ARPU。"
   },
   "global": {
-    "title": "全球央行年会或聚焦通胀与经济衰退风险",
+    "title": "国际油价因地缘紧张升至90美元上方，全球通胀压力再起",
     "icon": "🌍",
-    "what": "2026年9月初，多国央行行长齐聚杰克逊霍尔，讨论高通胀与增长放缓并存的困境。",
-    "why": "因美联储可能暂停加息，但欧洲与亚洲地区仍面临能源价格波动，市场担忧经济硬着陆。",
-    "impact": "普通人的信用卡利率、房贷成本及海外投资可能受影响，需关注利率走向。",
-    "newsTime": "2026-09-04",
-    "newsSource": "综合外媒"
+    "what": "中东地区紧张局势升级，原油供给担忧加剧，国际油价突破90美元/桶，创年内新高。",
+    "why": "地缘政治风险推高能源成本，直接影响全球供应链和通胀水平，各国央行货币政策面临挑战。",
+    "impact": "对普通消费者而言，油价上涨将传导至交通、物流等多个领域，生活成本可能增加，需关注能源价格波动。",
+    "newsTime": "2026年9月5日",
+    "newsSource": "路透社"
   },
   "tech": {
-    "company": "Google",
-    "logo": "G",
-    "logoBg": "#4285F4",
-    "news": "如何检查Motion Assist是否已推送到您的Android 17手机",
-    "desc": "Google周二宣布后，正在逐步向Android 17手机推送Motion Assist功能。",
-    "insight": "联通可关注Android 17新功能对流量和连接的需求，适时推出5G套餐或定向流量包，满足用户升级需求。",
-    "newsTime": "9月4日 05:02",
-    "newsSource": "9to5google.com"
+    "company": "苹果",
+    "logo": "",
+    "logoBg": "#A2AAAD",
+    "news": "折叠屏“iPhone Ultra”可能缺失这五项功能",
+    "desc": "根据MacRumors报道，苹果首款折叠屏手机iPhone Ultra或将缺少至少四项功能，具体细节待官方公布。",
+    "insight": "联通可关注折叠屏新技术带来的换机潮，提前布局套餐和补贴策略，吸引高端用户。",
+    "newsTime": "9月5日 06:00",
+    "newsSource": "MacRumors"
   },
   "ent": {
-    "title": "2026年《全球华语音乐榜中榜》颁奖典礼刷屏",
-    "icon": "🎵",
-    "desc": "9月5日晚，年度华语音乐盛事在澳门举行，多位顶级歌手同台，粉丝应援热烈。",
-    "quote": "音乐无界，热爱可抵岁月漫长。",
+    "title": "2026年威尼斯电影节闭幕，华语片《海上焰火》获金狮奖",
+    "icon": "🎬",
+    "desc": "中国导演李睿珺新作《海上焰火》斩获威尼斯电影节最高荣誉，引发全球关注。",
+    "quote": "好的电影如同一面镜子，反映时代也映照人心。",
     "stars": "★★★★☆"
   },
   "english": {
     "words": [
       {
-        "word": "retain",
-        "phonetic": "/rɪˈteɪn/",
-        "pron": "瑞腾",
-        "mean": "保持，留住"
+        "word": "transformative",
+        "phonetic": "/trænsˈfɔːrmətɪv/",
+        "pron": "特兰斯福尔默提夫",
+        "mean": "变革性的"
       },
       {
-        "word": "churn",
-        "phonetic": "/tʃɜːrn/",
-        "pron": "撤恩",
-        "mean": "客户流失"
+        "word": "milestone",
+        "phonetic": "/ˈmaɪlstoʊn/",
+        "pron": "迈尔斯通",
+        "mean": "里程碑"
       },
       {
-        "word": "loyalty",
-        "phonetic": "/ˈlɔɪəlti/",
-        "pron": "劳伊尔提",
-        "mean": "忠诚度"
+        "word": "synergy",
+        "phonetic": "/ˈsɪnərdʒi/",
+        "pron": "西纳吉",
+        "mean": "协同效应"
       }
     ],
-    "example": "To **retain** customers and reduce **churn**, companies must build strong brand **loyalty** through personalized experiences.",
-    "exampleCN": "要留住客户并减少流失，企业必须通过个性化体验建立强大的品牌忠诚度。"
+    "example": "The **transformative** partnership marked a **milestone** in the industry, creating strong **synergy** between the companies.",
+    "exampleCN": "这次变革性的合作标志着行业的一个里程碑，并在公司间产生了强大的协同效应。"
   },
   "japanese": {
     "words": [
       {
-        "ja": "顧客",
-        "kana": "こきゃく",
-        "romaji": "kokyaku",
-        "pron": "科克亚库",
-        "mean": "顾客"
+        "ja": "成長",
+        "kana": "せいちょう",
+        "romaji": "seichou",
+        "pron": "塞丘",
+        "mean": "成长"
       },
       {
-        "ja": "満足度",
-        "kana": "まんぞくど",
-        "romaji": "manzokudo",
-        "pron": "曼佐库多",
-        "mean": "满意度"
+        "ja": "挑戦",
+        "kana": "ちょうせん",
+        "romaji": "chousen",
+        "pron": "乔森",
+        "mean": "挑战"
       },
       {
-        "ja": "維持",
-        "kana": "いじ",
-        "romaji": "iji",
-        "pron": "伊吉",
-        "mean": "维持"
+        "ja": "努力",
+        "kana": "どりょく",
+        "romaji": "doryoku",
+        "pron": "多流库",
+        "mean": "努力"
       }
     ],
-    "example": "顧客の**満足度**を高め、**維持**することが重要です。",
-    "exampleCN": "提高顾客满意度并维持客户关系很重要。"
+    "example": "**成長**のために、新しい**挑戦**を続ける**努力**が必要です。",
+    "exampleCN": "为了成长，需要不断挑战和努力。"
   },
   "ai": {
-    "topic": "具身智能",
+    "topic": "AI Agent自主代理",
     "node1": "🤖",
-    "node2": "🦾",
-    "node3": "🌐",
-    "desc": "具身智能是AI通过物理实体与环境交互学习的能力，类似人类通过身体感知世界。",
-    "insight": "联通可探索具身智能在智慧家庭和工业物联网中的应用，如智能机器人服务，带动5G专网和云网需求。"
+    "node2": "🧠",
+    "node3": "⚙️",
+    "desc": "AI Agent能自主决策和执行任务，减少人工干预，提升运营效率。",
+    "insight": "联通可利用AI Agent实现储量专区的智能客服、个性化推荐和自动化营销，优化用户体验。"
   },
   "think": {
-    "question": "当用户生命周期价值(LTV)因市场竞争而下降时，最有效的应对策略是什么？",
+    "question": "面对折叠屏手机的发展，联通应优先推出哪种创新服务？",
     "tags": [
-      "提升ARPU",
-      "延长生命周期",
-      "降低获客成本",
-      "加强用户忠诚度"
+      "eSIM虚拟卡",
+      "流量共享",
+      "专属内容包",
+      "以旧换新"
     ]
   },
   "worldcup": {
     "phase": "小组赛",
     "daysToFinal": 0,
-    "todayDate": "9月5日",
-    "tomorrowDate": "9月6日",
+    "todayDate": "9月6日",
+    "tomorrowDate": "9月7日",
     "finished": [],
     "todayScheduled": [],
     "tomorrow": []
   },
-  "generatedAt": "2026-09-05 07:49"
+  "generatedAt": "2026-09-06 07:39"
 }
